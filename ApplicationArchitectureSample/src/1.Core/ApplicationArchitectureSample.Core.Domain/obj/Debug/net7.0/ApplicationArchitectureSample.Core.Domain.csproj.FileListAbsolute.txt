@@ -1,0 +1,11 @@
+C:\Users\Abbas\source\repos\ProMicroservice\ApplicationArchitectureSample\src\1.Core\ApplicationArchitectureSample.Core.Domain\bin\Debug\net7.0\ApplicationArchitectureSample.Core.Domain.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\ApplicationArchitectureSample\src\1.Core\ApplicationArchitectureSample.Core.Domain\bin\Debug\net7.0\ApplicationArchitectureSample.Core.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\ApplicationArchitectureSample\src\1.Core\ApplicationArchitectureSample.Core.Domain\bin\Debug\net7.0\ApplicationArchitectureSample.Core.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\ApplicationArchitectureSample\src\1.Core\ApplicationArchitectureSample.Core.Domain\obj\Debug\net7.0\ApplicationArchitectureSample.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\ApplicationArchitectureSample\src\1.Core\ApplicationArchitectureSample.Core.Domain\obj\Debug\net7.0\ApplicationArchitectureSample.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\ApplicationArchitectureSample\src\1.Core\ApplicationArchitectureSample.Core.Domain\obj\Debug\net7.0\ApplicationArchitectureSample.Core.Domain.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\ApplicationArchitectureSample\src\1.Core\ApplicationArchitectureSample.Core.Domain\obj\Debug\net7.0\ApplicationArchitectureSample.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\ApplicationArchitectureSample\src\1.Core\ApplicationArchitectureSample.Core.Domain\obj\Debug\net7.0\ApplicationArchitectureSample.Core.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\ApplicationArchitectureSample\src\1.Core\ApplicationArchitectureSample.Core.Domain\obj\Debug\net7.0\refint\ApplicationArchitectureSample.Core.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\ApplicationArchitectureSample\src\1.Core\ApplicationArchitectureSample.Core.Domain\obj\Debug\net7.0\ApplicationArchitectureSample.Core.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\ApplicationArchitectureSample\src\1.Core\ApplicationArchitectureSample.Core.Domain\obj\Debug\net7.0\ref\ApplicationArchitectureSample.Core.Domain.dll

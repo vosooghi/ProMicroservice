@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ApplicationArchitectureSample.Endpoints.Api.props" />
+</Project>

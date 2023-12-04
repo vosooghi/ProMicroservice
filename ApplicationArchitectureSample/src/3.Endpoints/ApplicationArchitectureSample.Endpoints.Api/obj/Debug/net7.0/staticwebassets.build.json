@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "D36mPOauSAiR229t1rWjU2THfrIuCEOODhsbV3KUpUY=",
+  "Source": "ApplicationArchitectureSample.Endpoints.Api",
+  "BasePath": "_content/ApplicationArchitectureSample.Endpoints.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
