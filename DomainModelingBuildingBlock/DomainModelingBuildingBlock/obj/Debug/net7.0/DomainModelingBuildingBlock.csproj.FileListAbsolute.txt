@@ -1,0 +1,14 @@
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\bin\Debug\net7.0\DomainModelingBuildingBlock.exe
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\bin\Debug\net7.0\DomainModelingBuildingBlock.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\bin\Debug\net7.0\DomainModelingBuildingBlock.runtimeconfig.json
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\bin\Debug\net7.0\DomainModelingBuildingBlock.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\bin\Debug\net7.0\DomainModelingBuildingBlock.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\obj\Debug\net7.0\DomainModelingBuildingBlock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\obj\Debug\net7.0\DomainModelingBuildingBlock.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\obj\Debug\net7.0\DomainModelingBuildingBlock.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\obj\Debug\net7.0\DomainModelingBuildingBlock.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\obj\Debug\net7.0\DomainModelingBuildingBlock.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\obj\Debug\net7.0\refint\DomainModelingBuildingBlock.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\obj\Debug\net7.0\DomainModelingBuildingBlock.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\obj\Debug\net7.0\DomainModelingBuildingBlock.genruntimeconfig.cache
+C:\Users\Abbas\source\repos\ProMicroservice\DomainModelingBuildingBlock\DomainModelingBuildingBlock\obj\Debug\net7.0\ref\DomainModelingBuildingBlock.dll
