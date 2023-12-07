@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ValueObjects.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "ValueObjects.Samples": "1.0.0"
+        },
+        "runtime": {
+          "ValueObjects.ConsoleApp.dll": {}
+        }
+      },
+      "ValueObjects.Samples/1.0.0": {
+        "runtime": {
+          "ValueObjects.Samples.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ValueObjects.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValueObjects.Samples/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

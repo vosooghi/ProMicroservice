@@ -1,0 +1,11 @@
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.Samples\bin\Debug\net7.0\ValueObjects.Samples.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.Samples\bin\Debug\net7.0\ValueObjects.Samples.dll
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.Samples\bin\Debug\net7.0\ValueObjects.Samples.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.Samples\obj\Debug\net7.0\ValueObjects.Samples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.Samples\obj\Debug\net7.0\ValueObjects.Samples.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.Samples\obj\Debug\net7.0\ValueObjects.Samples.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.Samples\obj\Debug\net7.0\ValueObjects.Samples.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.Samples\obj\Debug\net7.0\ValueObjects.Samples.dll
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.Samples\obj\Debug\net7.0\refint\ValueObjects.Samples.dll
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.Samples\obj\Debug\net7.0\ValueObjects.Samples.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.Samples\obj\Debug\net7.0\ref\ValueObjects.Samples.dll

@@ -1,0 +1,12 @@
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\bin\Debug\net7.0\ValueObjects.EfSamples.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\bin\Debug\net7.0\ValueObjects.EfSamples.dll
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\bin\Debug\net7.0\ValueObjects.EfSamples.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\obj\Debug\net7.0\ValueObjects.EfSamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\obj\Debug\net7.0\ValueObjects.EfSamples.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\obj\Debug\net7.0\ValueObjects.EfSamples.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\obj\Debug\net7.0\ValueObjects.EfSamples.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\obj\Debug\net7.0\ValueObjects.EfSamples.dll
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\obj\Debug\net7.0\refint\ValueObjects.EfSamples.dll
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\obj\Debug\net7.0\ValueObjects.EfSamples.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\obj\Debug\net7.0\ref\ValueObjects.EfSamples.dll
+C:\Users\Abbas\source\repos\ProMicroservice\ValueObjects\ValueObjects.EfSamples\obj\Debug\net7.0\ValueObjects.EfSamples.csproj.AssemblyReference.cache
