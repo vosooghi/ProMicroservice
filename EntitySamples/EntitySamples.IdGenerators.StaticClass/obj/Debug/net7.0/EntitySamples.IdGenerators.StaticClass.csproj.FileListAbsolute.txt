@@ -1,0 +1,15 @@
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\bin\Debug\net7.0\EntitySamples.IdGenerators.StaticClass.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\bin\Debug\net7.0\EntitySamples.IdGenerators.StaticClass.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\bin\Debug\net7.0\EntitySamples.IdGenerators.StaticClass.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\bin\Debug\net7.0\EntitySamples.IdGenerators.Contract.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\bin\Debug\net7.0\EntitySamples.IdGenerators.Contract.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\obj\Debug\net7.0\EntitySamples.IdGenerators.StaticClass.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\obj\Debug\net7.0\EntitySamples.IdGenerators.StaticClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\obj\Debug\net7.0\EntitySamples.IdGenerators.StaticClass.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\obj\Debug\net7.0\EntitySamples.IdGenerators.StaticClass.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\obj\Debug\net7.0\EntitySamples.IdGenerators.StaticClass.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\obj\Debug\net7.0\EntitySamples.IdGenerators.StaticClass.csproj.CopyComplete
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\obj\Debug\net7.0\EntitySamples.IdGenerators.StaticClass.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\obj\Debug\net7.0\refint\EntitySamples.IdGenerators.StaticClass.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\obj\Debug\net7.0\EntitySamples.IdGenerators.StaticClass.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.StaticClass\obj\Debug\net7.0\ref\EntitySamples.IdGenerators.StaticClass.dll

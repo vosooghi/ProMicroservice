@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BI60P039ohsu6QhcQPm1UhKDZ9ARSgt7qy5uaP7zYHk=",
+  "Source": "EntitySamples.WebApi",
+  "BasePath": "_content/EntitySamples.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5ylcgAdx+ZPtRsYowL34SVZKi1/8hmaE2+32DE/vAP1NNqosds5cnbR+Xs8eObBXv4lyIq67AqLIeR0hxGKejw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\EntitySamples\\EntitySamples.IdGenerators.SnowFlake\\EntitySamples.IdGenerators.SnowFlake.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\snowflake.core\\2.0.0\\snowflake.core.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

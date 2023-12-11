@@ -1,0 +1,15 @@
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\bin\Debug\net7.0\EntitySamples.IdGenerators.SnowFlake.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\bin\Debug\net7.0\EntitySamples.IdGenerators.SnowFlake.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\bin\Debug\net7.0\EntitySamples.IdGenerators.SnowFlake.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\bin\Debug\net7.0\EntitySamples.IdGenerators.Contract.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\bin\Debug\net7.0\EntitySamples.IdGenerators.Contract.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\obj\Debug\net7.0\EntitySamples.IdGenerators.SnowFlake.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\obj\Debug\net7.0\EntitySamples.IdGenerators.SnowFlake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\obj\Debug\net7.0\EntitySamples.IdGenerators.SnowFlake.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\obj\Debug\net7.0\EntitySamples.IdGenerators.SnowFlake.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\obj\Debug\net7.0\EntitySamples.IdGenerators.SnowFlake.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\obj\Debug\net7.0\EntitySamples.IdGenerators.SnowFlake.csproj.CopyComplete
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\obj\Debug\net7.0\EntitySamples.IdGenerators.SnowFlake.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\obj\Debug\net7.0\refint\EntitySamples.IdGenerators.SnowFlake.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\obj\Debug\net7.0\EntitySamples.IdGenerators.SnowFlake.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SnowFlake\obj\Debug\net7.0\ref\EntitySamples.IdGenerators.SnowFlake.dll

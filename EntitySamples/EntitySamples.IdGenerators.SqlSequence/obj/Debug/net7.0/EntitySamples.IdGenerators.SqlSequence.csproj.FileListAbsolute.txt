@@ -1,0 +1,15 @@
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\bin\Debug\net7.0\EntitySamples.IdGenerators.SqlSequence.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\bin\Debug\net7.0\EntitySamples.IdGenerators.SqlSequence.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\bin\Debug\net7.0\EntitySamples.IdGenerators.SqlSequence.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\bin\Debug\net7.0\EntitySamples.IdGenerators.Contract.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\bin\Debug\net7.0\EntitySamples.IdGenerators.Contract.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\obj\Debug\net7.0\EntitySamples.IdGenerators.SqlSequence.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\obj\Debug\net7.0\EntitySamples.IdGenerators.SqlSequence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\obj\Debug\net7.0\EntitySamples.IdGenerators.SqlSequence.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\obj\Debug\net7.0\EntitySamples.IdGenerators.SqlSequence.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\obj\Debug\net7.0\EntitySamples.IdGenerators.SqlSequence.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\obj\Debug\net7.0\EntitySamples.IdGenerators.SqlSequence.csproj.CopyComplete
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\obj\Debug\net7.0\EntitySamples.IdGenerators.SqlSequence.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\obj\Debug\net7.0\refint\EntitySamples.IdGenerators.SqlSequence.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\obj\Debug\net7.0\EntitySamples.IdGenerators.SqlSequence.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EntitySamples\EntitySamples.IdGenerators.SqlSequence\obj\Debug\net7.0\ref\EntitySamples.IdGenerators.SqlSequence.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "EntitySamples.IdGenerators.StaticClass/1.0.0": {
+        "dependencies": {
+          "EntitySamples.IdGenerators.Contract": "1.0.0"
+        },
+        "runtime": {
+          "EntitySamples.IdGenerators.StaticClass.dll": {}
+        }
+      },
+      "EntitySamples.IdGenerators.Contract/1.0.0": {
+        "runtime": {
+          "EntitySamples.IdGenerators.Contract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EntitySamples.IdGenerators.StaticClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntitySamples.IdGenerators.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
