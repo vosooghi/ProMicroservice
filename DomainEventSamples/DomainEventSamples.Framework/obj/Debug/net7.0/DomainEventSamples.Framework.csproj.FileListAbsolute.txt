@@ -1,0 +1,11 @@
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\bin\Debug\net7.0\DomainEventSamples.Framework.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\bin\Debug\net7.0\DomainEventSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\bin\Debug\net7.0\DomainEventSamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\DomainEventSamples.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\DomainEventSamples.Framework.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\DomainEventSamples.Framework.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\DomainEventSamples.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\DomainEventSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\refint\DomainEventSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\DomainEventSamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\ref\DomainEventSamples.Framework.dll

@@ -1,0 +1,15 @@
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\bin\Debug\net7.0\DomainEventSamples.Core.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\bin\Debug\net7.0\DomainEventSamples.Core.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\bin\Debug\net7.0\DomainEventSamples.Core.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\bin\Debug\net7.0\DomainEventSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\bin\Debug\net7.0\DomainEventSamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\obj\Debug\net7.0\DomainEventSamples.Core.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\obj\Debug\net7.0\DomainEventSamples.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\obj\Debug\net7.0\DomainEventSamples.Core.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\obj\Debug\net7.0\DomainEventSamples.Core.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\obj\Debug\net7.0\DomainEventSamples.Core.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\obj\Debug\net7.0\DomainEventSamples.Core.csproj.CopyComplete
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\obj\Debug\net7.0\DomainEventSamples.Core.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\obj\Debug\net7.0\refint\DomainEventSamples.Core.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\obj\Debug\net7.0\DomainEventSamples.Core.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Core\obj\Debug\net7.0\ref\DomainEventSamples.Core.dll

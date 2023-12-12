@@ -1,0 +1,17 @@
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\bin\Debug\net7.0\DomainEventSamples.Infra.DAL.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\bin\Debug\net7.0\DomainEventSamples.Infra.DAL.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\bin\Debug\net7.0\DomainEventSamples.Infra.DAL.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\obj\Debug\net7.0\DomainEventSamples.Infra.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\obj\Debug\net7.0\DomainEventSamples.Infra.DAL.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\obj\Debug\net7.0\DomainEventSamples.Infra.DAL.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\obj\Debug\net7.0\DomainEventSamples.Infra.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\obj\Debug\net7.0\DomainEventSamples.Infra.DAL.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\obj\Debug\net7.0\refint\DomainEventSamples.Infra.DAL.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\obj\Debug\net7.0\DomainEventSamples.Infra.DAL.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\obj\Debug\net7.0\ref\DomainEventSamples.Infra.DAL.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\bin\Debug\net7.0\DomainEventSamples.Core.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\bin\Debug\net7.0\DomainEventSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\bin\Debug\net7.0\DomainEventSamples.Core.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\bin\Debug\net7.0\DomainEventSamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\obj\Debug\net7.0\DomainEventSamples.Infra.DAL.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Infra.DAL\obj\Debug\net7.0\DomainEventSamples.Infra.DAL.csproj.CopyComplete

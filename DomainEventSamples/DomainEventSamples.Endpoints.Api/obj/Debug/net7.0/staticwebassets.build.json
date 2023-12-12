@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7LtSl4qDkdQUsz6E6j3jJXXzhIU6cz5YpSrNzy013WY=",
+  "Source": "DomainEventSamples.Endpoints.Api",
+  "BasePath": "_content/DomainEventSamples.Endpoints.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
