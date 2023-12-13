@@ -1,4 +1,5 @@
-﻿using DomainEventSamples.Framework;
+﻿using DomainEventSamples.Core.Events;
+using DomainEventSamples.Framework;
 
 namespace DomainEventSamples.Core
 {
@@ -13,6 +14,9 @@ namespace DomainEventSamples.Core
             if(lastName == null) throw new ArgumentNullException( nameof(lastName));
             FirstName = firstName;
             LastName = lastName;
+
+            //domain event raised
+            AddEvent(new PersonCreated(firstName, lastName));
         }
 
         public void SetFirstName(string firstName)
@@ -20,12 +24,16 @@ namespace DomainEventSamples.Core
             if (firstName == null)
                 throw new ArgumentNullException(nameof(firstName));
             FirstName = firstName;
+            //domain event raised
+            AddEvent(new FirstNameChanged(firstName, Id));
         }
         public void SetLastName(string firstName)
         {
             if (firstName == null)
                 throw new ArgumentNullException(nameof(firstName));
             FirstName = firstName;
+            //domain event raised
+            AddEvent(new LastNameChanged(firstName, Id));
         }
        
     }

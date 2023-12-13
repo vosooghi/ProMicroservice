@@ -82,3 +82,4 @@ C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSample
 C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Endpoints.Api\obj\Debug\net7.0\ref\DomainEventSamples.Endpoints.Api.dll
 C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Endpoints.Api\bin\Debug\net7.0\DomainEventSamples.Core.ApplicationServices.dll
 C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Endpoints.Api\bin\Debug\net7.0\DomainEventSamples.Core.ApplicationServices.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Endpoints.Api\bin\Debug\net7.0\Newtonsoft.Json.dll

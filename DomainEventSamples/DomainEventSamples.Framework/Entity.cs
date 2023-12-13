@@ -10,6 +10,19 @@ namespace DomainEventSamples.Framework
     {
         public long Id { get; set; }
 
+        //nobody can change events expect the entity
+        private readonly List<IDomainEvent> _events = new List<IDomainEvent>();
+        public IReadOnlyList<IDomainEvent> Events=> _events;
+        protected void AddEvent(IDomainEvent e)
+        {
+            _events.Add(e);
+        }
+
+        public void ClearEvent()
+        {
+            _events.Clear();
+        }
+        #region Equalities
         public bool Equals(Entity? other)
         => this.Id == other.Id;
 
@@ -34,5 +47,6 @@ namespace DomainEventSamples.Framework
             if (left is null && right is null) return false;
             return left.Equals(right);
         }
+        #endregion
     }
 }

@@ -9,3 +9,4 @@ C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSample
 C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\refint\DomainEventSamples.Framework.dll
 C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\DomainEventSamples.Framework.pdb
 C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\ref\DomainEventSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\DomainEventSamples\DomainEventSamples.Framework\obj\Debug\net7.0\DomainEventSamples.Framework.csproj.AssemblyReference.cache

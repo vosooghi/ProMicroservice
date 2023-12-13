@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QDXFhj6s/TRLCq9cIcMqM6xxXWVd5B9RwjtBawX7ag2j+ZYE2q/tvtRJSJ+0aUAsdYoZJt+MorA6aIT3KVYbSg==",
+  "dgSpecHash": "g3GYzHpd390XExD7evHpp03ldv5zGXWx43TU/tDbaiMiPqCbYPiBHgeD4NIYLFjkckttYTmsp5dOjYhXPSbcPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\DomainEventSamples\\DomainEventSamples.Core\\DomainEventSamples.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
