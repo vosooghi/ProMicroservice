@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OtG6doAKjM0vXMAXGtyuhVEMOl7WzspvY8YgB026CXAvgrgoftFtoNIuitn76IUAL+pLdzgRCvpW4ZPgfuiPHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\AggregateSamples\\Introduction\\Introduction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

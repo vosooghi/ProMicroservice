@@ -1,0 +1,11 @@
+C:\Users\Abbas\source\repos\ProMicroservice\AggregateSamples\Introduction\bin\Debug\net7.0\Introduction.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\AggregateSamples\Introduction\bin\Debug\net7.0\Introduction.dll
+C:\Users\Abbas\source\repos\ProMicroservice\AggregateSamples\Introduction\bin\Debug\net7.0\Introduction.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\AggregateSamples\Introduction\obj\Debug\net7.0\Introduction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\AggregateSamples\Introduction\obj\Debug\net7.0\Introduction.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\AggregateSamples\Introduction\obj\Debug\net7.0\Introduction.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\AggregateSamples\Introduction\obj\Debug\net7.0\Introduction.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\AggregateSamples\Introduction\obj\Debug\net7.0\Introduction.dll
+C:\Users\Abbas\source\repos\ProMicroservice\AggregateSamples\Introduction\obj\Debug\net7.0\refint\Introduction.dll
+C:\Users\Abbas\source\repos\ProMicroservice\AggregateSamples\Introduction\obj\Debug\net7.0\Introduction.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\AggregateSamples\Introduction\obj\Debug\net7.0\ref\Introduction.dll
