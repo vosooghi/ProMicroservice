@@ -1,0 +1,15 @@
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\obj\Debug\net7.0\RepositorySamples.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\obj\Debug\net7.0\RepositorySamples.Domain.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\obj\Debug\net7.0\RepositorySamples.Domain.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\obj\Debug\net7.0\RepositorySamples.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\bin\Debug\net7.0\RepositorySamples.Domain.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\bin\Debug\net7.0\RepositorySamples.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\bin\Debug\net7.0\RepositorySamples.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\bin\Debug\net7.0\RepositorySamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\bin\Debug\net7.0\RepositorySamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\obj\Debug\net7.0\RepositorySamples.Domain.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\obj\Debug\net7.0\RepositorySamples.Domain.csproj.CopyComplete
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\obj\Debug\net7.0\RepositorySamples.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\obj\Debug\net7.0\refint\RepositorySamples.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\obj\Debug\net7.0\RepositorySamples.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Domain\obj\Debug\net7.0\ref\RepositorySamples.Domain.dll

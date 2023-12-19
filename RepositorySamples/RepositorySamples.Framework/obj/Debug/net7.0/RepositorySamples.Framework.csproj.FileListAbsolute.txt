@@ -1,0 +1,12 @@
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\obj\Debug\net7.0\RepositorySamples.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\obj\Debug\net7.0\RepositorySamples.Framework.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\obj\Debug\net7.0\RepositorySamples.Framework.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\obj\Debug\net7.0\RepositorySamples.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\bin\Debug\net7.0\RepositorySamples.Framework.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\bin\Debug\net7.0\RepositorySamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\bin\Debug\net7.0\RepositorySamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\obj\Debug\net7.0\RepositorySamples.Framework.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\obj\Debug\net7.0\RepositorySamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\obj\Debug\net7.0\refint\RepositorySamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\obj\Debug\net7.0\RepositorySamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\RepositorySamples\RepositorySamples.Framework\obj\Debug\net7.0\ref\RepositorySamples.Framework.dll
