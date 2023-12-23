@@ -1,0 +1,12 @@
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\bin\Debug\net7.0\EventSourcingSample.Framework.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\bin\Debug\net7.0\EventSourcingSample.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\bin\Debug\net7.0\EventSourcingSample.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\obj\Debug\net7.0\EventSourcingSample.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\obj\Debug\net7.0\EventSourcingSample.Framework.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\obj\Debug\net7.0\EventSourcingSample.Framework.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\obj\Debug\net7.0\EventSourcingSample.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\obj\Debug\net7.0\EventSourcingSample.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\obj\Debug\net7.0\refint\EventSourcingSample.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\obj\Debug\net7.0\EventSourcingSample.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\obj\Debug\net7.0\ref\EventSourcingSample.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Framework\obj\Debug\net7.0\EventSourcingSample.Framework.csproj.AssemblyReference.cache

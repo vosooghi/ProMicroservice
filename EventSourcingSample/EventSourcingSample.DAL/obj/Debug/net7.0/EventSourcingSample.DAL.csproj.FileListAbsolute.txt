@@ -1,0 +1,17 @@
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\obj\Debug\net7.0\EventSourcingSample.DAL.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\obj\Debug\net7.0\EventSourcingSample.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\obj\Debug\net7.0\EventSourcingSample.DAL.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\obj\Debug\net7.0\EventSourcingSample.DAL.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\obj\Debug\net7.0\EventSourcingSample.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\bin\Debug\net7.0\EventSourcingSample.DAL.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\bin\Debug\net7.0\EventSourcingSample.DAL.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\bin\Debug\net7.0\EventSourcingSample.DAL.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\bin\Debug\net7.0\EventSourcingSample.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\bin\Debug\net7.0\EventSourcingSample.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\bin\Debug\net7.0\EventSourcingSample.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\bin\Debug\net7.0\EventSourcingSample.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\obj\Debug\net7.0\EventSourcingSample.DAL.csproj.CopyComplete
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\obj\Debug\net7.0\EventSourcingSample.DAL.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\obj\Debug\net7.0\refint\EventSourcingSample.DAL.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\obj\Debug\net7.0\EventSourcingSample.DAL.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.DAL\obj\Debug\net7.0\ref\EventSourcingSample.DAL.dll

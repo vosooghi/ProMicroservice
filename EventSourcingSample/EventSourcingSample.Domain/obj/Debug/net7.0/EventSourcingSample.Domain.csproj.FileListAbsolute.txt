@@ -1,0 +1,15 @@
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\bin\Debug\net7.0\EventSourcingSample.Domain.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\bin\Debug\net7.0\EventSourcingSample.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\bin\Debug\net7.0\EventSourcingSample.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\bin\Debug\net7.0\EventSourcingSample.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\bin\Debug\net7.0\EventSourcingSample.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\obj\Debug\net7.0\EventSourcingSample.Domain.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\obj\Debug\net7.0\EventSourcingSample.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\obj\Debug\net7.0\EventSourcingSample.Domain.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\obj\Debug\net7.0\EventSourcingSample.Domain.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\obj\Debug\net7.0\EventSourcingSample.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\obj\Debug\net7.0\EventSourcingSample.Domain.csproj.CopyComplete
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\obj\Debug\net7.0\EventSourcingSample.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\obj\Debug\net7.0\refint\EventSourcingSample.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\obj\Debug\net7.0\EventSourcingSample.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\EventSourcingSample\EventSourcingSample.Domain\obj\Debug\net7.0\ref\EventSourcingSample.Domain.dll
