@@ -1,0 +1,17 @@
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\bin\Debug\net7.0\CQRSSamples.ApplicationService.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\bin\Debug\net7.0\CQRSSamples.ApplicationService.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\bin\Debug\net7.0\CQRSSamples.ApplicationService.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\bin\Debug\net7.0\CQRSSamples.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\bin\Debug\net7.0\CQRSSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\bin\Debug\net7.0\CQRSSamples.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\bin\Debug\net7.0\CQRSSamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\obj\Debug\net7.0\CQRSSamples.ApplicationService.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\obj\Debug\net7.0\CQRSSamples.ApplicationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\obj\Debug\net7.0\CQRSSamples.ApplicationService.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\obj\Debug\net7.0\CQRSSamples.ApplicationService.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\obj\Debug\net7.0\CQRSSamples.ApplicationService.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\obj\Debug\net7.0\CQRSSamples.ApplicationService.csproj.CopyComplete
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\obj\Debug\net7.0\CQRSSamples.ApplicationService.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\obj\Debug\net7.0\refint\CQRSSamples.ApplicationService.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\obj\Debug\net7.0\CQRSSamples.ApplicationService.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.ApplicationService\obj\Debug\net7.0\ref\CQRSSamples.ApplicationService.dll

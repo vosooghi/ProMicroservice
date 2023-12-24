@@ -1,0 +1,17 @@
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\bin\Debug\net7.0\CQRSSamples.Queries.DAL.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\bin\Debug\net7.0\CQRSSamples.Queries.DAL.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\bin\Debug\net7.0\CQRSSamples.Queries.DAL.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\obj\Debug\net7.0\CQRSSamples.Queries.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\obj\Debug\net7.0\CQRSSamples.Queries.DAL.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\obj\Debug\net7.0\CQRSSamples.Queries.DAL.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\obj\Debug\net7.0\CQRSSamples.Queries.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\obj\Debug\net7.0\CQRSSamples.Queries.DAL.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\obj\Debug\net7.0\refint\CQRSSamples.Queries.DAL.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\obj\Debug\net7.0\CQRSSamples.Queries.DAL.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\obj\Debug\net7.0\ref\CQRSSamples.Queries.DAL.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\bin\Debug\net7.0\CQRSSamples.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\bin\Debug\net7.0\CQRSSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\bin\Debug\net7.0\CQRSSamples.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\bin\Debug\net7.0\CQRSSamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\obj\Debug\net7.0\CQRSSamples.Queries.DAL.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Queries.DAL\obj\Debug\net7.0\CQRSSamples.Queries.DAL.csproj.CopyComplete

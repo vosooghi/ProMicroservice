@@ -1,0 +1,12 @@
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\obj\Debug\net7.0\CQRSSamples.Framework.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\obj\Debug\net7.0\CQRSSamples.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\obj\Debug\net7.0\CQRSSamples.Framework.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\obj\Debug\net7.0\CQRSSamples.Framework.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\obj\Debug\net7.0\CQRSSamples.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\bin\Debug\net7.0\CQRSSamples.Framework.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\bin\Debug\net7.0\CQRSSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\bin\Debug\net7.0\CQRSSamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\obj\Debug\net7.0\CQRSSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\obj\Debug\net7.0\refint\CQRSSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\obj\Debug\net7.0\CQRSSamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Framework\obj\Debug\net7.0\ref\CQRSSamples.Framework.dll

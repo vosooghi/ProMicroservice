@@ -1,0 +1,15 @@
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\bin\Debug\net7.0\CQRSSamples.Domain.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\bin\Debug\net7.0\CQRSSamples.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\bin\Debug\net7.0\CQRSSamples.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\obj\Debug\net7.0\CQRSSamples.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\obj\Debug\net7.0\CQRSSamples.Domain.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\obj\Debug\net7.0\CQRSSamples.Domain.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\obj\Debug\net7.0\CQRSSamples.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\obj\Debug\net7.0\CQRSSamples.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\obj\Debug\net7.0\refint\CQRSSamples.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\obj\Debug\net7.0\CQRSSamples.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\obj\Debug\net7.0\ref\CQRSSamples.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\obj\Debug\net7.0\CQRSSamples.Domain.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\bin\Debug\net7.0\CQRSSamples.Framework.dll
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\bin\Debug\net7.0\CQRSSamples.Framework.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\CQRSSamples\CQRSSamples.Domain\obj\Debug\net7.0\CQRSSamples.Domain.csproj.CopyComplete
