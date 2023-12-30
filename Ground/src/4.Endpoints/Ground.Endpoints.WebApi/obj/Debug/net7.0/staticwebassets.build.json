@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "287b3slMPl3nfjZZ6buzPoiDZ7W4RBkui+IN/Qcpb44=",
+  "Source": "Ground.Endpoints.WebApi",
+  "BasePath": "_content/Ground.Endpoints.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.14" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1.Utilities\Ground.Utilities\Ground.Utilities.csproj" />
+    <ProjectReference Include="..\..\2.Core\Ground.Core.ApplicationServices\Ground.Core.ApplicationServices.csproj" />
+    <ProjectReference Include="..\..\2.Core\Ground.Core.Contracts\Ground.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\2.Core\Ground.Core.Domain\Ground.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\3.Infra\Data\Ground.Infra.Data.Sql.Command\Ground.Infra.Data.Sql.Commands.csproj" />
+    <ProjectReference Include="..\..\3.Infra\Data\Ground.Infra.Data.Sql.Queries\Ground.Infra.Data.Sql.Queries.csproj" />
+    <ProjectReference Include="..\..\3.Infra\Data\Ground.Infra.Data.Sql\Ground.Infra.Data.Sql.csproj" />
+  </ItemGroup>
+
+</Project>

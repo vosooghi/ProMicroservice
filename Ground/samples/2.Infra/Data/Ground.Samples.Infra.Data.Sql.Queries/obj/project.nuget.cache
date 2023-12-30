@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "gJJeOR5T11SXZXAZZhEdmVHlZXfHB3Mp6idsbzDN3vrqhuXYER1mC2racd1UMf77OE6+C+8Rc3pL89HIKApOAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Queries\\Ground.Samples.Infra.Data.Sql.Queries.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\zamin.extensions.caching.abstractions\\7.0.0-beta.1\\zamin.extensions.caching.abstractions.7.0.0-beta.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\zamin.extensions.dependencyinjection.abstractions\\7.0.0-beta.1\\zamin.extensions.dependencyinjection.abstractions.7.0.0-beta.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\zamin.extensions.logger.abstractions\\7.0.0-beta.1\\zamin.extensions.logger.abstractions.7.0.0-beta.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\zamin.extensions.objectmappers.abstractions\\7.0.0-beta.1\\zamin.extensions.objectmappers.abstractions.7.0.0-beta.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\zamin.extensions.serializers.abstractions\\7.0.0-beta.1\\zamin.extensions.serializers.abstractions.7.0.0-beta.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\zamin.extensions.translations.abstractions\\7.0.0-beta.1\\zamin.extensions.translations.abstractions.7.0.0-beta.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\zamin.extensions.usersmanagement.abstractions\\7.0.0-beta.1\\zamin.extensions.usersmanagement.abstractions.7.0.0-beta.1.nupkg.sha512"
+  ],
+  "logs": []
+}

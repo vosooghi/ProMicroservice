@@ -1,0 +1,17 @@
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\bin\Debug\net7.0\Ground.Samples.Core.Domain.deps.json
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\bin\Debug\net7.0\Ground.Samples.Core.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\bin\Debug\net7.0\Ground.Samples.Core.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\bin\Debug\net7.0\Ground.Core.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\bin\Debug\net7.0\Ground.Utilities.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\bin\Debug\net7.0\Ground.Utilities.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\bin\Debug\net7.0\Ground.Core.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\obj\Debug\net7.0\Ground.Samples.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\obj\Debug\net7.0\Ground.Samples.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\obj\Debug\net7.0\Ground.Samples.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\obj\Debug\net7.0\Ground.Samples.Core.Domain.AssemblyInfo.cs
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\obj\Debug\net7.0\Ground.Samples.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\obj\Debug\net7.0\Ground.Samples.Core.Domain.csproj.CopyComplete
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\obj\Debug\net7.0\Ground.Samples.Core.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\obj\Debug\net7.0\refint\Ground.Samples.Core.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\obj\Debug\net7.0\Ground.Samples.Core.Domain.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Domain\obj\Debug\net7.0\ref\Ground.Samples.Core.Domain.dll

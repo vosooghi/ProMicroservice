@@ -1,0 +1,255 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Ground.Core.Domain/1.0.0": {
+        "dependencies": {
+          "Ground.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Ground.Core.Domain.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Zamin.Extensions.Caching.Abstractions/7.0.0-beta.1": {
+        "runtime": {
+          "lib/net7.0/Zamin.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Zamin.Extensions.DependencyInjection.Abstractions/7.0.0-beta.1": {
+        "runtime": {
+          "lib/net7.0/Zamin.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Zamin.Extensions.Logger.Abstractions/7.0.0-beta.1": {
+        "runtime": {
+          "lib/net7.0/Zamin.Extensions.Logger.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Zamin.Extensions.ObjectMappers.Abstractions/7.0.0-beta.1": {
+        "runtime": {
+          "lib/net7.0/Zamin.Extensions.ObjectMappers.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Zamin.Extensions.Serializers.Abstractions/7.0.0-beta.1": {
+        "runtime": {
+          "lib/net7.0/Zamin.Extensions.Serializers.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Zamin.Extensions.Translations.Abstractions/7.0.0-beta.1": {
+        "runtime": {
+          "lib/net7.0/Zamin.Extensions.Translations.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Zamin.Extensions.UsersManagement.Abstractions/7.0.0-beta.1": {
+        "runtime": {
+          "lib/net7.0/Zamin.Extensions.UsersManagement.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Ground.Utilities/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "Zamin.Extensions.Caching.Abstractions": "7.0.0-beta.1",
+          "Zamin.Extensions.DependencyInjection.Abstractions": "7.0.0-beta.1",
+          "Zamin.Extensions.Logger.Abstractions": "7.0.0-beta.1",
+          "Zamin.Extensions.ObjectMappers.Abstractions": "7.0.0-beta.1",
+          "Zamin.Extensions.Serializers.Abstractions": "7.0.0-beta.1",
+          "Zamin.Extensions.Translations.Abstractions": "7.0.0-beta.1",
+          "Zamin.Extensions.UsersManagement.Abstractions": "7.0.0-beta.1"
+        },
+        "runtime": {
+          "Ground.Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ground.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nw2muoNrOG5U5qa2ZekXwudUn2BJcD41e65zwmDHb1fQegTX66UokLWZkJRpqSSHXDOWZ5V0iqhbxOEky91atA==",
+      "path": "microsoft.extensions.logging/7.0.0",
+      "hashPath": "microsoft.extensions.logging.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kmn78+LPVMOWeITUjIlfxUPDsI0R6G0RkeAMBmQxAJ7vBJn4q2dTva7pWi65ceN5vPGjJ9q/Uae2WKgvfktJAw==",
+      "path": "microsoft.extensions.logging.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lP1yBnTTU42cKpMozuafbvNtQ7QcBjr/CcK3bYOGEMH55Fjt+iecXjT6chR7vbgCMqy3PG3aNQSZgo/EuY/9qQ==",
+      "path": "microsoft.extensions.options/7.0.0",
+      "hashPath": "microsoft.extensions.options.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
+      "path": "microsoft.extensions.primitives/7.0.0",
+      "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    },
+    "Zamin.Extensions.Caching.Abstractions/7.0.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8mDP+tegi6Iah/pVwKb3NNr51zCUV5OqKpx2wSLnzFDsbdvn7DaYO8vrCr9E3vdRssE1/VAn6nyuvWwIYi64RA==",
+      "path": "zamin.extensions.caching.abstractions/7.0.0-beta.1",
+      "hashPath": "zamin.extensions.caching.abstractions.7.0.0-beta.1.nupkg.sha512"
+    },
+    "Zamin.Extensions.DependencyInjection.Abstractions/7.0.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1OK6d97jBp18k0ktYfAOQo4ON87xItwODZbZ9gn/wmmxHI6rutIMTsrfDDjbvyEm+Cqd2KX4bwCbjVChbdD9Fw==",
+      "path": "zamin.extensions.dependencyinjection.abstractions/7.0.0-beta.1",
+      "hashPath": "zamin.extensions.dependencyinjection.abstractions.7.0.0-beta.1.nupkg.sha512"
+    },
+    "Zamin.Extensions.Logger.Abstractions/7.0.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bc6E7MWPpzrgzkPCminF7AolG35FPZ90c+clqko96WSXIBn1geg+x6EoAFJuawTkZf6qV1SDG1fNTizL0DffMQ==",
+      "path": "zamin.extensions.logger.abstractions/7.0.0-beta.1",
+      "hashPath": "zamin.extensions.logger.abstractions.7.0.0-beta.1.nupkg.sha512"
+    },
+    "Zamin.Extensions.ObjectMappers.Abstractions/7.0.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/SydwIzO8bF10EHtb8sZ5QiSY0Ccp8FMld68KBzFT/CNAfyZjDNjAUiF0iWSPBHxKWflauTKlaVxcnu3pEIxDQ==",
+      "path": "zamin.extensions.objectmappers.abstractions/7.0.0-beta.1",
+      "hashPath": "zamin.extensions.objectmappers.abstractions.7.0.0-beta.1.nupkg.sha512"
+    },
+    "Zamin.Extensions.Serializers.Abstractions/7.0.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+CIWMVvBaeObhGpg2b6zZsaXWCQJTspvgsFtNZmIJqZ5EhsjUBQNAqB+E7ny4+cYNGNDs1dOHuXofEZMujhaOA==",
+      "path": "zamin.extensions.serializers.abstractions/7.0.0-beta.1",
+      "hashPath": "zamin.extensions.serializers.abstractions.7.0.0-beta.1.nupkg.sha512"
+    },
+    "Zamin.Extensions.Translations.Abstractions/7.0.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9LCMlPgRMetGU0ETDd0dclTSgAK6WugPXS43aXasVSsLk6UjeMopE3kIsTfekJVq4BiJ+l0AyFjF/MokaJ5Kng==",
+      "path": "zamin.extensions.translations.abstractions/7.0.0-beta.1",
+      "hashPath": "zamin.extensions.translations.abstractions.7.0.0-beta.1.nupkg.sha512"
+    },
+    "Zamin.Extensions.UsersManagement.Abstractions/7.0.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ptxwHVqIBKmpvu9EoeDui+GJnbVbTmiHPm9w2ue0NH+5F4pMkL4a5l6rYMKZbP4Wetja9+9PztMGeqcgg8RqkQ==",
+      "path": "zamin.extensions.usersmanagement.abstractions/7.0.0-beta.1",
+      "hashPath": "zamin.extensions.usersmanagement.abstractions.7.0.0-beta.1.nupkg.sha512"
+    },
+    "Ground.Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

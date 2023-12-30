@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Ground.Samples.Endpoints.WebApi.props" />
+</Project>
