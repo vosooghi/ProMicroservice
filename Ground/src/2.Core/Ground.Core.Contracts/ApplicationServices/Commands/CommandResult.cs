@@ -15,7 +15,7 @@ namespace Ground.Core.Contracts.ApplicationServices.Commands
     /// https://github.com/vkhorikov/CqrsInPractice
     /// </summary>
     /// <typeparam name="TData">Return Type</typeparam>
-    public class CommandResult<TData>
+    public class CommandResult<TData>:CommandResult
     {
         public TData? _data;
         public TData? Data => _data;

@@ -18,6 +18,7 @@ C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\obj\Debug\net7.0\Ground.Samples.Core.ApplicationServices.AssemblyInfoInputs.cache
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\obj\Debug\net7.0\Ground.Samples.Core.ApplicationServices.AssemblyInfo.cs
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\obj\Debug\net7.0\Ground.Samples.Core.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\obj\Debug\net7.0\Ground.Samples.Core.ApplicationServices.sourcelink.json
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\obj\Debug\net7.0\Ground.Samples.Core.ApplicationServices.csproj.CopyComplete
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\obj\Debug\net7.0\Ground.Samples.Core.ApplicationServices.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\obj\Debug\net7.0\refint\Ground.Samples.Core.ApplicationServices.dll

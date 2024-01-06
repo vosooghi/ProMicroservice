@@ -14,6 +14,7 @@ C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\obj\Debug\net7.0\Ground.Samples.Core.Contracts.AssemblyInfoInputs.cache
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\obj\Debug\net7.0\Ground.Samples.Core.Contracts.AssemblyInfo.cs
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\obj\Debug\net7.0\Ground.Samples.Core.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\obj\Debug\net7.0\Ground.Samples.Core.Contracts.sourcelink.json
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\obj\Debug\net7.0\Ground.Samples.Core.Contracts.csproj.CopyComplete
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\obj\Debug\net7.0\Ground.Samples.Core.Contracts.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\obj\Debug\net7.0\refint\Ground.Samples.Core.Contracts.dll

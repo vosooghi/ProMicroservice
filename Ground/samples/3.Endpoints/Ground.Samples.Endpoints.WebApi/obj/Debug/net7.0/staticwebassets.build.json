@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3dE7vVX4IA7wjxVSaEjCwbhZxqG6tKMKiE4FWFfegpQ=",
+  "Hash": "Iig9vUSivYUyDGxhe28zaeJWM+eO9p+1vKmq0f/0Iho=",
   "Source": "Ground.Samples.Endpoints.WebApi",
   "BasePath": "_content/Ground.Samples.Endpoints.WebApi",
   "Mode": "Default",
@@ -12,10 +12,10 @@
       "Source": "Ground.Endpoints.WebApi",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
       "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
   "DiscoveryPatterns": [],

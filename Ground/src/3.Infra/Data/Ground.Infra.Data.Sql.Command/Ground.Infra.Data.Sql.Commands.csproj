@@ -7,8 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\..\1.Utilities\Ground.Utilities\Ground.Utilities.csproj" />
     <ProjectReference Include="..\..\..\2.Core\Ground.Core.Contracts\Ground.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\2.Core\Ground.Core.Domain.Toolkits\Ground.Core.Domain.Toolkits.csproj" />
     <ProjectReference Include="..\..\..\2.Core\Ground.Core.Domain\Ground.Core.Domain.csproj" />
     <ProjectReference Include="..\Ground.Infra.Data.Sql\Ground.Infra.Data.Sql.csproj" />
   </ItemGroup>

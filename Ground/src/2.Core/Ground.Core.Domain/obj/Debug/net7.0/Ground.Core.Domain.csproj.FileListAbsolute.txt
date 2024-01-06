@@ -8,6 +8,7 @@ C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Domain
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Domain\obj\Debug\net7.0\Ground.Core.Domain.AssemblyInfoInputs.cache
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Domain\obj\Debug\net7.0\Ground.Core.Domain.AssemblyInfo.cs
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Domain\obj\Debug\net7.0\Ground.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Domain\obj\Debug\net7.0\Ground.Core.Domain.sourcelink.json
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Domain\obj\Debug\net7.0\Ground.Core.Domain.csproj.CopyComplete
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Domain\obj\Debug\net7.0\Ground.Core.Domain.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Domain\obj\Debug\net7.0\refint\Ground.Core.Domain.dll

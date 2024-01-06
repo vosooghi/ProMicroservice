@@ -20,6 +20,7 @@ C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\2.Infra\Data\Ground.S
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Queries\obj\Debug\net7.0\Ground.Samples.Infra.Data.Sql.Queries.AssemblyInfoInputs.cache
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Queries\obj\Debug\net7.0\Ground.Samples.Infra.Data.Sql.Queries.AssemblyInfo.cs
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Queries\obj\Debug\net7.0\Ground.Samples.Infra.Data.Sql.Queries.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Queries\obj\Debug\net7.0\Ground.Samples.Infra.Data.Sql.Queries.sourcelink.json
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Queries\obj\Debug\net7.0\Ground.Samples.Infra.Data.Sql.Queries.csproj.CopyComplete
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Queries\obj\Debug\net7.0\Ground.Samples.Infra.Data.Sql.Queries.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Queries\obj\Debug\net7.0\refint\Ground.Samples.Infra.Data.Sql.Queries.dll

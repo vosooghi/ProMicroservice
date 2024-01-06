@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ground.Core.Domain.Toolkits
 build_property.ProjectDir = C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Domain.Toolkits\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

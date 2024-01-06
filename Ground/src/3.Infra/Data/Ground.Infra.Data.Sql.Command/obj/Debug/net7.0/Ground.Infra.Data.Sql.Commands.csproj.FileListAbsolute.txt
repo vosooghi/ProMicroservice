@@ -3,10 +3,12 @@ C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Infra.Data.Sql.Commands.pdb
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Core.Contracts.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Core.Domain.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Core.Domain.Toolkits.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Infra.Data.Sql.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Utilities.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Utilities.pdb
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Core.Contracts.pdb
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Core.Domain.Toolkits.pdb
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Core.Domain.pdb
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Infra.Data.Sql.pdb
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Debug\net7.0\Ground.Infra.Data.Sql.Commands.csproj.AssemblyReference.cache
@@ -14,6 +16,7 @@ C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Debug\net7.0\Ground.Infra.Data.Sql.Commands.AssemblyInfoInputs.cache
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Debug\net7.0\Ground.Infra.Data.Sql.Commands.AssemblyInfo.cs
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Debug\net7.0\Ground.Infra.Data.Sql.Commands.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Debug\net7.0\Ground.Infra.Data.Sql.Commands.sourcelink.json
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Debug\net7.0\Ground.Infra.Data.Sql.Commands.csproj.CopyComplete
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Debug\net7.0\Ground.Infra.Data.Sql.Commands.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Debug\net7.0\refint\Ground.Infra.Data.Sql.Commands.dll

@@ -12,12 +12,12 @@ namespace Ground.Samples.Core.Domain.People.Entities
         public FirstName FirstName { get;private set; }
         public LastName LastName { get; private set; }
         #endregion
-        public Person(long id,FirstName firstName,LastName lastName)
+        public Person(FirstName firstName,LastName lastName)
         {
-            if (id == 0) throw new InvalidEntityStateException(Messages.InvalidNumberValueRange,Messages.Id,"1");
+            
             FirstName = firstName;
             LastName = lastName;
-            Id = id;
+            
             AddEvent(new PersonCreated(BusinessId.Value, firstName.Value, lastName.Value));
         }
     }

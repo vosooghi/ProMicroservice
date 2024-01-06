@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ULH6sbmuHZuEGkzftjxKTlEIF9g+tDid6s5uCo2BSF0OGCisgmW+qhVxE1UHLgUSMAjaV/aOUo67A/G31bFeMQ==",
+  "dgSpecHash": "WgJoMDWtjjqsGIXq28kd4c2V9itOIZDgH9/rFQttDNkM7t+KiwTp3nQeTMcnNFEyN9ZULqgTsz43dBQGM/bG0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.ApplicationServices\\Ground.Samples.Core.ApplicationServices.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Abbas\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",

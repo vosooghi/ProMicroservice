@@ -10,6 +10,7 @@ C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Contra
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\obj\Debug\net7.0\Ground.Core.Contracts.AssemblyInfoInputs.cache
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\obj\Debug\net7.0\Ground.Core.Contracts.AssemblyInfo.cs
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\obj\Debug\net7.0\Ground.Core.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\obj\Debug\net7.0\Ground.Core.Contracts.sourcelink.json
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\obj\Debug\net7.0\Ground.Core.Contracts.csproj.CopyComplete
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\obj\Debug\net7.0\Ground.Core.Contracts.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\obj\Debug\net7.0\refint\Ground.Core.Contracts.dll
