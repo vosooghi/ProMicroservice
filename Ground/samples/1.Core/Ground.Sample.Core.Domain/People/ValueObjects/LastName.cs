@@ -16,7 +16,7 @@ namespace Ground.Samples.Core.Domain.People.ValueObjects
         }
         protected override IEnumerable<object> GetEqualityComponents()
         {
-            throw new NotImplementedException();
+            yield return Value;
         }
     }
 }

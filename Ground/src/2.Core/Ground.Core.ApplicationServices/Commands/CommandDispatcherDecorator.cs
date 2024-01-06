@@ -18,8 +18,9 @@ namespace Ground.Core.ApplicationServices.Commands
         #endregion
 
         #region Constructors
-        public CommandDispatcherDecorator()
+        public CommandDispatcherDecorator(ICommandDispatcher commandDispatcher)
         {
+            _commandDispatcher = commandDispatcher;
         }
 
         #endregion

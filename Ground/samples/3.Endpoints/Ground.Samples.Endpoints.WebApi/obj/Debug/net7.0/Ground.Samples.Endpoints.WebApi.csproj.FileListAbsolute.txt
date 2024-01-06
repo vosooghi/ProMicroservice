@@ -453,3 +453,7 @@ C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Sa
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\System.CodeDom.dll

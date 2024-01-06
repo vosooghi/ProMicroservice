@@ -24,13 +24,19 @@ namespace Ground.Core.ApplicationServices.Commands
         #endregion
 
         #region Constructors
-        public CommandDispatcherValidationDecorator(IServiceProvider serviceProvider,
-                                                    ILogger<CommandDispatcherValidationDecorator> logger)
+        //public CommandDispatcherValidationDecorator(IServiceProvider serviceProvider,
+        //                                            ILogger<CommandDispatcherValidationDecorator> logger)
+        //{
+        //    _serviceProvider = serviceProvider;
+        //    _logger = logger;
+        //}
+        public CommandDispatcherValidationDecorator(CommandDispatcherDomainExceptionHandlerDecorator commandDispatcher,
+                                               IServiceProvider serviceProvider, ILogger<CommandDispatcherValidationDecorator> logger)
+                                               : base(commandDispatcher)
         {
             _serviceProvider = serviceProvider;
             _logger = logger;
         }
-
         public override int Order => 1;
         #endregion
 

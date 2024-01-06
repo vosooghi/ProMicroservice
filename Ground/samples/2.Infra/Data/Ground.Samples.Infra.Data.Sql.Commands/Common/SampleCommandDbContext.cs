@@ -15,10 +15,11 @@ namespace Ground.Samples.Infra.Data.Sql.Commands.Common
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            //at first, call base
-            base.OnModelCreating(builder);
-            //then our config will be overrided
+            
+            //at first, call this
             builder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
+            //then base config
+            base.OnModelCreating(builder);            
         }
     }
 }

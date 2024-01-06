@@ -44,6 +44,7 @@ namespace Ground.Samples.Endpoints.WebApi
             builder.Services.AddDbContext<SampleQueryDbContext>(c => c.UseSqlServer(conn));
 
             builder.Services.AddGroundApiCore("Ground");//= AddControllers(); FluentValidation();
+
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             return builder.Build();
@@ -51,7 +52,8 @@ namespace Ground.Samples.Endpoints.WebApi
 
         public static WebApplication ConfigurePipeline(this WebApplication app)
         {
-            app.UseGroundApiExceptionHandler();
+            //app.UseGroundApiExceptionHandler();//missing
+            
             //app.UseSerilogRequestLogging();
 
             if (app.Environment.IsDevelopment())
