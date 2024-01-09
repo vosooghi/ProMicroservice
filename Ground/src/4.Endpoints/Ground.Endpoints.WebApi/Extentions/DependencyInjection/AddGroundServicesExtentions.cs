@@ -1,6 +1,4 @@
-﻿using Zamin.Extensions.Logger.Abstractions;
-
-using Ground.Utilities;
+﻿using Ground.Utilities;
 
 namespace Ground.Endpoints.WebApi.Extentions.DependencyInjection
 {

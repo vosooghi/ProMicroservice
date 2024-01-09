@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Extensions\Abstractions\Ground.Extensions.Caching.Abstractions\Ground.Extensions.Caching.Abstractions.csproj" />
     <ProjectReference Include="..\..\1.Utilities\Ground.Utilities\Ground.Utilities.csproj" />
     <ProjectReference Include="..\..\2.Core\Ground.Core.ApplicationServices\Ground.Core.ApplicationServices.csproj" />
     <ProjectReference Include="..\..\2.Core\Ground.Core.Contracts\Ground.Core.Contracts.csproj" />

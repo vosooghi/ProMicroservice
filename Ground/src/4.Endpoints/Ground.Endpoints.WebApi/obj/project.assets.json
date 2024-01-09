@@ -1489,6 +1489,16 @@
           "bin/placeholder/Ground.Core.Domain.Toolkits.dll": {}
         }
       },
+      "Ground.Extensions.Caching.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Ground.Extensions.Caching.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ground.Extensions.Caching.Abstractions.dll": {}
+        }
+      },
       "Ground.Infra.Data.Sql/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -4142,6 +4152,11 @@
       "path": "../../2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj",
       "msbuildProject": "../../2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj"
     },
+    "Ground.Extensions.Caching.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../../../Extensions/Abstractions/Ground.Extensions.Caching.Abstractions/Ground.Extensions.Caching.Abstractions.csproj",
+      "msbuildProject": "../../../Extensions/Abstractions/Ground.Extensions.Caching.Abstractions/Ground.Extensions.Caching.Abstractions.csproj"
+    },
     "Ground.Infra.Data.Sql/1.0.0": {
       "type": "project",
       "path": "../../3.Infra/Data/Ground.Infra.Data.Sql/Ground.Infra.Data.Sql.csproj",
@@ -4169,6 +4184,7 @@
       "Ground.Core.ApplicationServices >= 1.0.0",
       "Ground.Core.Contracts >= 1.0.0",
       "Ground.Core.Domain >= 1.0.0",
+      "Ground.Extensions.Caching.Abstractions >= 1.0.0",
       "Ground.Infra.Data.Sql >= 1.0.0",
       "Ground.Infra.Data.Sql.Commands >= 1.0.0",
       "Ground.Infra.Data.Sql.Queries >= 1.0.0",
@@ -4216,6 +4232,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj"
+            },
             "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
               "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
             },

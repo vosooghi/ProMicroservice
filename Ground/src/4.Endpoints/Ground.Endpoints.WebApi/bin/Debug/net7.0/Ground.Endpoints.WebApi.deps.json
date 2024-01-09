@@ -39,6 +39,7 @@
           "Ground.Core.ApplicationServices": "1.0.0",
           "Ground.Core.Contracts": "1.0.0",
           "Ground.Core.Domain": "1.0.0",
+          "Ground.Extensions.Caching.Abstractions": "1.0.0",
           "Ground.Infra.Data.Sql": "1.0.0",
           "Ground.Infra.Data.Sql.Commands": "1.0.0",
           "Ground.Infra.Data.Sql.Queries": "1.0.0",
@@ -1362,6 +1363,14 @@
         },
         "compile": {
           "Ground.Core.Domain.Toolkits.dll": {}
+        }
+      },
+      "Ground.Extensions.Caching.Abstractions/1.0.0": {
+        "runtime": {
+          "Ground.Extensions.Caching.Abstractions.dll": {}
+        },
+        "compile": {
+          "Ground.Extensions.Caching.Abstractions.dll": {}
         }
       },
       "Ground.Infra.Data.Sql/1.0.0": {
@@ -3786,6 +3795,11 @@
       "sha512": ""
     },
     "Ground.Core.Domain.Toolkits/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ground.Extensions.Caching.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

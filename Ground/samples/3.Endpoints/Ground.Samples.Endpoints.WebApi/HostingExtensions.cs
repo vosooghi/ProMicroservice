@@ -52,7 +52,7 @@ namespace Ground.Samples.Endpoints.WebApi
 
         public static WebApplication ConfigurePipeline(this WebApplication app)
         {
-            //app.UseGroundApiExceptionHandler();//missing
+            app.UseGroundApiExceptionHandler();//missing
             
             //app.UseSerilogRequestLogging();
 

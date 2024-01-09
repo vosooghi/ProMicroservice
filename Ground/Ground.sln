@@ -55,7 +55,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ground.Samples.Infra.Data.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ground.Samples.Endpoints.WebApi", "samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\Ground.Samples.Endpoints.WebApi.csproj", "{7F117C51-B4C2-4DD0-84A0-681223F2ED77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ground.Core.Domain.Toolkits", "src\2.Core\Ground.Core.Domain.Toolkits\Ground.Core.Domain.Toolkits.csproj", "{214DA432-4C1A-447E-9EC5-6DF176E0D91F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ground.Core.Domain.Toolkits", "src\2.Core\Ground.Core.Domain.Toolkits\Ground.Core.Domain.Toolkits.csproj", "{214DA432-4C1A-447E-9EC5-6DF176E0D91F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

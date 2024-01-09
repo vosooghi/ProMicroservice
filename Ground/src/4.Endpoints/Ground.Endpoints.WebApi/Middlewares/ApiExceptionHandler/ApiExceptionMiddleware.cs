@@ -26,26 +26,27 @@ namespace Ground.Endpoints.WebApi.Middlewares.ApiExceptionHandler
             _serializer = serializer;
             _translator = translator;
         }
-        //missing IScopeInformation
-        //public async Task Invoke(HttpContext context, IScopeInformation scopeInfo /* other dependencies */)
-        //{
-        //    using IDisposable hostScope = _logger.BeginScope(scopeInfo.HostScopeInfo);
-        //    using IDisposable requestScope = _logger.BeginScope(scopeInfo.RequestScopeInfo);
 
-        //    try
-        //    {
-        //        await _next(context);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        await HandleExceptionAsync(context, ex);
-        //    }
-        //    finally
-        //    {
-        //        hostScope.Dispose();
-        //        requestScope.Dispose();
-        //    }
-        //}
+        //missing IScopeInformation
+        public async Task Invoke(HttpContext context)//, IScopeInformation scopeInfo /* other dependencies */)
+        {
+            //using IDisposable hostScope = _logger.BeginScope(scopeInfo.HostScopeInfo);
+            //using IDisposable requestScope = _logger.BeginScope(scopeInfo.RequestScopeInfo);
+
+            try
+            {
+                await _next(context);
+            }
+            catch (Exception ex)
+            {
+                await HandleExceptionAsync(context, ex);
+            }
+            finally
+            {
+                //hostScope.Dispose();
+                //requestScope.Dispose();
+            }
+        }
 
         private Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
