@@ -7,6 +7,7 @@
     <Title>$(AssemblyName)</Title>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <PackageTags>Beta</PackageTags>
+    <Authors>Abbas Vosoughi</Authors>
   </PropertyGroup>
 
   <ItemGroup>
