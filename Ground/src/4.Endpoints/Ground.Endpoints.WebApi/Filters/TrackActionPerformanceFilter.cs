@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.Filters;
+﻿using Ground.Extensions.Logger.Abstractions;
+using Microsoft.AspNetCore.Mvc.Filters;
 using System.Diagnostics;
 
 namespace Ground.Endpoints.WebApi.Filters
@@ -9,16 +10,16 @@ namespace Ground.Endpoints.WebApi.Filters
     {
         private Stopwatch _timer;
         private readonly ILogger<TrackActionPerformanceFilter> _logger;
-        //private readonly IScopeInformation _scopeInfo;//missing
+        private readonly IScopeInformation _scopeInfo;//missing
         private IDisposable _userScope;
         private IDisposable _hostScope;
         private IDisposable _requestScope;
 
         public TrackActionPerformanceFilter(
-            ILogger<TrackActionPerformanceFilter> logger)//,IScopeInformation scopeInfo)//missing
+            ILogger<TrackActionPerformanceFilter> logger,IScopeInformation scopeInfo)//missing
         {
             _logger = logger;
-            //_scopeInfo = scopeInfo;
+            _scopeInfo = scopeInfo;
         }
         public void OnActionExecuting(ActionExecutingContext context)
         {
@@ -31,8 +32,8 @@ namespace Ground.Endpoints.WebApi.Filters
                         context.HttpContext.User.Claims.Where(c => c.Type == "scope")?.Select(c => c.Value)) }
             };
             _userScope = _logger.BeginScope(userDict);
-            //_hostScope = _logger.BeginScope(_scopeInfo.HostScopeInfo);//missing
-            //_requestScope = _logger.BeginScope(_scopeInfo.RequestScopeInfo);//missing
+            _hostScope = _logger.BeginScope(_scopeInfo.HostScopeInfo);//missing
+            _requestScope = _logger.BeginScope(_scopeInfo.RequestScopeInfo);//missing
 
             _timer.Start();
         }

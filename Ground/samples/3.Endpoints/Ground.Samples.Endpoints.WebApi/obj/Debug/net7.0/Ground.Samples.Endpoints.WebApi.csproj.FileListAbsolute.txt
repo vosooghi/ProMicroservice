@@ -457,5 +457,7 @@ C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Sa
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Ground.Extensions.Logger.Abstractions.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Ground.Extensions.Serializers.Abstractions.dll
+C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Ground.Extensions.Translations.Abstractions.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Ground.Extensions.Caching.Abstractions.dll
-C:\Users\Abbas\source\repos\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Ground.Extensions.Caching.Abstractions.pdb

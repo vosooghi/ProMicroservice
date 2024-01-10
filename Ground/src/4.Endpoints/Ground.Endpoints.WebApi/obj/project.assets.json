@@ -96,6 +96,42 @@
           }
         }
       },
+      "Ground.Extensions.Caching.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ground.Extensions.Caching.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.Caching.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.Logger.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ground.Extensions.Logger.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.Logger.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.Serializers.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ground.Extensions.Serializers.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.Serializers.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.Translations.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ground.Extensions.Translations.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.Translations.Abstractions.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -1489,16 +1525,6 @@
           "bin/placeholder/Ground.Core.Domain.Toolkits.dll": {}
         }
       },
-      "Ground.Extensions.Caching.Abstractions/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Ground.Extensions.Caching.Abstractions.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Ground.Extensions.Caching.Abstractions.dll": {}
-        }
-      },
       "Ground.Infra.Data.Sql/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1667,6 +1693,61 @@
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
         "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
         "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "Ground.Extensions.Caching.Abstractions/1.0.0": {
+      "sha512": "UPFY5p/NwXq7vH/SySdSWb49zJSwXiMpyxTUsBl81TSGiUfAr8ALASB6M6APKPka4z6eUcTBpuveZIhxnat5OQ==",
+      "type": "package",
+      "path": "ground.extensions.caching.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ground.extensions.caching.abstractions.1.0.0.nupkg.sha512",
+        "ground.extensions.caching.abstractions.nuspec",
+        "lib/net7.0/Ground.Extensions.Caching.Abstractions.dll",
+        "readme.md"
+      ]
+    },
+    "Ground.Extensions.Logger.Abstractions/1.0.0": {
+      "sha512": "uw5242pQjGj461ua0LyGkU91IiDqWiWRqLbrmqsBGEazX/NAFX0U2JadBo2DtgU9Ae2Wr7kkvvpsw6Eaf3YkvA==",
+      "type": "package",
+      "path": "ground.extensions.logger.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ground.extensions.logger.abstractions.1.0.0.nupkg.sha512",
+        "ground.extensions.logger.abstractions.nuspec",
+        "lib/net7.0/Ground.Extensions.Logger.Abstractions.dll",
+        "readme.md"
+      ]
+    },
+    "Ground.Extensions.Serializers.Abstractions/1.0.0": {
+      "sha512": "vH0Ipe8GADSCvmtrchoTzXYkO4GVFF3tuUQyoFISXgH/LKhIJbi6PFdQp3njxbatom7qgJN07kytVyAh5TyjyA==",
+      "type": "package",
+      "path": "ground.extensions.serializers.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ground.extensions.serializers.abstractions.1.0.0.nupkg.sha512",
+        "ground.extensions.serializers.abstractions.nuspec",
+        "lib/net7.0/Ground.Extensions.Serializers.Abstractions.dll",
+        "readme.md"
+      ]
+    },
+    "Ground.Extensions.Translations.Abstractions/1.0.0": {
+      "sha512": "hIjuIfUEEI9V2Vv0XYmd96F5k4fCLOVPuCGZpwepMBdUWxQXEfQZ3qu49MRn8CDAKeD70Twrv+E/x4IZIY9p3w==",
+      "type": "package",
+      "path": "ground.extensions.translations.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ground.extensions.translations.abstractions.1.0.0.nupkg.sha512",
+        "ground.extensions.translations.abstractions.nuspec",
+        "lib/net7.0/Ground.Extensions.Translations.Abstractions.dll",
+        "readme.md"
       ]
     },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
@@ -4152,11 +4233,6 @@
       "path": "../../2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj",
       "msbuildProject": "../../2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj"
     },
-    "Ground.Extensions.Caching.Abstractions/1.0.0": {
-      "type": "project",
-      "path": "../../../Extensions/Abstractions/Ground.Extensions.Caching.Abstractions/Ground.Extensions.Caching.Abstractions.csproj",
-      "msbuildProject": "../../../Extensions/Abstractions/Ground.Extensions.Caching.Abstractions/Ground.Extensions.Caching.Abstractions.csproj"
-    },
     "Ground.Infra.Data.Sql/1.0.0": {
       "type": "project",
       "path": "../../3.Infra/Data/Ground.Infra.Data.Sql/Ground.Infra.Data.Sql.csproj",
@@ -4185,6 +4261,9 @@
       "Ground.Core.Contracts >= 1.0.0",
       "Ground.Core.Domain >= 1.0.0",
       "Ground.Extensions.Caching.Abstractions >= 1.0.0",
+      "Ground.Extensions.Logger.Abstractions >= 1.0.0",
+      "Ground.Extensions.Serializers.Abstractions >= 1.0.0",
+      "Ground.Extensions.Translations.Abstractions >= 1.0.0",
       "Ground.Infra.Data.Sql >= 1.0.0",
       "Ground.Infra.Data.Sql.Commands >= 1.0.0",
       "Ground.Infra.Data.Sql.Queries >= 1.0.0",
@@ -4193,8 +4272,7 @@
       "Microsoft.AspNetCore.OpenApi >= 7.0.14",
       "Microsoft.Extensions.DependencyModel >= 8.0.0",
       "Scrutor >= 4.2.2",
-      "Swashbuckle.AspNetCore >= 6.5.0",
-      "Zamin.Extensions.Logger.Abstractions >= 7.0.0-beta.1"
+      "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
   "packageFolders": {
@@ -4232,9 +4310,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj"
-            },
             "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
               "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
             },
@@ -4273,6 +4348,22 @@
             "target": "Package",
             "version": "[11.3.0, )"
           },
+          "Ground.Extensions.Caching.Abstractions": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Ground.Extensions.Logger.Abstractions": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Ground.Extensions.Serializers.Abstractions": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Ground.Extensions.Translations.Abstractions": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
             "version": "[7.0.14, )"
@@ -4292,10 +4383,6 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.5.0, )"
-          },
-          "Zamin.Extensions.Logger.Abstractions": {
-            "target": "Package",
-            "version": "[7.0.0-beta.1, )"
           }
         },
         "imports": [

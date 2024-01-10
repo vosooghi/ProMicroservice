@@ -11,7 +11,7 @@ namespace Ground.Samples.Core.ApplicationServices.People.Commands.CreatePersonHa
     {
         private readonly IPersonCommandRepository _repository;
 
-        public CreatePersonHandler(GroundServices zaminServices,IPersonCommandRepository repository) : base(zaminServices)
+        public CreatePersonHandler(GroundServices groundServices,IPersonCommandRepository repository) : base(groundServices)
         {
             _repository = repository;
         }

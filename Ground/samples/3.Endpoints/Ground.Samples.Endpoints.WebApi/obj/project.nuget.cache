@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C8P7Fj3Kobg+l54/LukkyFX34QwU9qsPtvEJnjyg0JhCDENMwix8WKnp7qnW+OHSMPEZt8z10jao1HEcJjP7ow==",
+  "dgSpecHash": "PELp3Hw7z/dJXqkIeKXBrwU/jM9oLy8vgdtOFQ94iZzGe2418ilgcCF4f4OAg/aGwYHuhzlqmjkOFjWpKqOc2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\3.Endpoints\\Ground.Samples.Endpoints.WebApi\\Ground.Samples.Endpoints.WebApi.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,10 @@
     "C:\\Users\\Abbas\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.caching.abstractions\\1.0.0\\ground.extensions.caching.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.logger.abstractions\\1.0.0\\ground.extensions.logger.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.serializers.abstractions\\1.0.0\\ground.extensions.serializers.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.translations.abstractions\\1.0.0\\ground.extensions.translations.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

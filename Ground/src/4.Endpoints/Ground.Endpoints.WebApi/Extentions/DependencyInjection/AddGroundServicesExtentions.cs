@@ -1,4 +1,5 @@
-﻿using Ground.Utilities;
+﻿using Ground.Extensions.Logger.Abstractions;
+using Ground.Utilities;
 
 namespace Ground.Endpoints.WebApi.Extentions.DependencyInjection
 {
@@ -9,7 +10,7 @@ namespace Ground.Endpoints.WebApi.Extentions.DependencyInjection
             this IServiceCollection services)
         {
             //Missing
-            //services.AddScoped<IScopeInformation, ScopeInformation>();
+            services.AddScoped<IScopeInformation, ScopeInformation>();
             services.AddTransient<GroundServices>();
             return services;
         }

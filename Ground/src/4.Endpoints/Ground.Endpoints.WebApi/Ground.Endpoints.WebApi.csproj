@@ -9,16 +9,18 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Ground.Extensions.Caching.Abstractions" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.Logger.Abstractions" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.Serializers.Abstractions" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.Translations.Abstractions" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.14" />
     <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="8.0.0" />
     <PackageReference Include="Scrutor" Version="4.2.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-    <PackageReference Include="Zamin.Extensions.Logger.Abstractions" Version="7.0.0-beta.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Extensions\Abstractions\Ground.Extensions.Caching.Abstractions\Ground.Extensions.Caching.Abstractions.csproj" />
     <ProjectReference Include="..\..\1.Utilities\Ground.Utilities\Ground.Utilities.csproj" />
     <ProjectReference Include="..\..\2.Core\Ground.Core.ApplicationServices\Ground.Core.ApplicationServices.csproj" />
     <ProjectReference Include="..\..\2.Core\Ground.Core.Contracts\Ground.Core.Contracts.csproj" />
