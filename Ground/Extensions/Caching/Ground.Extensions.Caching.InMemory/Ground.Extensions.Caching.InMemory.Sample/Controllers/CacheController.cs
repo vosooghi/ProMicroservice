@@ -1,5 +1,4 @@
 ﻿using Ground.Extensions.Caching.Abstractions;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ground.Extensions.Caching.InMemory.Sample.Controllers
@@ -13,17 +12,17 @@ namespace Ground.Extensions.Caching.InMemory.Sample.Controllers
         {
             _cacheAdapter = cacheAdapter;
         }
-        [HttpGet]
+        [HttpGet("Add")]
         public IActionResult Add(string key, string value) {
             _cacheAdapter.Add(key, value,null,null);
             return Ok();
         }
-        [HttpPost]
+        [HttpPost("Get")]
         public IActionResult Get(string key)
         {
             return Ok(_cacheAdapter.Get<string>(key));
         }
-        [HttpPost]
+        [HttpPost("Delete")]
         public IActionResult Delete(string key)
         {
             _cacheAdapter.RemoveCache(key);
