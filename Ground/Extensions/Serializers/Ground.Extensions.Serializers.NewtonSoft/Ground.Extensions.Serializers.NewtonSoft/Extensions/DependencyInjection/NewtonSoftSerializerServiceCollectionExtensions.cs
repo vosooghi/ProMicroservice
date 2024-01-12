@@ -2,7 +2,7 @@
 using Ground.Extensions.Serializers.NewtonSoft.Services;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Ground.Extensions.Serializers.NewtonSoft.Extensions.DependencyInjection
+namespace Ground.Extensions.DependencyInjection
 {
     public static class NewtonSoftSerializerServiceCollectionExtensions
     {
