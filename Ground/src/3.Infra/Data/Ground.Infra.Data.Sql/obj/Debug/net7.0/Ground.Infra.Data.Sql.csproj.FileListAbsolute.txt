@@ -11,3 +11,16 @@ C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\refint\Ground.Infra.Data.Sql.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\Ground.Infra.Data.Sql.pdb
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\ref\Ground.Infra.Data.Sql.dll
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\bin\Debug\net7.0\Ground.Infra.Data.Sql.deps.json
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\bin\Debug\net7.0\Ground.Infra.Data.Sql.dll
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\bin\Debug\net7.0\Ground.Infra.Data.Sql.pdb
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\Ground.Infra.Data.Sql.csproj.AssemblyReference.cache
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\Ground.Infra.Data.Sql.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\Ground.Infra.Data.Sql.AssemblyInfoInputs.cache
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\Ground.Infra.Data.Sql.AssemblyInfo.cs
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\Ground.Infra.Data.Sql.csproj.CoreCompileInputs.cache
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\Ground.Infra.Data.Sql.sourcelink.json
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\Ground.Infra.Data.Sql.dll
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\refint\Ground.Infra.Data.Sql.dll
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\Ground.Infra.Data.Sql.pdb
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql\obj\Debug\net7.0\ref\Ground.Infra.Data.Sql.dll

@@ -473,6 +473,50 @@
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
+      "Ground.Extensions.Caching.Abstractions/1.0.0": {
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Ground.Extensions.Caching.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.Logger.Abstractions/1.0.0": {
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.Logger.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Ground.Extensions.Logger.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.Serializers.Abstractions/1.0.0": {
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.Serializers.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Ground.Extensions.Serializers.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.Translations.Abstractions/1.0.0": {
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.Translations.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Ground.Extensions.Translations.Abstractions.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -1651,6 +1695,9 @@
           "Ground.Core.Contracts": "1.0.0",
           "Ground.Core.Domain": "1.0.0",
           "Ground.Extensions.Caching.Abstractions": "1.0.0",
+          "Ground.Extensions.Logger.Abstractions": "1.0.0",
+          "Ground.Extensions.Serializers.Abstractions": "1.0.0",
+          "Ground.Extensions.Translations.Abstractions": "1.0.0",
           "Ground.Infra.Data.Sql": "1.0.0",
           "Ground.Infra.Data.Sql.Commands": "1.0.0",
           "Ground.Infra.Data.Sql.Queries": "1.0.0",
@@ -1659,22 +1706,13 @@
           "Microsoft.AspNetCore.OpenApi": "7.0.14",
           "Microsoft.Extensions.DependencyModel": "8.0.0",
           "Scrutor": "4.2.2",
-          "Swashbuckle.AspNetCore": "6.5.0",
-          "Zamin.Extensions.Logger.Abstractions": "7.0.0-beta.1"
+          "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
           "Ground.Endpoints.WebApi.dll": {}
         },
         "compile": {
           "Ground.Endpoints.WebApi.dll": {}
-        }
-      },
-      "Ground.Extensions.Caching.Abstractions/1.0.0": {
-        "runtime": {
-          "Ground.Extensions.Caching.Abstractions.dll": {}
-        },
-        "compile": {
-          "Ground.Extensions.Caching.Abstractions.dll": {}
         }
       },
       "Ground.Infra.Data.Sql/1.0.0": {
@@ -3627,6 +3665,34 @@
       "path": "fluentvalidation.dependencyinjectionextensions/11.5.1",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512"
     },
+    "Ground.Extensions.Caching.Abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UPFY5p/NwXq7vH/SySdSWb49zJSwXiMpyxTUsBl81TSGiUfAr8ALASB6M6APKPka4z6eUcTBpuveZIhxnat5OQ==",
+      "path": "ground.extensions.caching.abstractions/1.0.0",
+      "hashPath": "ground.extensions.caching.abstractions.1.0.0.nupkg.sha512"
+    },
+    "Ground.Extensions.Logger.Abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uw5242pQjGj461ua0LyGkU91IiDqWiWRqLbrmqsBGEazX/NAFX0U2JadBo2DtgU9Ae2Wr7kkvvpsw6Eaf3YkvA==",
+      "path": "ground.extensions.logger.abstractions/1.0.0",
+      "hashPath": "ground.extensions.logger.abstractions.1.0.0.nupkg.sha512"
+    },
+    "Ground.Extensions.Serializers.Abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vH0Ipe8GADSCvmtrchoTzXYkO4GVFF3tuUQyoFISXgH/LKhIJbi6PFdQp3njxbatom7qgJN07kytVyAh5TyjyA==",
+      "path": "ground.extensions.serializers.abstractions/1.0.0",
+      "hashPath": "ground.extensions.serializers.abstractions.1.0.0.nupkg.sha512"
+    },
+    "Ground.Extensions.Translations.Abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hIjuIfUEEI9V2Vv0XYmd96F5k4fCLOVPuCGZpwepMBdUWxQXEfQZ3qu49MRn8CDAKeD70Twrv+E/x4IZIY9p3w==",
+      "path": "ground.extensions.translations.abstractions/1.0.0",
+      "hashPath": "ground.extensions.translations.abstractions.1.0.0.nupkg.sha512"
+    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -4334,11 +4400,6 @@
       "sha512": ""
     },
     "Ground.Endpoints.WebApi/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Ground.Extensions.Caching.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

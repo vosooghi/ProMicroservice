@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "iZsWQ/uhXRtXJUfX9FiXVRPPIgXkwm//JtLQ6tg91iiULRLYFx66XQtBVywxmhhsV9w8BF3B+s1kphSX6Br7hw==",
-  "success": false,
+  "dgSpecHash": "gwdqMKvqdXrY/UY2HSaCCLwvIauLYdFFfOls2tqCiqYl5+isk/9AWLk2Uk1BQdeV0NCyL1wjj2jwWcPhhJKPGQ==",
+  "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\Ground.Endpoints.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abbas\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
@@ -9,6 +9,10 @@
     "C:\\Users\\Abbas\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.caching.abstractions\\1.0.0\\ground.extensions.caching.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.logger.abstractions\\1.0.0\\ground.extensions.logger.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.serializers.abstractions\\1.0.0\\ground.extensions.serializers.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.translations.abstractions\\1.0.0\\ground.extensions.translations.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\7.0.14\\microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.14.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.14\\microsoft.aspnetcore.openapi.7.0.14.nupkg.sha512",
@@ -89,13 +93,10 @@
   ],
   "logs": [
     {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'E:\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

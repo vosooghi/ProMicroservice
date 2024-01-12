@@ -1,6 +1,8 @@
-﻿using System.Net;
-using Zamin.Extensions.Serializers.Abstractions;
-using Zamin.Extensions.Translations.Abstractions;
+﻿using Ground.Extensions.Logger.Abstractions;
+using Ground.Extensions.Serializers.Abstractions;
+using Ground.Extensions.Translations.Abstractions;
+using System.Net;
+
 
 namespace Ground.Endpoints.WebApi.Middlewares.ApiExceptionHandler
 {
@@ -28,10 +30,10 @@ namespace Ground.Endpoints.WebApi.Middlewares.ApiExceptionHandler
         }
 
         //missing IScopeInformation
-        public async Task Invoke(HttpContext context)//, IScopeInformation scopeInfo /* other dependencies */)
+        public async Task Invoke(HttpContext context, IScopeInformation scopeInfo /* other dependencies */)
         {
-            //using IDisposable hostScope = _logger.BeginScope(scopeInfo.HostScopeInfo);
-            //using IDisposable requestScope = _logger.BeginScope(scopeInfo.RequestScopeInfo);
+            using IDisposable hostScope = _logger.BeginScope(scopeInfo.HostScopeInfo);
+            using IDisposable requestScope = _logger.BeginScope(scopeInfo.RequestScopeInfo);
 
             try
             {
@@ -43,8 +45,8 @@ namespace Ground.Endpoints.WebApi.Middlewares.ApiExceptionHandler
             }
             finally
             {
-                //hostScope.Dispose();
-                //requestScope.Dispose();
+                hostScope.Dispose();
+                requestScope.Dispose();
             }
         }
 

@@ -638,9 +638,6 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj": {
-                "projectPath": "E:\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj"
-              },
               "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
                 "projectPath": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
               },
@@ -679,6 +676,22 @@
               "target": "Package",
               "version": "[11.3.0, )"
             },
+            "Ground.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Ground.Extensions.Logger.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Ground.Extensions.Serializers.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Ground.Extensions.Translations.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[7.0.14, )"
@@ -698,10 +711,6 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
-            },
-            "Zamin.Extensions.Logger.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0-beta.1, )"
             }
           },
           "imports": [

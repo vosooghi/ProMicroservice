@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "Iig9vUSivYUyDGxhe28zaeJWM+eO9p+1vKmq0f/0Iho=",
+  "Hash": "hMDAF70BSP2x8Lm3mpr314uLxRC7UP1R6LuzWCIEePw=",
   "Source": "Ground.Samples.Endpoints.WebApi",
   "BasePath": "_content/Ground.Samples.Endpoints.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\Ground.Endpoints.WebApi.csproj",
+      "Identity": "E:\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\Ground.Endpoints.WebApi.csproj",
       "Version": 2,
       "Source": "Ground.Endpoints.WebApi",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

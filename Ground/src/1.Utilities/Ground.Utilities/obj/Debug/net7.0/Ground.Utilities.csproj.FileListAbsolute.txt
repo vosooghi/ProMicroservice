@@ -11,3 +11,16 @@ C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\1.Utilities\Ground.Utilit
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\refint\Ground.Utilities.dll
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\Ground.Utilities.pdb
 C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\ref\Ground.Utilities.dll
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\bin\Debug\net7.0\Ground.Utilities.deps.json
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\bin\Debug\net7.0\Ground.Utilities.dll
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\bin\Debug\net7.0\Ground.Utilities.pdb
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\Ground.Utilities.csproj.AssemblyReference.cache
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\Ground.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\Ground.Utilities.AssemblyInfoInputs.cache
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\Ground.Utilities.AssemblyInfo.cs
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\Ground.Utilities.csproj.CoreCompileInputs.cache
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\Ground.Utilities.sourcelink.json
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\Ground.Utilities.dll
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\refint\Ground.Utilities.dll
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\Ground.Utilities.pdb
+E:\ProMicroservice\Ground\src\1.Utilities\Ground.Utilities\obj\Debug\net7.0\ref\Ground.Utilities.dll
