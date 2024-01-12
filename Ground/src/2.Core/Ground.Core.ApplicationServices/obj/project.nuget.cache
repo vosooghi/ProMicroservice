@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fsp6Y+Nt5k5JHFqma7j0B+ZSnlohoYFI64bU7ZSbuQThfexVFVIEIyYhEG8qYaWpzjESDPNdz6xFHKACHgiouA==",
+  "dgSpecHash": "Lp4oiyA2wHChEUbK/nXwZW2aDyP0/smS2m9J9YJsZ8bPb3DnuEil6w5FSezP/nJid2XSwLkKEWSFWKKjsB4+YQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.ApplicationServices\\Ground.Core.ApplicationServices.csproj",
+  "projectFilePath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.ApplicationServices\\Ground.Core.ApplicationServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abbas\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\Ground.Infra.Data.Sql.Queries.csproj": {}
+    "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\Ground.Infra.Data.Sql.Queries.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
+    "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj",
+        "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj",
         "projectName": "Ground.Utilities",
-        "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj",
+        "projectPath": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\obj\\",
+        "outputPath": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -103,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj": {
+    "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj",
+        "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj",
         "projectName": "Ground.Core.Contracts",
-        "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj",
+        "projectPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\obj\\",
+        "outputPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -133,11 +133,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
+              "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
+                "projectPath": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
               },
-              "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj"
+              "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj": {
+                "projectPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj"
               }
             }
           }
@@ -171,14 +171,14 @@
         }
       }
     },
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj": {
+    "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj",
+        "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj",
         "projectName": "Ground.Core.Domain",
-        "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj",
+        "projectPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\obj\\",
+        "outputPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -201,8 +201,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
+              "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
+                "projectPath": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
               }
             }
           }
@@ -236,14 +236,14 @@
         }
       }
     },
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\Ground.Infra.Data.Sql.Queries.csproj": {
+    "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\Ground.Infra.Data.Sql.Queries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\Ground.Infra.Data.Sql.Queries.csproj",
+        "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\Ground.Infra.Data.Sql.Queries.csproj",
         "projectName": "Ground.Infra.Data.Sql.Queries",
-        "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\Ground.Infra.Data.Sql.Queries.csproj",
+        "projectPath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\Ground.Infra.Data.Sql.Queries.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\obj\\",
+        "outputPath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -266,14 +266,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
+              "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
+                "projectPath": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
               },
-              "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj"
+              "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj": {
+                "projectPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj"
               },
-              "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj"
+              "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj": {
+                "projectPath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj"
               }
             }
           }
@@ -313,14 +313,14 @@
         }
       }
     },
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj": {
+    "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj",
+        "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj",
         "projectName": "Ground.Infra.Data.Sql",
-        "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj",
+        "projectPath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\obj\\",
+        "outputPath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

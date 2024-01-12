@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\Ground.Core.Domain.Toolkits.csproj": {}
+    "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\Ground.Core.Domain.Toolkits.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
+    "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj",
+        "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj",
         "projectName": "Ground.Utilities",
-        "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj",
+        "projectPath": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\obj\\",
+        "outputPath": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -103,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\Ground.Core.Domain.Toolkits.csproj": {
+    "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\Ground.Core.Domain.Toolkits.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\Ground.Core.Domain.Toolkits.csproj",
+        "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\Ground.Core.Domain.Toolkits.csproj",
         "projectName": "Ground.Core.Domain.Toolkits",
-        "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\Ground.Core.Domain.Toolkits.csproj",
+        "projectPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\Ground.Core.Domain.Toolkits.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\obj\\",
+        "outputPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -133,11 +133,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
+              "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
+                "projectPath": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
               },
-              "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj"
+              "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj": {
+                "projectPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj"
               }
             }
           }
@@ -171,14 +171,14 @@
         }
       }
     },
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj": {
+    "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj",
+        "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj",
         "projectName": "Ground.Core.Domain",
-        "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj",
+        "projectPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\obj\\",
+        "outputPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -201,8 +201,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
+              "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj": {
+                "projectPath": "E:\\ProMicroservice\\Ground\\src\\1.Utilities\\Ground.Utilities\\Ground.Utilities.csproj"
               }
             }
           }

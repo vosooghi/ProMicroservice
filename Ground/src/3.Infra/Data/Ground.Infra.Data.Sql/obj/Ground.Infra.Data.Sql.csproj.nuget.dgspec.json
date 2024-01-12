@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj": {}
+    "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj": {
+    "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj",
+        "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj",
         "projectName": "Ground.Infra.Data.Sql",
-        "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj",
+        "projectPath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\obj\\",
+        "outputPath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

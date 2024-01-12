@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ground.Infra.Data.Sql.Queries
-build_property.ProjectDir = C:\Users\Abbas\source\repos\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Queries\
+build_property.ProjectDir = E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Queries\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

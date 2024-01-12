@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ai5eYGsKCyaFwh1drgLd+NLxFNo1I5apSUuzOBKDKRqXHtIN111xiBVm5GwMn5vCVwh8clYMLuSqz/fA7yHXQw==",
+  "dgSpecHash": "FgyPAtcIVfAyC/gkfuKMN3sHyTFHtMf/hGVWyexbO1CmKDtI5pD3K6iLGuhecQ4mC5e28TnPTTPEAY4PScIEtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Domain\\Ground.Samples.Core.Domain.csproj",
+  "projectFilePath": "E:\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Domain\\Ground.Samples.Core.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

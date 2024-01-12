@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nlTDwkWa+4i12WiJd4ULd4wSqQ+0Nvj2hbRNtc8pghTRzDxZuAz9t5iVtTkcKkVzRzxYYGy9Lty9yv1oINSWgQ==",
+  "dgSpecHash": "8u/uR1hJjrLVGYxa+/uTWS75guhK/VAl/rewxXQkDRCzFvUgbos7rwXVVcr/X/cHYDIMKxtQsxpLnz5hesB6ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Queries\\Ground.Samples.Infra.Data.Sql.Queries.csproj",
+  "projectFilePath": "E:\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Queries\\Ground.Samples.Infra.Data.Sql.Queries.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abbas\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
