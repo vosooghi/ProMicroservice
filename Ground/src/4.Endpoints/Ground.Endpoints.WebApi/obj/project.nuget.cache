@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YmVgi7S/FxDjO3WM984AnfVic7R/SkE7ZgpeFnKV0TPr0ODERgh06cis/aetVCb1Dz8bDUNEAwprRDNBeJhCQg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\Ground.Endpoints.WebApi.csproj",
+  "dgSpecHash": "iZsWQ/uhXRtXJUfX9FiXVRPPIgXkwm//JtLQ6tg91iiULRLYFx66XQtBVywxmhhsV9w8BF3B+s1kphSX6Br7hw==",
+  "success": false,
+  "projectFilePath": "E:\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\Ground.Endpoints.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abbas\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -87,5 +87,15 @@
     "C:\\Users\\Abbas\\.nuget\\packages\\zamin.extensions.translations.abstractions\\7.0.0-beta.1\\zamin.extensions.translations.abstractions.7.0.0-beta.1.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\zamin.extensions.usersmanagement.abstractions\\7.0.0-beta.1\\zamin.extensions.usersmanagement.abstractions.7.0.0-beta.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'E:\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "E:\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

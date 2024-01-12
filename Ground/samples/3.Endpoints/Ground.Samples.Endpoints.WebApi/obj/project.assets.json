@@ -1872,11 +1872,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "E:\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "Ground.Core.ApplicationServices": "1.0.0",
           "Ground.Core.Contracts": "1.0.0",
           "Ground.Core.Domain": "1.0.0",
-          "Ground.Extensions.Caching.Abstractions": "1.0.0",
           "Ground.Infra.Data.Sql": "1.0.0",
           "Ground.Infra.Data.Sql.Commands": "1.0.0",
           "Ground.Infra.Data.Sql.Queries": "1.0.0",
@@ -1897,16 +1897,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "Ground.Extensions.Caching.Abstractions/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Ground.Extensions.Caching.Abstractions.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Ground.Extensions.Caching.Abstractions.dll": {}
-        }
       },
       "Ground.Infra.Data.Sql/1.0.0": {
         "type": "project",
@@ -5141,11 +5131,6 @@
       "path": "../../../src/4.Endpoints/Ground.Endpoints.WebApi/Ground.Endpoints.WebApi.csproj",
       "msbuildProject": "../../../src/4.Endpoints/Ground.Endpoints.WebApi/Ground.Endpoints.WebApi.csproj"
     },
-    "Ground.Extensions.Caching.Abstractions/1.0.0": {
-      "type": "project",
-      "path": "../../../Extensions/Abstractions/Ground.Extensions.Caching.Abstractions/Ground.Extensions.Caching.Abstractions.csproj",
-      "msbuildProject": "../../../Extensions/Abstractions/Ground.Extensions.Caching.Abstractions/Ground.Extensions.Caching.Abstractions.csproj"
-    },
     "Ground.Infra.Data.Sql/1.0.0": {
       "type": "project",
       "path": "../../../src/3.Infra/Data/Ground.Infra.Data.Sql/Ground.Infra.Data.Sql.csproj",
@@ -5219,11 +5204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\3.Endpoints\\Ground.Samples.Endpoints.WebApi\\Ground.Samples.Endpoints.WebApi.csproj",
+      "projectUniqueName": "E:\\ProMicroservice\\Ground\\samples\\3.Endpoints\\Ground.Samples.Endpoints.WebApi\\Ground.Samples.Endpoints.WebApi.csproj",
       "projectName": "Ground.Samples.Endpoints.WebApi",
-      "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\3.Endpoints\\Ground.Samples.Endpoints.WebApi\\Ground.Samples.Endpoints.WebApi.csproj",
+      "projectPath": "E:\\ProMicroservice\\Ground\\samples\\3.Endpoints\\Ground.Samples.Endpoints.WebApi\\Ground.Samples.Endpoints.WebApi.csproj",
       "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\3.Endpoints\\Ground.Samples.Endpoints.WebApi\\obj\\",
+      "outputPath": "E:\\ProMicroservice\\Ground\\samples\\3.Endpoints\\Ground.Samples.Endpoints.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5246,23 +5231,23 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.ApplicationServices\\Ground.Samples.Core.ApplicationServices.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.ApplicationServices\\Ground.Samples.Core.ApplicationServices.csproj"
+            "E:\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.ApplicationServices\\Ground.Samples.Core.ApplicationServices.csproj": {
+              "projectPath": "E:\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.ApplicationServices\\Ground.Samples.Core.ApplicationServices.csproj"
             },
-            "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Contracts\\Ground.Samples.Core.Contracts.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Contracts\\Ground.Samples.Core.Contracts.csproj"
+            "E:\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Contracts\\Ground.Samples.Core.Contracts.csproj": {
+              "projectPath": "E:\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Contracts\\Ground.Samples.Core.Contracts.csproj"
             },
-            "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Domain\\Ground.Samples.Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Domain\\Ground.Samples.Core.Domain.csproj"
+            "E:\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Domain\\Ground.Samples.Core.Domain.csproj": {
+              "projectPath": "E:\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Domain\\Ground.Samples.Core.Domain.csproj"
             },
-            "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Commands\\Ground.Samples.Infra.Data.Sql.Commands.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Commands\\Ground.Samples.Infra.Data.Sql.Commands.csproj"
+            "E:\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Commands\\Ground.Samples.Infra.Data.Sql.Commands.csproj": {
+              "projectPath": "E:\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Commands\\Ground.Samples.Infra.Data.Sql.Commands.csproj"
             },
-            "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Queries\\Ground.Samples.Infra.Data.Sql.Queries.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Queries\\Ground.Samples.Infra.Data.Sql.Queries.csproj"
+            "E:\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Queries\\Ground.Samples.Infra.Data.Sql.Queries.csproj": {
+              "projectPath": "E:\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Queries\\Ground.Samples.Infra.Data.Sql.Queries.csproj"
             },
-            "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\Ground.Endpoints.WebApi.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\source\\repos\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\Ground.Endpoints.WebApi.csproj"
+            "E:\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\Ground.Endpoints.WebApi.csproj": {
+              "projectPath": "E:\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\Ground.Endpoints.WebApi.csproj"
             }
           }
         }
@@ -5340,5 +5325,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'E:\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "E:\\ProMicroservice\\Ground\\Extensions\\Abstractions\\Ground.Extensions.Caching.Abstractions\\Ground.Extensions.Caching.Abstractions.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
