@@ -2,8 +2,8 @@
 using Ground.Infra.Data.Sql.Commands.OutBoxEventItems;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Zamin.Extensions.Serializers.Abstractions;
-using Zamin.Extensions.UsersManagement.Abstractions;
+using Ground.Extensions.Serializers.Abstractions;
+using Ground.Extensions.UsersManagement.Abstractions;
 
 namespace Ground.Infra.Data.Sql.Commands
 {

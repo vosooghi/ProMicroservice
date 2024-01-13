@@ -1,12 +1,7 @@
 ﻿using FluentValidation;
+using Ground.Extensions.Translations.Abstractions;
 using Ground.Samples.Core.Contracts.People.Commands;
 using Ground.Samples.Core.Domain.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Zamin.Extensions.Translations.Abstractions;
 
 namespace Ground.Samples.Core.ApplicationServices.People.Commands.CreatePersonHandlers
 {

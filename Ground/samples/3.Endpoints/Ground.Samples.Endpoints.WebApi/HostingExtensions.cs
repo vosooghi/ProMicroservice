@@ -2,7 +2,7 @@
 using Ground.Samples.Infra.Data.Sql.Commands.Common;
 using Ground.Samples.Infra.Data.Sql.Queries.Common;
 using Microsoft.EntityFrameworkCore;
-using Zamin.Extensions.DependencyInjection;
+using Ground.Extensions.DependencyInjection;
 
 namespace Ground.Samples.Endpoints.WebApi
 {
@@ -20,7 +20,7 @@ namespace Ground.Samples.Endpoints.WebApi
         {
             string conn = "Server=.; Initial Catalog=GroundSample; User Id=sa; Password=P@ssw0rd;encrypt=false";
            
-            builder.Services.AddZaminParrotTranslator(c =>
+            builder.Services.AddGroundTraniTranslator(c =>
             {
                 c.ConnectionString = conn;
                 c.AutoCreateSqlTable = true;
@@ -29,16 +29,16 @@ namespace Ground.Samples.Endpoints.WebApi
                 c.ReloadDataIntervalInMinuts = 1;
             });
 
-            builder.Services.AddZaminWebUserInfoService(builder.Configuration,true);//fake version
+            builder.Services.AddGroundWebUserInfoService(builder.Configuration,true);//fake version
 
-            builder.Services.AddZaminAutoMapperProfiles(option =>
+            builder.Services.AddGroundAutoMapperProfiles(option =>
             {
                 option.AssmblyNamesForLoadProfiles = "Ground.Samples";
             });
 
-            builder.Services.AddZaminMicrosoftSerializer();
+            builder.Services.AddGroundNewtonSoftSerializer();
 
-            builder.Services.AddZaminInMemoryCaching();
+            //builder.Services.AddGroundInMemoryCaching();
 
             builder.Services.AddDbContext<SampleCommandDbContext>(c => c.UseSqlServer(conn));
             builder.Services.AddDbContext<SampleQueryDbContext>(c => c.UseSqlServer(conn));

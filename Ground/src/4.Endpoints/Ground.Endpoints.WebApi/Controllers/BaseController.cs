@@ -6,7 +6,7 @@ using Ground.Endpoints.WebApi.Extentions;
 using Ground.Utilities;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using Zamin.Extensions.Serializers.Abstractions;
+using Ground.Extensions.Serializers.Abstractions;
 
 namespace Ground.Endpoints.WebApi.Controllers
 {

@@ -46,6 +46,38 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Ground.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Ground.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Ground.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Ground.Extensions.Logger.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Ground.Extensions.ObjectMappers.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Ground.Extensions.Serializers.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Ground.Extensions.Translations.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Ground.Extensions.UsersManagement.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -53,34 +85,6 @@
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[7.0.0, )"
-            },
-            "Zamin.Extensions.Caching.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0-beta.1, )"
-            },
-            "Zamin.Extensions.DependencyInjection.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0-beta.1, )"
-            },
-            "Zamin.Extensions.Logger.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0-beta.1, )"
-            },
-            "Zamin.Extensions.ObjectMappers.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0-beta.1, )"
-            },
-            "Zamin.Extensions.Serializers.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0-beta.1, )"
-            },
-            "Zamin.Extensions.Translations.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0-beta.1, )"
-            },
-            "Zamin.Extensions.UsersManagement.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0-beta.1, )"
             }
           },
           "imports": [

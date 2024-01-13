@@ -105,6 +105,32 @@
           "lib/net7.0/Ground.Extensions.Caching.Abstractions.dll": {}
         }
       },
+      "Ground.Extensions.DependencyInjection/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Ground.Extensions.DependencyInjection.Abstractions": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyModel": "7.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "7.0.0",
+          "Scrutor": "4.2.2"
+        },
+        "compile": {
+          "lib/net7.0/Ground.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Ground.Extensions.DependencyInjection.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ground.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
       "Ground.Extensions.Logger.Abstractions/1.0.0": {
         "type": "package",
         "compile": {
@@ -112,6 +138,15 @@
         },
         "runtime": {
           "lib/net7.0/Ground.Extensions.Logger.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.ObjectMappers.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ground.Extensions.ObjectMappers.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.ObjectMappers.Abstractions.dll": {}
         }
       },
       "Ground.Extensions.Serializers.Abstractions/1.0.0": {
@@ -130,6 +165,15 @@
         },
         "runtime": {
           "lib/net7.0/Ground.Extensions.Translations.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.UsersManagement.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ground.Extensions.UsersManagement.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.UsersManagement.Abstractions.dll": {}
         }
       },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
@@ -567,6 +611,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Configuration.Binder/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -673,6 +736,29 @@
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
             "related": ".xml"
           }
         },
@@ -1405,69 +1491,6 @@
           }
         }
       },
-      "Zamin.Extensions.Caching.Abstractions/7.0.0-beta.1": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.Caching.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.Caching.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.DependencyInjection.Abstractions/7.0.0-beta.1": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.DependencyInjection.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.DependencyInjection.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.Logger.Abstractions/7.0.0-beta.1": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.Logger.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.Logger.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.ObjectMappers.Abstractions/7.0.0-beta.1": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.ObjectMappers.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.ObjectMappers.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.Serializers.Abstractions/7.0.0-beta.1": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.Serializers.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.Serializers.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.Translations.Abstractions/7.0.0-beta.1": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.Translations.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.Translations.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.UsersManagement.Abstractions/7.0.0-beta.1": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.UsersManagement.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.UsersManagement.Abstractions.dll": {}
-        }
-      },
       "Ground.Core.ApplicationServices/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1576,15 +1599,16 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Ground.Extensions.Caching.Abstractions": "1.0.0",
+          "Ground.Extensions.DependencyInjection": "1.0.0",
+          "Ground.Extensions.DependencyInjection.Abstractions": "1.0.0",
+          "Ground.Extensions.Logger.Abstractions": "1.0.0",
+          "Ground.Extensions.ObjectMappers.Abstractions": "1.0.0",
+          "Ground.Extensions.Serializers.Abstractions": "1.0.0",
+          "Ground.Extensions.Translations.Abstractions": "1.0.0",
+          "Ground.Extensions.UsersManagement.Abstractions": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Logging": "7.0.0",
-          "Zamin.Extensions.Caching.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.DependencyInjection.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.Logger.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.ObjectMappers.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.Serializers.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.Translations.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.UsersManagement.Abstractions": "7.0.0-beta.1"
+          "Microsoft.Extensions.Logging": "7.0.0"
         },
         "compile": {
           "bin/placeholder/Ground.Utilities.dll": {}
@@ -1708,6 +1732,34 @@
         "readme.md"
       ]
     },
+    "Ground.Extensions.DependencyInjection/1.0.0": {
+      "sha512": "pr3knOZmwT+WD/FvA1LrDSMvA0KEoTNa7uXRQ3nNIisNHhm5DT6wkhrv6nH1rzVIg9rx7pC59NQ3aPKXF0cL+g==",
+      "type": "package",
+      "path": "ground.extensions.dependencyinjection/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ground.extensions.dependencyinjection.1.0.0.nupkg.sha512",
+        "ground.extensions.dependencyinjection.nuspec",
+        "lib/net7.0/Ground.Extensions.DependencyInjection.dll",
+        "readme.md"
+      ]
+    },
+    "Ground.Extensions.DependencyInjection.Abstractions/1.0.0": {
+      "sha512": "4gXMlHQCxer8GfgpSDON0jp92fWnyPOnYVEXof1s6HPG6B8vF6uWCjJpmafPygSmyIljMHuq602vLbJQ0Rp0kA==",
+      "type": "package",
+      "path": "ground.extensions.dependencyinjection.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ground.extensions.dependencyinjection.abstractions.1.0.0.nupkg.sha512",
+        "ground.extensions.dependencyinjection.abstractions.nuspec",
+        "lib/net7.0/Ground.Extensions.DependencyInjection.Abstractions.dll",
+        "readme.md"
+      ]
+    },
     "Ground.Extensions.Logger.Abstractions/1.0.0": {
       "sha512": "uw5242pQjGj461ua0LyGkU91IiDqWiWRqLbrmqsBGEazX/NAFX0U2JadBo2DtgU9Ae2Wr7kkvvpsw6Eaf3YkvA==",
       "type": "package",
@@ -1719,6 +1771,20 @@
         "ground.extensions.logger.abstractions.1.0.0.nupkg.sha512",
         "ground.extensions.logger.abstractions.nuspec",
         "lib/net7.0/Ground.Extensions.Logger.Abstractions.dll",
+        "readme.md"
+      ]
+    },
+    "Ground.Extensions.ObjectMappers.Abstractions/1.0.0": {
+      "sha512": "048L8YJ9YMQ2c9F9D8y43HvN1oV9HEu+gcfPweepYO8priiNr9urE5L5a2RKyv9DrkjTcwD8WIhBxRXx12F1HQ==",
+      "type": "package",
+      "path": "ground.extensions.objectmappers.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ground.extensions.objectmappers.abstractions.1.0.0.nupkg.sha512",
+        "ground.extensions.objectmappers.abstractions.nuspec",
+        "lib/net7.0/Ground.Extensions.ObjectMappers.Abstractions.dll",
         "readme.md"
       ]
     },
@@ -1747,6 +1813,20 @@
         "ground.extensions.translations.abstractions.1.0.0.nupkg.sha512",
         "ground.extensions.translations.abstractions.nuspec",
         "lib/net7.0/Ground.Extensions.Translations.Abstractions.dll",
+        "readme.md"
+      ]
+    },
+    "Ground.Extensions.UsersManagement.Abstractions/1.0.0": {
+      "sha512": "iIxQVt+dXiH4/P9A5VKxkAuWRb2ppQwooS4EBTAwCkgJHhxmNRwh+JFy8360IA4RHoCJWzvPW1wmFKDQFyIzjw==",
+      "type": "package",
+      "path": "ground.extensions.usersmanagement.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ground.extensions.usersmanagement.abstractions.1.0.0.nupkg.sha512",
+        "ground.extensions.usersmanagement.abstractions.nuspec",
+        "lib/net7.0/Ground.Extensions.UsersManagement.Abstractions.dll",
         "readme.md"
       ]
     },
@@ -2577,6 +2657,33 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Configuration.Binder/7.0.0": {
+      "sha512": "tgU4u7bZsoS9MKVRiotVMAwHtbREHr5/5zSEV+JPhg46+ox47Au84E3D2IacAaB0bk5ePNaNieTlPrfjbbRJkg==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.Binder.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.Binder.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection/7.0.0": {
       "sha512": "elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
       "type": "package",
@@ -2790,6 +2897,33 @@
         "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
         "microsoft.extensions.options.7.0.0.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/7.0.0": {
+      "sha512": "95UnxZkkFdXxF6vSrtJsMHCzkDeSMuUWGs2hDT54cX+U5eVajrCJ3qLyQRW+CtpTt5OJ8bmTvpQVHu1DLhH+cA==",
+      "type": "package",
+      "path": "microsoft.extensions.options.configurationextensions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.options.configurationextensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -4129,90 +4263,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Zamin.Extensions.Caching.Abstractions/7.0.0-beta.1": {
-      "sha512": "8mDP+tegi6Iah/pVwKb3NNr51zCUV5OqKpx2wSLnzFDsbdvn7DaYO8vrCr9E3vdRssE1/VAn6nyuvWwIYi64RA==",
-      "type": "package",
-      "path": "zamin.extensions.caching.abstractions/7.0.0-beta.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net7.0/Zamin.Extensions.Caching.Abstractions.dll",
-        "zamin.extensions.caching.abstractions.7.0.0-beta.1.nupkg.sha512",
-        "zamin.extensions.caching.abstractions.nuspec"
-      ]
-    },
-    "Zamin.Extensions.DependencyInjection.Abstractions/7.0.0-beta.1": {
-      "sha512": "1OK6d97jBp18k0ktYfAOQo4ON87xItwODZbZ9gn/wmmxHI6rutIMTsrfDDjbvyEm+Cqd2KX4bwCbjVChbdD9Fw==",
-      "type": "package",
-      "path": "zamin.extensions.dependencyinjection.abstractions/7.0.0-beta.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net7.0/Zamin.Extensions.DependencyInjection.Abstractions.dll",
-        "zamin.extensions.dependencyinjection.abstractions.7.0.0-beta.1.nupkg.sha512",
-        "zamin.extensions.dependencyinjection.abstractions.nuspec"
-      ]
-    },
-    "Zamin.Extensions.Logger.Abstractions/7.0.0-beta.1": {
-      "sha512": "bc6E7MWPpzrgzkPCminF7AolG35FPZ90c+clqko96WSXIBn1geg+x6EoAFJuawTkZf6qV1SDG1fNTizL0DffMQ==",
-      "type": "package",
-      "path": "zamin.extensions.logger.abstractions/7.0.0-beta.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net7.0/Zamin.Extensions.Logger.Abstractions.dll",
-        "zamin.extensions.logger.abstractions.7.0.0-beta.1.nupkg.sha512",
-        "zamin.extensions.logger.abstractions.nuspec"
-      ]
-    },
-    "Zamin.Extensions.ObjectMappers.Abstractions/7.0.0-beta.1": {
-      "sha512": "/SydwIzO8bF10EHtb8sZ5QiSY0Ccp8FMld68KBzFT/CNAfyZjDNjAUiF0iWSPBHxKWflauTKlaVxcnu3pEIxDQ==",
-      "type": "package",
-      "path": "zamin.extensions.objectmappers.abstractions/7.0.0-beta.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net7.0/Zamin.Extensions.ObjectMappers.Abstractions.dll",
-        "zamin.extensions.objectmappers.abstractions.7.0.0-beta.1.nupkg.sha512",
-        "zamin.extensions.objectmappers.abstractions.nuspec"
-      ]
-    },
-    "Zamin.Extensions.Serializers.Abstractions/7.0.0-beta.1": {
-      "sha512": "+CIWMVvBaeObhGpg2b6zZsaXWCQJTspvgsFtNZmIJqZ5EhsjUBQNAqB+E7ny4+cYNGNDs1dOHuXofEZMujhaOA==",
-      "type": "package",
-      "path": "zamin.extensions.serializers.abstractions/7.0.0-beta.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net7.0/Zamin.Extensions.Serializers.Abstractions.dll",
-        "zamin.extensions.serializers.abstractions.7.0.0-beta.1.nupkg.sha512",
-        "zamin.extensions.serializers.abstractions.nuspec"
-      ]
-    },
-    "Zamin.Extensions.Translations.Abstractions/7.0.0-beta.1": {
-      "sha512": "9LCMlPgRMetGU0ETDd0dclTSgAK6WugPXS43aXasVSsLk6UjeMopE3kIsTfekJVq4BiJ+l0AyFjF/MokaJ5Kng==",
-      "type": "package",
-      "path": "zamin.extensions.translations.abstractions/7.0.0-beta.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net7.0/Zamin.Extensions.Translations.Abstractions.dll",
-        "zamin.extensions.translations.abstractions.7.0.0-beta.1.nupkg.sha512",
-        "zamin.extensions.translations.abstractions.nuspec"
-      ]
-    },
-    "Zamin.Extensions.UsersManagement.Abstractions/7.0.0-beta.1": {
-      "sha512": "ptxwHVqIBKmpvu9EoeDui+GJnbVbTmiHPm9w2ue0NH+5F4pMkL4a5l6rYMKZbP4Wetja9+9PztMGeqcgg8RqkQ==",
-      "type": "package",
-      "path": "zamin.extensions.usersmanagement.abstractions/7.0.0-beta.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net7.0/Zamin.Extensions.UsersManagement.Abstractions.dll",
-        "zamin.extensions.usersmanagement.abstractions.7.0.0-beta.1.nupkg.sha512",
-        "zamin.extensions.usersmanagement.abstractions.nuspec"
-      ]
-    },
     "Ground.Core.ApplicationServices/1.0.0": {
       "type": "project",
       "path": "../../2.Core/Ground.Core.ApplicationServices/Ground.Core.ApplicationServices.csproj",
@@ -4407,13 +4457,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

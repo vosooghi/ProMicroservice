@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Ground.Extensions.DependencyInjection" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.ObjectMappers.AutoMapper" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.Serializers.NewtonSoft" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.Translations.Trani" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.UsersManagement" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.14">
       <PrivateAssets>all</PrivateAssets>
@@ -17,11 +22,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-    <PackageReference Include="Zamin.Extensions.Caching.InMemory" Version="7.0.0-beta.1" />
-    <PackageReference Include="Zamin.Extensions.ObjectMappers.AutoMapper" Version="7.0.0-beta.1" />
-    <PackageReference Include="Zamin.Extensions.Serializers.Microsoft" Version="7.0.0-beta.1" />
-    <PackageReference Include="Zamin.Extensions.Translations.Parrot" Version="7.0.0-beta.1" />
-    <PackageReference Include="Zamin.Extensions.UsersManagement" Version="7.0.0-beta.2" />
   </ItemGroup>
 
   <ItemGroup>

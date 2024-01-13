@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage;
 using System.Globalization;
-using Zamin.Extensions.UsersManagement.Abstractions;
+using Ground.Extensions.UsersManagement.Abstractions;
 
 
 namespace Ground.Infra.Data.Sql.Commands

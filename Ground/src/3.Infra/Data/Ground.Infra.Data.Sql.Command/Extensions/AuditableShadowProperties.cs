@@ -1,7 +1,7 @@
 ﻿using Ground.Core.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Zamin.Extensions.UsersManagement.Abstractions;
+using Ground.Extensions.UsersManagement.Abstractions;
 
 namespace Ground.Infra.Data.Sql.Commands.Extensions
 {

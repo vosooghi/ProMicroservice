@@ -8,7 +8,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Zamin.Extensions.Logger.Abstractions;
+using Ground.Extensions.Logger.Abstractions;
 
 namespace Ground.Core.ApplicationServices.Queries
 {
