@@ -411,6 +411,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Ground.Extensions.Caching.InMemory": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Ground.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[1.0.0, )"

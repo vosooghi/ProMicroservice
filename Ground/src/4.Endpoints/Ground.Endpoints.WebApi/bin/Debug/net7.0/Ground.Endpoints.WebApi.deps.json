@@ -139,7 +139,7 @@
           "Microsoft.Extensions.Caching.Abstractions.Reference": "7.0.0.0",
           "Microsoft.Extensions.Caching.Memory.Reference": "7.0.0.0",
           "Microsoft.Extensions.Configuration.Abstractions.Reference": "7.0.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "7.0.0.0",
+          "Microsoft.Extensions.Configuration.Binder.Reference": "7.0.0.0",
           "Microsoft.Extensions.Configuration.CommandLine": "7.0.0.0",
           "Microsoft.Extensions.Configuration": "7.0.0.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "7.0.0.0",
@@ -175,7 +175,7 @@
           "Microsoft.Extensions.Logging.EventSource": "7.0.0.0",
           "Microsoft.Extensions.Logging.TraceSource": "7.0.0.0",
           "Microsoft.Extensions.ObjectPool": "7.0.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "7.0.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions.Reference": "7.0.0.0",
           "Microsoft.Extensions.Options.DataAnnotations": "7.0.0.0",
           "Microsoft.Extensions.Options.Reference": "7.0.0.0",
           "Microsoft.Extensions.Primitives.Reference": "7.0.0.0",
@@ -446,6 +446,36 @@
           "lib/net7.0/Ground.Extensions.Caching.Abstractions.dll": {}
         }
       },
+      "Ground.Extensions.DependencyInjection/1.0.0": {
+        "dependencies": {
+          "Ground.Extensions.DependencyInjection.Abstractions": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyModel": "8.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "7.0.0",
+          "Scrutor": "4.2.2"
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Ground.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Ground.Extensions.DependencyInjection.Abstractions/1.0.0": {
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Ground.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
       "Ground.Extensions.Logger.Abstractions/1.0.0": {
         "runtime": {
           "lib/net7.0/Ground.Extensions.Logger.Abstractions.dll": {
@@ -455,6 +485,17 @@
         },
         "compile": {
           "lib/net7.0/Ground.Extensions.Logger.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.ObjectMappers.Abstractions/1.0.0": {
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.ObjectMappers.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Ground.Extensions.ObjectMappers.Abstractions.dll": {}
         }
       },
       "Ground.Extensions.Serializers.Abstractions/1.0.0": {
@@ -477,6 +518,17 @@
         },
         "compile": {
           "lib/net7.0/Ground.Extensions.Translations.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.UsersManagement.Abstractions/1.0.0": {
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.UsersManagement.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Ground.Extensions.UsersManagement.Abstractions.dll": {}
         }
       },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
@@ -824,6 +876,11 @@
           "Microsoft.Extensions.Primitives": "7.0.0"
         }
       },
+      "Microsoft.Extensions.Configuration.Binder/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
@@ -857,6 +914,15 @@
       "Microsoft.Extensions.Options/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0",
           "Microsoft.Extensions.Primitives": "7.0.0"
         }
       },
@@ -1285,83 +1351,6 @@
           }
         }
       },
-      "Zamin.Extensions.Caching.Abstractions/7.0.0-beta.1": {
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.Caching.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.DependencyInjection.Abstractions/7.0.0-beta.1": {
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.DependencyInjection.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.Logger.Abstractions/7.0.0-beta.1": {
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.Logger.Abstractions.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.Logger.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.ObjectMappers.Abstractions/7.0.0-beta.1": {
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.ObjectMappers.Abstractions.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.ObjectMappers.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.Serializers.Abstractions/7.0.0-beta.1": {
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.Serializers.Abstractions.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.Serializers.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.Translations.Abstractions/7.0.0-beta.1": {
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.Translations.Abstractions.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.Translations.Abstractions.dll": {}
-        }
-      },
-      "Zamin.Extensions.UsersManagement.Abstractions/7.0.0-beta.1": {
-        "runtime": {
-          "lib/net7.0/Zamin.Extensions.UsersManagement.Abstractions.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/net7.0/Zamin.Extensions.UsersManagement.Abstractions.dll": {}
-        }
-      },
       "Ground.Core.ApplicationServices/1.0.0": {
         "dependencies": {
           "FluentValidation": "11.9.0",
@@ -1454,15 +1443,16 @@
       },
       "Ground.Utilities/1.0.0": {
         "dependencies": {
+          "Ground.Extensions.Caching.Abstractions": "1.0.0",
+          "Ground.Extensions.DependencyInjection": "1.0.0",
+          "Ground.Extensions.DependencyInjection.Abstractions": "1.0.0",
+          "Ground.Extensions.Logger.Abstractions": "1.0.0",
+          "Ground.Extensions.ObjectMappers.Abstractions": "1.0.0",
+          "Ground.Extensions.Serializers.Abstractions": "1.0.0",
+          "Ground.Extensions.Translations.Abstractions": "1.0.0",
+          "Ground.Extensions.UsersManagement.Abstractions": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Logging": "7.0.0",
-          "Zamin.Extensions.Caching.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.DependencyInjection.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.Logger.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.ObjectMappers.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.Serializers.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.Translations.Abstractions": "7.0.0-beta.1",
-          "Zamin.Extensions.UsersManagement.Abstractions": "7.0.0-beta.1"
+          "Microsoft.Extensions.Logging": "7.0.0"
         },
         "runtime": {
           "Ground.Utilities.dll": {}
@@ -1993,7 +1983,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.Extensions.Configuration.Binder/7.0.0.0": {
+      "Microsoft.Extensions.Configuration.Binder.Reference/7.0.0.0": {
         "compile": {
           "Microsoft.Extensions.Configuration.Binder.dll": {}
         },
@@ -2209,7 +2199,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/7.0.0.0": {
+      "Microsoft.Extensions.Options.ConfigurationExtensions.Reference/7.0.0.0": {
         "compile": {
           "Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
         },
@@ -3285,12 +3275,33 @@
       "path": "ground.extensions.caching.abstractions/1.0.0",
       "hashPath": "ground.extensions.caching.abstractions.1.0.0.nupkg.sha512"
     },
+    "Ground.Extensions.DependencyInjection/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pr3knOZmwT+WD/FvA1LrDSMvA0KEoTNa7uXRQ3nNIisNHhm5DT6wkhrv6nH1rzVIg9rx7pC59NQ3aPKXF0cL+g==",
+      "path": "ground.extensions.dependencyinjection/1.0.0",
+      "hashPath": "ground.extensions.dependencyinjection.1.0.0.nupkg.sha512"
+    },
+    "Ground.Extensions.DependencyInjection.Abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4gXMlHQCxer8GfgpSDON0jp92fWnyPOnYVEXof1s6HPG6B8vF6uWCjJpmafPygSmyIljMHuq602vLbJQ0Rp0kA==",
+      "path": "ground.extensions.dependencyinjection.abstractions/1.0.0",
+      "hashPath": "ground.extensions.dependencyinjection.abstractions.1.0.0.nupkg.sha512"
+    },
     "Ground.Extensions.Logger.Abstractions/1.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-uw5242pQjGj461ua0LyGkU91IiDqWiWRqLbrmqsBGEazX/NAFX0U2JadBo2DtgU9Ae2Wr7kkvvpsw6Eaf3YkvA==",
       "path": "ground.extensions.logger.abstractions/1.0.0",
       "hashPath": "ground.extensions.logger.abstractions.1.0.0.nupkg.sha512"
+    },
+    "Ground.Extensions.ObjectMappers.Abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-048L8YJ9YMQ2c9F9D8y43HvN1oV9HEu+gcfPweepYO8priiNr9urE5L5a2RKyv9DrkjTcwD8WIhBxRXx12F1HQ==",
+      "path": "ground.extensions.objectmappers.abstractions/1.0.0",
+      "hashPath": "ground.extensions.objectmappers.abstractions.1.0.0.nupkg.sha512"
     },
     "Ground.Extensions.Serializers.Abstractions/1.0.0": {
       "type": "package",
@@ -3305,6 +3316,13 @@
       "sha512": "sha512-hIjuIfUEEI9V2Vv0XYmd96F5k4fCLOVPuCGZpwepMBdUWxQXEfQZ3qu49MRn8CDAKeD70Twrv+E/x4IZIY9p3w==",
       "path": "ground.extensions.translations.abstractions/1.0.0",
       "hashPath": "ground.extensions.translations.abstractions.1.0.0.nupkg.sha512"
+    },
+    "Ground.Extensions.UsersManagement.Abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iIxQVt+dXiH4/P9A5VKxkAuWRb2ppQwooS4EBTAwCkgJHhxmNRwh+JFy8360IA4RHoCJWzvPW1wmFKDQFyIzjw==",
+      "path": "ground.extensions.usersmanagement.abstractions/1.0.0",
+      "hashPath": "ground.extensions.usersmanagement.abstractions.1.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
       "type": "package",
@@ -3453,6 +3471,13 @@
       "path": "microsoft.extensions.configuration.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Configuration.Binder/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tgU4u7bZsoS9MKVRiotVMAwHtbREHr5/5zSEV+JPhg46+ox47Au84E3D2IacAaB0bk5ePNaNieTlPrfjbbRJkg==",
+      "path": "microsoft.extensions.configuration.binder/7.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3494,6 +3519,13 @@
       "sha512": "sha512-lP1yBnTTU42cKpMozuafbvNtQ7QcBjr/CcK3bYOGEMH55Fjt+iecXjT6chR7vbgCMqy3PG3aNQSZgo/EuY/9qQ==",
       "path": "microsoft.extensions.options/7.0.0",
       "hashPath": "microsoft.extensions.options.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-95UnxZkkFdXxF6vSrtJsMHCzkDeSMuUWGs2hDT54cX+U5eVajrCJ3qLyQRW+CtpTt5OJ8bmTvpQVHu1DLhH+cA==",
+      "path": "microsoft.extensions.options.configurationextensions/7.0.0",
+      "hashPath": "microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/7.0.0": {
       "type": "package",
@@ -3795,55 +3827,6 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
-    },
-    "Zamin.Extensions.Caching.Abstractions/7.0.0-beta.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8mDP+tegi6Iah/pVwKb3NNr51zCUV5OqKpx2wSLnzFDsbdvn7DaYO8vrCr9E3vdRssE1/VAn6nyuvWwIYi64RA==",
-      "path": "zamin.extensions.caching.abstractions/7.0.0-beta.1",
-      "hashPath": "zamin.extensions.caching.abstractions.7.0.0-beta.1.nupkg.sha512"
-    },
-    "Zamin.Extensions.DependencyInjection.Abstractions/7.0.0-beta.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-1OK6d97jBp18k0ktYfAOQo4ON87xItwODZbZ9gn/wmmxHI6rutIMTsrfDDjbvyEm+Cqd2KX4bwCbjVChbdD9Fw==",
-      "path": "zamin.extensions.dependencyinjection.abstractions/7.0.0-beta.1",
-      "hashPath": "zamin.extensions.dependencyinjection.abstractions.7.0.0-beta.1.nupkg.sha512"
-    },
-    "Zamin.Extensions.Logger.Abstractions/7.0.0-beta.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bc6E7MWPpzrgzkPCminF7AolG35FPZ90c+clqko96WSXIBn1geg+x6EoAFJuawTkZf6qV1SDG1fNTizL0DffMQ==",
-      "path": "zamin.extensions.logger.abstractions/7.0.0-beta.1",
-      "hashPath": "zamin.extensions.logger.abstractions.7.0.0-beta.1.nupkg.sha512"
-    },
-    "Zamin.Extensions.ObjectMappers.Abstractions/7.0.0-beta.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/SydwIzO8bF10EHtb8sZ5QiSY0Ccp8FMld68KBzFT/CNAfyZjDNjAUiF0iWSPBHxKWflauTKlaVxcnu3pEIxDQ==",
-      "path": "zamin.extensions.objectmappers.abstractions/7.0.0-beta.1",
-      "hashPath": "zamin.extensions.objectmappers.abstractions.7.0.0-beta.1.nupkg.sha512"
-    },
-    "Zamin.Extensions.Serializers.Abstractions/7.0.0-beta.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+CIWMVvBaeObhGpg2b6zZsaXWCQJTspvgsFtNZmIJqZ5EhsjUBQNAqB+E7ny4+cYNGNDs1dOHuXofEZMujhaOA==",
-      "path": "zamin.extensions.serializers.abstractions/7.0.0-beta.1",
-      "hashPath": "zamin.extensions.serializers.abstractions.7.0.0-beta.1.nupkg.sha512"
-    },
-    "Zamin.Extensions.Translations.Abstractions/7.0.0-beta.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-9LCMlPgRMetGU0ETDd0dclTSgAK6WugPXS43aXasVSsLk6UjeMopE3kIsTfekJVq4BiJ+l0AyFjF/MokaJ5Kng==",
-      "path": "zamin.extensions.translations.abstractions/7.0.0-beta.1",
-      "hashPath": "zamin.extensions.translations.abstractions.7.0.0-beta.1.nupkg.sha512"
-    },
-    "Zamin.Extensions.UsersManagement.Abstractions/7.0.0-beta.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ptxwHVqIBKmpvu9EoeDui+GJnbVbTmiHPm9w2ue0NH+5F4pMkL4a5l6rYMKZbP4Wetja9+9PztMGeqcgg8RqkQ==",
-      "path": "zamin.extensions.usersmanagement.abstractions/7.0.0-beta.1",
-      "hashPath": "zamin.extensions.usersmanagement.abstractions.7.0.0-beta.1.nupkg.sha512"
     },
     "Ground.Core.ApplicationServices/1.0.0": {
       "type": "project",
@@ -4320,7 +4303,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.Configuration.Binder/7.0.0.0": {
+    "Microsoft.Extensions.Configuration.Binder.Reference/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -4500,7 +4483,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/7.0.0.0": {
+    "Microsoft.Extensions.Options.ConfigurationExtensions.Reference/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

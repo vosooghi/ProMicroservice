@@ -28,7 +28,7 @@ builder.Services.AddGroundTraniTranslator(c =>
     c.ConnectionString = "Server=.; Initial Catalog=TraniSampleDb; User Id=sa; Password=P@ssw0rd;encrypt=false";
     c.AutoCreateSqlTable = true;
     c.SchemaName = "dbo";
-    c.TableName = "ParrotTranslations";
+    c.TableName = "TraniTranslations";
     c.ReloadDataIntervalInMinuts = 1;
     c.DefaultTranslations = translationOption;
     //[C# 12

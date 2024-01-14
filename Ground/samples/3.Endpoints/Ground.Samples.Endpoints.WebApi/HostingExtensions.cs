@@ -25,7 +25,7 @@ namespace Ground.Samples.Endpoints.WebApi
                 c.ConnectionString = conn;
                 c.AutoCreateSqlTable = true;
                 c.SchemaName = "dbo";
-                c.TableName = "ParrotTranslations";
+                c.TableName = "TraniTranslations";
                 c.ReloadDataIntervalInMinuts = 1;
             });
 
@@ -38,7 +38,7 @@ namespace Ground.Samples.Endpoints.WebApi
 
             builder.Services.AddGroundNewtonSoftSerializer();
 
-            //builder.Services.AddGroundInMemoryCaching();
+            builder.Services.AddGroundInMemoryCaching();
 
             builder.Services.AddDbContext<SampleCommandDbContext>(c => c.UseSqlServer(conn));
             builder.Services.AddDbContext<SampleQueryDbContext>(c => c.UseSqlServer(conn));
