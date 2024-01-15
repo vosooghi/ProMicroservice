@@ -40,7 +40,7 @@ namespace Ground.Extensions.UsersManagement.SampleMVC.Controllers
                 var client = new HttpClient();
                 client.SetBearerToken(token);
 
-                var response = await client.GetAsync("https://localhost:7086/api/WeatherForecast");
+                var response = await client.GetAsync("https://localhost:7039/WeatherForecast");
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
