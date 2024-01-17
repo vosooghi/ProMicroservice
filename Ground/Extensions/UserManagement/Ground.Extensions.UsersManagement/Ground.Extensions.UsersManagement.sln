@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ground.Extensions.UsersMana
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ground.Extensions.UsersManagement.SampleMVC", "Ground.Extensions.UsersManagement.SampleMVC\Ground.Extensions.UsersManagement.SampleMVC.csproj", "{B2AC2CBE-07FC-4087-B47E-3BA7635A38A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ground.Extensions.UsersManagement.Sample.Api", "Ground.Extensions.UsersManagement.Sample.Api\Ground.Extensions.UsersManagement.Sample.Api.csproj", "{33623D8A-F30A-4C1D-A6DD-C2250551B7B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ground.Extensions.UsersManagement.Sample.Api", "Ground.Extensions.UsersManagement.Sample.Api\Ground.Extensions.UsersManagement.Sample.Api.csproj", "{33623D8A-F30A-4C1D-A6DD-C2250551B7B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ground.Extensions.UsersManagement.SampleMvcCoreIdentity", "Ground.Extensions.UsersManagement.SampleMvcCoreIdentity\Ground.Extensions.UsersManagement.SampleMvcCoreIdentity.csproj", "{81E72D75-49C7-49AB-BCD9-8F343D815F5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{33623D8A-F30A-4C1D-A6DD-C2250551B7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33623D8A-F30A-4C1D-A6DD-C2250551B7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33623D8A-F30A-4C1D-A6DD-C2250551B7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E72D75-49C7-49AB-BCD9-8F343D815F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E72D75-49C7-49AB-BCD9-8F343D815F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E72D75-49C7-49AB-BCD9-8F343D815F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E72D75-49C7-49AB-BCD9-8F343D815F5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
