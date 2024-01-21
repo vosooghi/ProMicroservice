@@ -48,7 +48,7 @@ namespace Ground.Core.Domain.Entities
         private void Mutate(IDomainEvent @event)
         {
             //using Reflection to call private methods
-            var onMethod = this.GetType().GetMethod("On", BindingFlags.Instance | BindingFlags.NonPublic, [@event.GetType()]);
+            var onMethod = this.GetType().GetMethod("On", BindingFlags.Instance | BindingFlags.NonPublic,new Type[] { @event.GetType()});// [@event.GetType()] C#12
             onMethod.Invoke(this, new[] { @event });
         }
 

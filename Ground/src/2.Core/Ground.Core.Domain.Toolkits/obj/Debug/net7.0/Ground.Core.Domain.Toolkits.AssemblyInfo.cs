@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Ground.Core.Domain.Toolkits")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Abbas Vosoughi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Ground.Core.Domain.Toolkits")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18b383714692b9be9f5099803a5aeaeb82980478")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a6c7b4327de0f5c6f774c99605fd47e346498f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ground.Core.Domain.Toolkits")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ground.Core.Domain.Toolkits")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
