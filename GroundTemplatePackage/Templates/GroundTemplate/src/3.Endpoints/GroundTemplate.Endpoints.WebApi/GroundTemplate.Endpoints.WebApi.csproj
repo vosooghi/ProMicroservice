@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ground.Endpoints.WebApi" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.Caching.InMemory" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.ObjectMappers.AutoMapper" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.Serializers.NewtonSoft" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.Translations.Trani" Version="1.0.0" />
+    <PackageReference Include="Ground.Extensions.UsersManagement" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.14" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1.Core\GroundTemplate.Core.ApplicationServices\GroundTemplate.Core.ApplicationServices.csproj" />
+    <ProjectReference Include="..\..\1.Core\GroundTemplate.Core.Contracts\GroundTemplate.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\1.Core\GroundTemplate.Core.Domain\GroundTemplate.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\2.Infra\Data\GroundTemplate.Infra.Data.Sql.Commands\GroundTemplate.Infra.Data.Sql.Commands.csproj" />
+    <ProjectReference Include="..\..\2.Infra\Data\GroundTemplate.Infra.Data.Sql.Queries\GroundTemplate.Infra.Data.Sql.Queries.csproj" />
+  </ItemGroup>
+
+</Project>

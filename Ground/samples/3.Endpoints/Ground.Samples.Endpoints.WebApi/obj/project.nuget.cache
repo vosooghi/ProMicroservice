@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MMljfVVNUGrynLqydyC5kboCso1dX+1NygqCbqi8xYrKpZp24FcNwv+ZLx2ZpcpqOGoOzMA5urF1Q4p16licFg==",
+  "dgSpecHash": "qfIciexopbnWgE773NidDzQjo5PRL7AimqrWpxzoCWipz1ZWHH/SX4nXdqVU/ZlNaxDuylz9ZwjVEU8v9IOwaA==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\samples\\3.Endpoints\\Ground.Samples.Endpoints.WebApi\\Ground.Samples.Endpoints.WebApi.csproj",
   "expectedPackageFiles": [
@@ -110,7 +110,16 @@
     "C:\\Users\\Abbas\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Abbas\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\Abbas\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.applicationservices\\1.0.1\\ground.core.applicationservices.1.0.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.contracts\\1.0.1\\ground.core.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.domain\\1.0.1\\ground.core.domain.1.0.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.domain.toolkits\\1.0.1\\ground.core.domain.toolkits.1.0.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.requestresponse\\1.0.0\\ground.core.requestresponse.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.infra.data.sql\\1.0.0\\ground.infra.data.sql.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.infra.data.sql.commands\\1.0.0\\ground.infra.data.sql.commands.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.infra.data.sql.queries\\1.0.0\\ground.infra.data.sql.queries.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.utilities\\1.0.0\\ground.utilities.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

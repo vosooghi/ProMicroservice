@@ -1907,7 +1907,7 @@
           "bin/placeholder/Ground.Core.RequestResponse.dll": {}
         }
       },
-      "Ground.Endpoints.WebApi/1.0.0": {
+      "Ground.Endpoints.WebApi/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -5391,7 +5391,7 @@
       "path": "../../../src/2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj",
       "msbuildProject": "../../../src/2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj"
     },
-    "Ground.Endpoints.WebApi/1.0.0": {
+    "Ground.Endpoints.WebApi/1.0.1": {
       "type": "project",
       "path": "../../../src/4.Endpoints/Ground.Endpoints.WebApi/Ground.Endpoints.WebApi.csproj",
       "msbuildProject": "../../../src/4.Endpoints/Ground.Endpoints.WebApi/Ground.Endpoints.WebApi.csproj"
@@ -5444,7 +5444,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Ground.Endpoints.WebApi >= 1.0.0",
+      "Ground.Endpoints.WebApi >= 1.0.1",
       "Ground.Extensions.Caching.InMemory >= 1.0.0",
       "Ground.Extensions.DependencyInjection >= 1.0.0",
       "Ground.Extensions.ObjectMappers.AutoMapper >= 1.0.0",

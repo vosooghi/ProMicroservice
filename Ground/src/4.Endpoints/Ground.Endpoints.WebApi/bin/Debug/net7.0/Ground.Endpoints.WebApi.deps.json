@@ -33,7 +33,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "Ground.Endpoints.WebApi/1.0.0": {
+      "Ground.Endpoints.WebApi/1.0.1": {
         "dependencies": {
           "FluentValidation.AspNetCore": "11.3.0",
           "Ground.Core.ApplicationServices": "1.0.1",
@@ -3241,7 +3241,7 @@
     }
   },
   "libraries": {
-    "Ground.Endpoints.WebApi/1.0.0": {
+    "Ground.Endpoints.WebApi/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

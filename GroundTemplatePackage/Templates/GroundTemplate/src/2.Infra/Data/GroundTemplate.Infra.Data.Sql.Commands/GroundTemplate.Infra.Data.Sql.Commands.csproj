@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ground.Infra.Data.Sql.Commands" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\1.Core\GroundTemplate.Core.Contracts\GroundTemplate.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\1.Core\GroundTemplate.Core.Domain\GroundTemplate.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

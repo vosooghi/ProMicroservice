@@ -3,6 +3,7 @@ using Ground.Samples.Infra.Data.Sql.Commands.Common;
 using Ground.Samples.Infra.Data.Sql.Queries.Common;
 using Microsoft.EntityFrameworkCore;
 using Ground.Extensions.DependencyInjection;
+using Ground.Endpoints.WebApi.Extentions.ModelBinding;
 
 namespace Ground.Samples.Endpoints.WebApi
 {
@@ -35,6 +36,8 @@ namespace Ground.Samples.Endpoints.WebApi
             {
                 option.AssmblyNamesForLoadProfiles = "Ground.Samples";
             });
+
+            builder.Services.AddNonValidatingValidator();
 
             builder.Services.AddGroundNewtonSoftSerializer();
 
