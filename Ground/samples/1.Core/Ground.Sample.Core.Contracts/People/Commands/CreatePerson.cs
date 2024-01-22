@@ -1,9 +1,4 @@
-﻿using Ground.Core.Contracts.ApplicationServices.Commands;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Ground.Core.RequestResponse.Commands;
 
 namespace Ground.Samples.Core.Contracts.People.Commands
 {

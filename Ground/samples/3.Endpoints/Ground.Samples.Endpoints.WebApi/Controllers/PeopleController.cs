@@ -1,7 +1,6 @@
 ﻿using Ground.Endpoints.WebApi.Controllers;
 using Ground.Samples.Core.Contracts.People.Commands;
 using Ground.Samples.Core.Domain.People.ValueObjects;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ground.Samples.Endpoints.WebApi.Controllers

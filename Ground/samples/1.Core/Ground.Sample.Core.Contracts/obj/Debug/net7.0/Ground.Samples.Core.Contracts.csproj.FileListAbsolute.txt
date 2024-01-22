@@ -42,3 +42,5 @@ E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\obj\Debug\
 E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\obj\Debug\net7.0\refint\Ground.Samples.Core.Contracts.dll
 E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\obj\Debug\net7.0\Ground.Samples.Core.Contracts.pdb
 E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\obj\Debug\net7.0\ref\Ground.Samples.Core.Contracts.dll
+E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\bin\Debug\net7.0\Ground.Core.RequestResponse.dll
+E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.Contracts\bin\Debug\net7.0\Ground.Core.RequestResponse.pdb

@@ -228,6 +228,7 @@
       "Ground.Core.Contracts/1.0.0": {
         "dependencies": {
           "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Utilities": "1.0.0"
         },
         "runtime": {
@@ -240,6 +241,14 @@
         },
         "runtime": {
           "Ground.Core.Domain.dll": {}
+        }
+      },
+      "Ground.Core.RequestResponse/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.9.0"
+        },
+        "runtime": {
+          "Ground.Core.RequestResponse.dll": {}
         }
       },
       "Ground.Utilities/1.0.0": {
@@ -427,6 +436,11 @@
       "sha512": ""
     },
     "Ground.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ground.Core.RequestResponse/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

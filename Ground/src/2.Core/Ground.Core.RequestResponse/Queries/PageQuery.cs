@@ -1,4 +1,4 @@
-﻿namespace Ground.Core.Contracts.ApplicationServices.Queries
+﻿namespace Ground.Core.RequestResponse.Queries
 {
     /// <summary>
     /// An implementation of IPageQuery
@@ -8,8 +8,8 @@
     {
         public int PageNumber { get; set; } = 1;
         public int PageSize { get; set; } = 10;
-        public bool NeedTotalCount { get ; set ; }
-        public string SortBy { get; set ; }
-        public bool SortAscending { get ; set ; }
+        public bool NeedTotalCount { get; set; }
+        public string SortBy { get; set; }
+        public bool SortAscending { get; set; }
     }
 }

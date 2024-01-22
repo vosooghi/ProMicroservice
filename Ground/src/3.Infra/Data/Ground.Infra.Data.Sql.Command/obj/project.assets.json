@@ -46,6 +46,19 @@
           }
         }
       },
+      "FluentValidation/11.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Ground.Extensions.Caching.Abstractions/1.0.0": {
         "type": "package",
         "compile": {
@@ -1128,6 +1141,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Utilities": "1.0.0"
         },
         "compile": {
@@ -1162,6 +1176,19 @@
         },
         "runtime": {
           "bin/placeholder/Ground.Core.Domain.Toolkits.dll": {}
+        }
+      },
+      "Ground.Core.RequestResponse/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FluentValidation": "11.9.0"
+        },
+        "compile": {
+          "bin/placeholder/Ground.Core.RequestResponse.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ground.Core.RequestResponse.dll": {}
         }
       },
       "Ground.Infra.Data.Sql/1.0.0": {
@@ -1238,6 +1265,31 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "FluentValidation/11.9.0": {
+      "sha512": "VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "type": "package",
+      "path": "fluentvalidation/11.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.9.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Ground.Extensions.Caching.Abstractions/1.0.0": {
@@ -3131,6 +3183,11 @@
       "type": "project",
       "path": "../../../2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj",
       "msbuildProject": "../../../2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj"
+    },
+    "Ground.Core.RequestResponse/1.0.0": {
+      "type": "project",
+      "path": "../../../2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj",
+      "msbuildProject": "../../../2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj"
     },
     "Ground.Infra.Data.Sql/1.0.0": {
       "type": "project",

@@ -1,10 +1,10 @@
-﻿namespace Ground.Core.Contracts.ApplicationServices.Queries
+﻿namespace Ground.Core.RequestResponse.Queries
 {
     /// <summary>
     /// this is a marker for queries that needs paging.
     /// </summary>
     /// <typeparam name="TData"></typeparam>
-    public interface IPageQuery<TData>:IQuery<TData>
+    public interface IPageQuery<TData> : IQuery<TData>
     {
         /// <summary>
         /// the number of pages.
@@ -21,11 +21,11 @@
         /// <summary>
         /// wether returns total count or not
         /// </summary>
-        public  bool NeedTotalCount { get; set; }
+        public bool NeedTotalCount { get; set; }
         /// <summary>
         /// sort by specific column
         /// </summary>
-        public  string SortBy { get; set; }
-        public bool  SortAscending { get; set; }
+        public string SortBy { get; set; }
+        public bool SortAscending { get; set; }
     }
 }

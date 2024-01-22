@@ -30,6 +30,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\1.Utilities\Ground.Utilities\Ground.Utilities.csproj" />
     <ProjectReference Include="..\Ground.Core.Domain\Ground.Core.Domain.csproj" />
+    <ProjectReference Include="..\Ground.Core.RequestResponse\Ground.Core.RequestResponse.csproj" />
   </ItemGroup>
 
   <ItemGroup>

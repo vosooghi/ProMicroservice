@@ -46,3 +46,5 @@ E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Deb
 E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Debug\net7.0\refint\Ground.Infra.Data.Sql.Commands.dll
 E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Debug\net7.0\Ground.Infra.Data.Sql.Commands.pdb
 E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\obj\Debug\net7.0\ref\Ground.Infra.Data.Sql.Commands.dll
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Core.RequestResponse.dll
+E:\ProMicroservice\Ground\src\3.Infra\Data\Ground.Infra.Data.Sql.Command\bin\Debug\net7.0\Ground.Core.RequestResponse.pdb

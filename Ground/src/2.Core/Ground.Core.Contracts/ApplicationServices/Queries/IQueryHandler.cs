@@ -1,4 +1,6 @@
-﻿ namespace Ground.Core.Contracts.ApplicationServices.Queries
+﻿using Ground.Core.RequestResponse.Queries;
+
+namespace Ground.Core.Contracts.ApplicationServices.Queries
 {
     /// <summary>
     /// The structure for procsessing a query.

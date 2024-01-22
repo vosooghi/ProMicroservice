@@ -57,6 +57,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ground.Samples.Endpoints.We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ground.Core.Domain.Toolkits", "src\2.Core\Ground.Core.Domain.Toolkits\Ground.Core.Domain.Toolkits.csproj", "{214DA432-4C1A-447E-9EC5-6DF176E0D91F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ground.Core.RequestResponse", "src\2.Core\Ground.Core.RequestResponse\Ground.Core.RequestResponse.csproj", "{A137F94E-B037-458B-8AC7-E8041BB02B5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{214DA432-4C1A-447E-9EC5-6DF176E0D91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{214DA432-4C1A-447E-9EC5-6DF176E0D91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{214DA432-4C1A-447E-9EC5-6DF176E0D91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A137F94E-B037-458B-8AC7-E8041BB02B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A137F94E-B037-458B-8AC7-E8041BB02B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A137F94E-B037-458B-8AC7-E8041BB02B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A137F94E-B037-458B-8AC7-E8041BB02B5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +158,7 @@ Global
 		{20491AED-4F91-4637-A38B-78DEC2491CB7} = {52DE0DA1-AF4E-403F-B403-2C756CABDBA3}
 		{7F117C51-B4C2-4DD0-84A0-681223F2ED77} = {03699813-13F3-49F2-85B7-D775F58F5B3C}
 		{214DA432-4C1A-447E-9EC5-6DF176E0D91F} = {ABECE1D2-660C-4DE2-8856-A29EE276ED18}
+		{A137F94E-B037-458B-8AC7-E8041BB02B5A} = {ABECE1D2-660C-4DE2-8856-A29EE276ED18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43E508C5-1ACC-42D5-8CBC-B13120A84735}

@@ -1,4 +1,4 @@
-﻿namespace Ground.Core.Contracts.ApplicationServices.Queries
+﻿namespace Ground.Core.RequestResponse.Queries
 {
     /// <summary>
     /// This is a marker of DTOs of a Query.

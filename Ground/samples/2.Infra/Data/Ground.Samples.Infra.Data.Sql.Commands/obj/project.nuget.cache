@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "J38kfiLk/wCr7yT3KOlJm3aVNEa4uEoUBrs4EQtp+Y50DC08Pi6N8B9FjLC9rz82masSFA5TK8hBPuno8niRwQ==",
+  "dgSpecHash": "Dsa0oEsyjt+O235fW0Bm2EkKYrBsIb3KNrzFcdIme46x5UwBW5H7kAqyh+23+CfLkuh/Xb4h04m5weT7kHsnPQ==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Commands\\Ground.Samples.Infra.Data.Sql.Commands.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abbas\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.caching.abstractions\\1.0.0\\ground.extensions.caching.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.dependencyinjection\\1.0.0\\ground.extensions.dependencyinjection.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.dependencyinjection.abstractions\\1.0.0\\ground.extensions.dependencyinjection.abstractions.1.0.0.nupkg.sha512",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JDpYJKJsXqjUIQPluMyZku7kHSHIZx14WqQ+scIlqpUy8J8OS0V+yck9L/e2+qEnYLlxe5oIh4SnB6DTSCabmA==",
+  "dgSpecHash": "/GvNp71JJVl+cFkBvI2/+0MiGQtn2D2SJ46kcIme7tTIyfviqxvnCvu2DFX4LkI4m31bbTF2vL7jY3dSNk6S7w==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Contracts\\Ground.Samples.Core.Contracts.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Abbas\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.caching.abstractions\\1.0.0\\ground.extensions.caching.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.dependencyinjection\\1.0.0\\ground.extensions.dependencyinjection.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.dependencyinjection.abstractions\\1.0.0\\ground.extensions.dependencyinjection.abstractions.1.0.0.nupkg.sha512",

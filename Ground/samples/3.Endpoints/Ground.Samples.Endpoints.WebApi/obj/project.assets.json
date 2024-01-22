@@ -1857,6 +1857,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Utilities": "1.0.0"
         },
         "compile": {
@@ -1891,6 +1892,19 @@
         },
         "runtime": {
           "bin/placeholder/Ground.Core.Domain.Toolkits.dll": {}
+        }
+      },
+      "Ground.Core.RequestResponse/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FluentValidation": "11.9.0"
+        },
+        "compile": {
+          "bin/placeholder/Ground.Core.RequestResponse.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ground.Core.RequestResponse.dll": {}
         }
       },
       "Ground.Endpoints.WebApi/1.0.0": {
@@ -5370,6 +5384,11 @@
       "type": "project",
       "path": "../../../src/2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj",
       "msbuildProject": "../../../src/2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj"
+    },
+    "Ground.Core.RequestResponse/1.0.0": {
+      "type": "project",
+      "path": "../../../src/2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj",
+      "msbuildProject": "../../../src/2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj"
     },
     "Ground.Endpoints.WebApi/1.0.0": {
       "type": "project",

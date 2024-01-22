@@ -50,3 +50,5 @@ E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\
 E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\obj\Debug\net7.0\refint\Ground.Samples.Core.ApplicationServices.dll
 E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\obj\Debug\net7.0\Ground.Samples.Core.ApplicationServices.pdb
 E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\obj\Debug\net7.0\ref\Ground.Samples.Core.ApplicationServices.dll
+E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\bin\Debug\net7.0\Ground.Core.RequestResponse.dll
+E:\ProMicroservice\Ground\samples\1.Core\Ground.Sample.Core.ApplicationServices\bin\Debug\net7.0\Ground.Core.RequestResponse.pdb

@@ -1,4 +1,4 @@
-﻿namespace Ground.Core.Contracts.ApplicationServices.Common
+﻿namespace Ground.Core.RequestResponse.Common
 {
     public interface IApplicationServiceResult
     {

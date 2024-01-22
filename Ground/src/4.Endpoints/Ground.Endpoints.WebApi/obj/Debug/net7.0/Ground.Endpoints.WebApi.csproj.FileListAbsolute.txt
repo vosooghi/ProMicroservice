@@ -662,3 +662,5 @@ E:\ProMicroservice\Ground\src\4.Endpoints\Ground.Endpoints.WebApi\obj\Debug\net7
 E:\ProMicroservice\Ground\src\4.Endpoints\Ground.Endpoints.WebApi\obj\Debug\net7.0\refint\Ground.Endpoints.WebApi.dll
 E:\ProMicroservice\Ground\src\4.Endpoints\Ground.Endpoints.WebApi\obj\Debug\net7.0\Ground.Endpoints.WebApi.pdb
 E:\ProMicroservice\Ground\src\4.Endpoints\Ground.Endpoints.WebApi\obj\Debug\net7.0\ref\Ground.Endpoints.WebApi.dll
+E:\ProMicroservice\Ground\src\4.Endpoints\Ground.Endpoints.WebApi\bin\Debug\net7.0\Ground.Core.RequestResponse.dll
+E:\ProMicroservice\Ground\src\4.Endpoints\Ground.Endpoints.WebApi\bin\Debug\net7.0\Ground.Core.RequestResponse.pdb

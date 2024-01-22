@@ -34,3 +34,5 @@ E:\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\obj\Debug\net7.0\Grou
 E:\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\obj\Debug\net7.0\refint\Ground.Core.Contracts.dll
 E:\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\obj\Debug\net7.0\Ground.Core.Contracts.pdb
 E:\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\obj\Debug\net7.0\ref\Ground.Core.Contracts.dll
+E:\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\bin\Debug\net7.0\Ground.Core.RequestResponse.dll
+E:\ProMicroservice\Ground\src\2.Core\Ground.Core.Contracts\bin\Debug\net7.0\Ground.Core.RequestResponse.pdb

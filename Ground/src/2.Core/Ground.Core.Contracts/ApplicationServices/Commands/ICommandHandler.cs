@@ -1,4 +1,6 @@
-﻿namespace Ground.Core.Contracts.ApplicationServices.Commands
+﻿using Ground.Core.RequestResponse.Commands;
+
+namespace Ground.Core.Contracts.ApplicationServices.Commands
 {
     public interface ICommandHandler<TCommand, TData> where TCommand : ICommand<TData>
     {

@@ -1,5 +1,6 @@
-﻿using Ground.Core.Contracts.ApplicationServices.Common;
-using Ground.Core.Contracts.ApplicationServices.Queries;
+﻿using Ground.Core.Contracts.ApplicationServices.Queries;
+using Ground.Core.RequestResponse.Common;
+using Ground.Core.RequestResponse.Queries;
 using Ground.Utilities;
 
 namespace Ground.Core.ApplicationServices.Queries

@@ -917,3 +917,5 @@ E:\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bi
 E:\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 E:\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
 E:\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Ground.Core.RequestResponse.dll
+E:\ProMicroservice\Ground\samples\3.Endpoints\Ground.Samples.Endpoints.WebApi\bin\Debug\net7.0\Ground.Core.RequestResponse.pdb

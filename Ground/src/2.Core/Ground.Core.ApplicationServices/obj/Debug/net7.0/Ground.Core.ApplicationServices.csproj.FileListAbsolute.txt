@@ -38,3 +38,5 @@ E:\ProMicroservice\Ground\src\2.Core\Ground.Core.ApplicationServices\obj\Debug\n
 E:\ProMicroservice\Ground\src\2.Core\Ground.Core.ApplicationServices\obj\Debug\net7.0\refint\Ground.Core.ApplicationServices.dll
 E:\ProMicroservice\Ground\src\2.Core\Ground.Core.ApplicationServices\obj\Debug\net7.0\Ground.Core.ApplicationServices.pdb
 E:\ProMicroservice\Ground\src\2.Core\Ground.Core.ApplicationServices\obj\Debug\net7.0\ref\Ground.Core.ApplicationServices.dll
+E:\ProMicroservice\Ground\src\2.Core\Ground.Core.ApplicationServices\bin\Debug\net7.0\Ground.Core.RequestResponse.dll
+E:\ProMicroservice\Ground\src\2.Core\Ground.Core.ApplicationServices\bin\Debug\net7.0\Ground.Core.RequestResponse.pdb

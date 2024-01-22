@@ -1,5 +1,5 @@
 ﻿using Ground.Core.ApplicationServices.Commands;
-using Ground.Core.Contracts.ApplicationServices.Commands;
+using Ground.Core.RequestResponse.Commands;
 using Ground.Samples.Core.Contracts.People.Commands;
 using Ground.Samples.Core.Domain.People.Entities;
 using Ground.Samples.Core.Domain.People.ValueObjects;

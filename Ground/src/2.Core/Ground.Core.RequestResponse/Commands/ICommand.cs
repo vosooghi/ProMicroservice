@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ground.Core.Contracts.ApplicationServices.Commands
+namespace Ground.Core.RequestResponse.Commands
 {
     /// <summary>
     /// a marker to classes that have commands' inputs.

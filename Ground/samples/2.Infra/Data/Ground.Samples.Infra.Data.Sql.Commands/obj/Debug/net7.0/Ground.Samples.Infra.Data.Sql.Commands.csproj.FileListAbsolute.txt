@@ -58,3 +58,5 @@ E:\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Com
 E:\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Commands\obj\Debug\net7.0\refint\Ground.Samples.Infra.Data.Sql.Commands.dll
 E:\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Commands\obj\Debug\net7.0\Ground.Samples.Infra.Data.Sql.Commands.pdb
 E:\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Commands\obj\Debug\net7.0\ref\Ground.Samples.Infra.Data.Sql.Commands.dll
+E:\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Commands\bin\Debug\net7.0\Ground.Core.RequestResponse.dll
+E:\ProMicroservice\Ground\samples\2.Infra\Data\Ground.Samples.Infra.Data.Sql.Commands\bin\Debug\net7.0\Ground.Core.RequestResponse.pdb
