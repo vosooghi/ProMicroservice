@@ -1,13 +1,45 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>$(AssemblyName)</Title>
+		<Authors>Abbas Vosoughi</Authors>
+		<PackageProjectUrl>https://github.com/vosooghi/ProMicroservice/tree/main/Ground</PackageProjectUrl>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Beta</PackageTags>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<Description>$(AssemblyName)</Description>
+		<PackageIcon>Icon.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\..\2.Core\Ground.Core.RequestResponse\Icon.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+
+	<ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+  </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+    <None Update="Icon.png">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+    <None Update="LICENSE.txt">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+    <None Update="readme.md">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
   </ItemGroup>
 
 </Project>

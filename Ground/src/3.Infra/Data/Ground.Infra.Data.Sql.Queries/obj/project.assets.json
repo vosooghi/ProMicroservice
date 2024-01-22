@@ -1136,11 +1136,11 @@
           }
         }
       },
-      "Ground.Core.Contracts/1.0.0": {
+      "Ground.Core.Contracts/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.Domain": "1.0.1",
           "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Utilities": "1.0.0"
         },
@@ -1151,7 +1151,7 @@
           "bin/placeholder/Ground.Core.Contracts.dll": {}
         }
       },
-      "Ground.Core.Domain/1.0.0": {
+      "Ground.Core.Domain/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -3155,12 +3155,12 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Ground.Core.Contracts/1.0.0": {
+    "Ground.Core.Contracts/1.0.1": {
       "type": "project",
       "path": "../../../2.Core/Ground.Core.Contracts/Ground.Core.Contracts.csproj",
       "msbuildProject": "../../../2.Core/Ground.Core.Contracts/Ground.Core.Contracts.csproj"
     },
-    "Ground.Core.Domain/1.0.0": {
+    "Ground.Core.Domain/1.0.1": {
       "type": "project",
       "path": "../../../2.Core/Ground.Core.Domain/Ground.Core.Domain.csproj",
       "msbuildProject": "../../../2.Core/Ground.Core.Domain/Ground.Core.Domain.csproj"
@@ -3183,7 +3183,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Ground.Core.Contracts >= 1.0.0",
+      "Ground.Core.Contracts >= 1.0.1",
+      "Ground.Core.RequestResponse >= 1.0.0",
       "Ground.Infra.Data.Sql >= 1.0.0",
       "Ground.Utilities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14"
@@ -3229,6 +3230,9 @@
             },
             "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj": {
               "projectPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Contracts\\Ground.Core.Contracts.csproj"
+            },
+            "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.RequestResponse\\Ground.Core.RequestResponse.csproj": {
+              "projectPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.RequestResponse\\Ground.Core.RequestResponse.csproj"
             },
             "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj": {
               "projectPath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj"

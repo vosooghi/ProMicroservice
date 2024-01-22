@@ -1136,11 +1136,11 @@
           }
         }
       },
-      "Ground.Core.Contracts/1.0.0": {
+      "Ground.Core.Contracts/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.Domain": "1.0.1",
           "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Utilities": "1.0.0"
         },
@@ -1151,7 +1151,7 @@
           "bin/placeholder/Ground.Core.Contracts.dll": {}
         }
       },
-      "Ground.Core.Domain/1.0.0": {
+      "Ground.Core.Domain/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -1194,7 +1194,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Ground.Core.Contracts": "1.0.0",
+          "Ground.Core.Contracts": "1.0.1",
+          "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Infra.Data.Sql": "1.0.0",
           "Ground.Utilities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
@@ -1210,7 +1211,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Ground.Core.Contracts": "1.0.0",
+          "Ground.Core.Contracts": "1.0.1",
           "Ground.Samples.Core.Domain": "1.0.0"
         },
         "compile": {
@@ -1224,7 +1225,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.Domain": "1.0.1",
           "Ground.Utilities": "1.0.0"
         },
         "compile": {
@@ -3199,12 +3200,12 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Ground.Core.Contracts/1.0.0": {
+    "Ground.Core.Contracts/1.0.1": {
       "type": "project",
       "path": "../../../../src/2.Core/Ground.Core.Contracts/Ground.Core.Contracts.csproj",
       "msbuildProject": "../../../../src/2.Core/Ground.Core.Contracts/Ground.Core.Contracts.csproj"
     },
-    "Ground.Core.Domain/1.0.0": {
+    "Ground.Core.Domain/1.0.1": {
       "type": "project",
       "path": "../../../../src/2.Core/Ground.Core.Domain/Ground.Core.Domain.csproj",
       "msbuildProject": "../../../../src/2.Core/Ground.Core.Domain/Ground.Core.Domain.csproj"

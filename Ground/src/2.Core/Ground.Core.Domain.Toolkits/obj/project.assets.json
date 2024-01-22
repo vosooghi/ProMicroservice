@@ -330,7 +330,7 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "Ground.Core.Domain/1.0.0": {
+      "Ground.Core.Domain/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -926,7 +926,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Ground.Core.Domain/1.0.0": {
+    "Ground.Core.Domain/1.0.1": {
       "type": "project",
       "path": "../Ground.Core.Domain/Ground.Core.Domain.csproj",
       "msbuildProject": "../Ground.Core.Domain/Ground.Core.Domain.csproj"
@@ -939,7 +939,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Ground.Core.Domain >= 1.0.0",
+      "Ground.Core.Domain >= 1.0.1",
       "Ground.Utilities >= 1.0.0"
     ]
   },
@@ -949,7 +949,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\Ground.Core.Domain.Toolkits.csproj",
       "projectName": "Ground.Core.Domain.Toolkits",

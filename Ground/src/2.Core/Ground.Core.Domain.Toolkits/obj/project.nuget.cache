@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HG6hsevZPp3SeMmheMQYCvNmdlj+b5QIugF6We8PAAIE/lsPIjoebROk5G8zNYW79fzX5/2KqW0ARe+6wqHKbQ==",
+  "dgSpecHash": "UsQLPwD5PUkbnz8geHG1XaiMXYgWZgR+V5JSMW7Vc5uzr+wZSW4zueNrRTJ4wrkFyBSsVY7A7lNvLDK2OmKw9g==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain.Toolkits\\Ground.Core.Domain.Toolkits.csproj",
   "expectedPackageFiles": [

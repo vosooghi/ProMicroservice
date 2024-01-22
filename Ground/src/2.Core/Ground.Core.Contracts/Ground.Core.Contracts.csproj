@@ -12,7 +12,8 @@
 		<PackageTags>Beta</PackageTags>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<Description>$(AssemblyName)</Description>
-		<PackageIcon>Icon.png</PackageIcon>
+		<PackageIcon>Icon.png</PackageIcon>		
+		<VersionPrefix>1.0.1</VersionPrefix>
 	</PropertyGroup>
 
 

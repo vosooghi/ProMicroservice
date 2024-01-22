@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0IbSVR69bsuncSbr5sF+Eb1XIG6s7jjNmXOfBeNmaH1Yx9su3qyqPr00HgyxxCHLwUyzisNoaRLLMbVZwv/lyg==",
+  "dgSpecHash": "MMljfVVNUGrynLqydyC5kboCso1dX+1NygqCbqi8xYrKpZp24FcNwv+ZLx2ZpcpqOGoOzMA5urF1Q4p16licFg==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\samples\\3.Endpoints\\Ground.Samples.Endpoints.WebApi\\Ground.Samples.Endpoints.WebApi.csproj",
   "expectedPackageFiles": [

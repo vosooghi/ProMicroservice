@@ -1491,13 +1491,13 @@
           }
         }
       },
-      "Ground.Core.ApplicationServices/1.0.0": {
+      "Ground.Core.ApplicationServices/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "FluentValidation": "11.9.0",
-          "Ground.Core.Contracts": "1.0.0",
-          "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.Contracts": "1.0.1",
+          "Ground.Core.Domain": "1.0.1",
           "Ground.Utilities": "1.0.0"
         },
         "compile": {
@@ -1507,11 +1507,11 @@
           "bin/placeholder/Ground.Core.ApplicationServices.dll": {}
         }
       },
-      "Ground.Core.Contracts/1.0.0": {
+      "Ground.Core.Contracts/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.Domain": "1.0.1",
           "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Utilities": "1.0.0"
         },
@@ -1522,7 +1522,7 @@
           "bin/placeholder/Ground.Core.Contracts.dll": {}
         }
       },
-      "Ground.Core.Domain/1.0.0": {
+      "Ground.Core.Domain/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -1535,11 +1535,11 @@
           "bin/placeholder/Ground.Core.Domain.dll": {}
         }
       },
-      "Ground.Core.Domain.Toolkits/1.0.0": {
+      "Ground.Core.Domain.Toolkits/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.Domain": "1.0.1",
           "Ground.Utilities": "1.0.0"
         },
         "compile": {
@@ -1579,9 +1579,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Ground.Core.Contracts": "1.0.0",
-          "Ground.Core.Domain": "1.0.0",
-          "Ground.Core.Domain.Toolkits": "1.0.0",
+          "Ground.Core.Contracts": "1.0.1",
+          "Ground.Core.Domain": "1.0.1",
+          "Ground.Core.Domain.Toolkits": "1.0.1",
           "Ground.Infra.Data.Sql": "1.0.0",
           "Ground.Utilities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
@@ -1597,7 +1597,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Ground.Core.Contracts": "1.0.0",
+          "Ground.Core.Contracts": "1.0.1",
+          "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Infra.Data.Sql": "1.0.0",
           "Ground.Utilities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
@@ -4277,22 +4278,22 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Ground.Core.ApplicationServices/1.0.0": {
+    "Ground.Core.ApplicationServices/1.0.1": {
       "type": "project",
       "path": "../../2.Core/Ground.Core.ApplicationServices/Ground.Core.ApplicationServices.csproj",
       "msbuildProject": "../../2.Core/Ground.Core.ApplicationServices/Ground.Core.ApplicationServices.csproj"
     },
-    "Ground.Core.Contracts/1.0.0": {
+    "Ground.Core.Contracts/1.0.1": {
       "type": "project",
       "path": "../../2.Core/Ground.Core.Contracts/Ground.Core.Contracts.csproj",
       "msbuildProject": "../../2.Core/Ground.Core.Contracts/Ground.Core.Contracts.csproj"
     },
-    "Ground.Core.Domain/1.0.0": {
+    "Ground.Core.Domain/1.0.1": {
       "type": "project",
       "path": "../../2.Core/Ground.Core.Domain/Ground.Core.Domain.csproj",
       "msbuildProject": "../../2.Core/Ground.Core.Domain/Ground.Core.Domain.csproj"
     },
-    "Ground.Core.Domain.Toolkits/1.0.0": {
+    "Ground.Core.Domain.Toolkits/1.0.1": {
       "type": "project",
       "path": "../../2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj",
       "msbuildProject": "../../2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj"
@@ -4326,9 +4327,9 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "FluentValidation.AspNetCore >= 11.3.0",
-      "Ground.Core.ApplicationServices >= 1.0.0",
-      "Ground.Core.Contracts >= 1.0.0",
-      "Ground.Core.Domain >= 1.0.0",
+      "Ground.Core.ApplicationServices >= 1.0.1",
+      "Ground.Core.Contracts >= 1.0.1",
+      "Ground.Core.Domain >= 1.0.1",
       "Ground.Extensions.Caching.Abstractions >= 1.0.0",
       "Ground.Extensions.Logger.Abstractions >= 1.0.0",
       "Ground.Extensions.Serializers.Abstractions >= 1.0.0",

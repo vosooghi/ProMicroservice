@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7yAeKkMIlB+sk0su7K+PSOQpqNxNhN5h42VzFphPsGa4scnzKlVhhRfFi4/iWCwPH5C4P0YG1cGTEdxoS+JArg==",
+  "dgSpecHash": "SP6v5790aRRkmN4UFyub6oxP7RhkRMidiLf27ULuOQN55z69WiucCoL6UnlaEmGDRzrSqqSVxyk74ce8X0exgA==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.ApplicationServices\\Ground.Samples.Core.ApplicationServices.csproj",
   "expectedPackageFiles": [

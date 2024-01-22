@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Ground.Samples.Core.Contracts/1.0.0": {
         "dependencies": {
-          "Ground.Core.Contracts": "1.0.0",
+          "Ground.Core.Contracts": "1.0.1",
           "Ground.Samples.Core.Domain": "1.0.0"
         },
         "runtime": {
@@ -223,9 +223,9 @@
           "System.Text.Encodings.Web": "7.0.0"
         }
       },
-      "Ground.Core.Contracts/1.0.0": {
+      "Ground.Core.Contracts/1.0.1": {
         "dependencies": {
-          "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.Domain": "1.0.1",
           "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Utilities": "1.0.0"
         },
@@ -233,7 +233,7 @@
           "Ground.Core.Contracts.dll": {}
         }
       },
-      "Ground.Core.Domain/1.0.0": {
+      "Ground.Core.Domain/1.0.1": {
         "dependencies": {
           "Ground.Utilities": "1.0.0"
         },
@@ -251,7 +251,7 @@
       },
       "Ground.Samples.Core.Domain/1.0.0": {
         "dependencies": {
-          "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.Domain": "1.0.1",
           "Ground.Utilities": "1.0.0"
         },
         "runtime": {
@@ -437,12 +437,12 @@
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
     },
-    "Ground.Core.Contracts/1.0.0": {
+    "Ground.Core.Contracts/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Ground.Core.Domain/1.0.0": {
+    "Ground.Core.Domain/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

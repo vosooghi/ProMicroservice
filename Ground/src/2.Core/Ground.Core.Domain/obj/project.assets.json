@@ -930,7 +930,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj",
       "projectName": "Ground.Core.Domain",

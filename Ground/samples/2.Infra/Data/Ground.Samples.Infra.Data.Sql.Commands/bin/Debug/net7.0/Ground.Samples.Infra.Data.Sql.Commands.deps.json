@@ -682,9 +682,9 @@
           }
         }
       },
-      "Ground.Core.Contracts/1.0.0": {
+      "Ground.Core.Contracts/1.0.1": {
         "dependencies": {
-          "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.Domain": "1.0.1",
           "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Utilities": "1.0.0"
         },
@@ -692,7 +692,7 @@
           "Ground.Core.Contracts.dll": {}
         }
       },
-      "Ground.Core.Domain/1.0.0": {
+      "Ground.Core.Domain/1.0.1": {
         "dependencies": {
           "Ground.Utilities": "1.0.0"
         },
@@ -700,9 +700,9 @@
           "Ground.Core.Domain.dll": {}
         }
       },
-      "Ground.Core.Domain.Toolkits/1.0.0": {
+      "Ground.Core.Domain.Toolkits/1.0.1": {
         "dependencies": {
-          "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.Domain": "1.0.1",
           "Ground.Utilities": "1.0.0"
         },
         "runtime": {
@@ -727,9 +727,9 @@
       },
       "Ground.Infra.Data.Sql.Commands/1.0.0": {
         "dependencies": {
-          "Ground.Core.Contracts": "1.0.0",
-          "Ground.Core.Domain": "1.0.0",
-          "Ground.Core.Domain.Toolkits": "1.0.0",
+          "Ground.Core.Contracts": "1.0.1",
+          "Ground.Core.Domain": "1.0.1",
+          "Ground.Core.Domain.Toolkits": "1.0.1",
           "Ground.Infra.Data.Sql": "1.0.0",
           "Ground.Utilities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
@@ -740,7 +740,7 @@
       },
       "Ground.Samples.Core.Contracts/1.0.0": {
         "dependencies": {
-          "Ground.Core.Contracts": "1.0.0",
+          "Ground.Core.Contracts": "1.0.1",
           "Ground.Samples.Core.Domain": "1.0.0"
         },
         "runtime": {
@@ -749,7 +749,7 @@
       },
       "Ground.Samples.Core.Domain/1.0.0": {
         "dependencies": {
-          "Ground.Core.Domain": "1.0.0",
+          "Ground.Core.Domain": "1.0.1",
           "Ground.Utilities": "1.0.0"
         },
         "runtime": {
@@ -1250,17 +1250,17 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "Ground.Core.Contracts/1.0.0": {
+    "Ground.Core.Contracts/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Ground.Core.Domain/1.0.0": {
+    "Ground.Core.Domain/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Ground.Core.Domain.Toolkits/1.0.0": {
+    "Ground.Core.Domain.Toolkits/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M/Dy6zWzOnOrZCGXuoP0FW2FumddwsADwapu7Lgba/5u/EYLbFHk8aZ6odb0Q8Ou9vO+xrPtqw61LmzijhM1uQ==",
+  "dgSpecHash": "CCKe+CezcjW85RandDStZs72q4b1Vo3XoXjjLU1Jmyoc/4T9MCC89eogo5T+70h3PxraBSJ2VcTW7X+tw3Cg/w==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Command\\Ground.Infra.Data.Sql.Commands.csproj",
   "expectedPackageFiles": [
