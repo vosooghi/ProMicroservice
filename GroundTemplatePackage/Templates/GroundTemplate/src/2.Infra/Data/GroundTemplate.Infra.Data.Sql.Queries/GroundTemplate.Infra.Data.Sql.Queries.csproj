@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Ground.Core.RequestResponse" Version="1.0.0" />
-    <PackageReference Include="Ground.Infra.Data.Sql.Queries" Version="1.0.0" />
+    <PackageReference Include="Ground.Infra.Data.Sql.Queries" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>

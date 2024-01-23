@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ground.Core.Domain" Version="1.0.1" />
-    <PackageReference Include="Ground.Core.Domain.Toolkits" Version="1.0.1" />
+    <PackageReference Include="Ground.Core.Domain" Version="1.0.2" />
+    <PackageReference Include="Ground.Core.Domain.Toolkits" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>

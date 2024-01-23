@@ -1,4 +1,5 @@
-﻿using Ground.Infra.Data.Sql.Commands;
+﻿using Ground.Extensions.Events.Outbox.Dal.EF;
+using Ground.Infra.Data.Sql.Commands;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 

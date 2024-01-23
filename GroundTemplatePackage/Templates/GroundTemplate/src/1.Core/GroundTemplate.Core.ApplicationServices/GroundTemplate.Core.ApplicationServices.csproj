@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ground.Core.ApplicationServices" Version="1.0.1" />
+    <PackageReference Include="Ground.Core.ApplicationServices" Version="1.0.2" />
     <PackageReference Include="Ground.Core.RequestResponse" Version="1.0.0" />
   </ItemGroup>
 

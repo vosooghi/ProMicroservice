@@ -3,6 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Ground.Extensions.DependencyInjection;
 using Ground.Endpoints.WebApi.Extentions.ModelBinding;
 using GroundTemplate.Infra.Data.Sql.Commands.Common;
+using Ground.Infra.Data.Sql.Commands.Interceptors;
+using GroundTemplate.Infra.Data.Sql.Queries.Common;
+using Ground.Extensions.Events.PollingPublisher.Dal.Dapper.Extensions.DependencyInjection;
+using Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 
 namespace GroundTemplate.Endpoints.WebApi.Extentions
 {
@@ -48,6 +53,7 @@ namespace GroundTemplate.Endpoints.WebApi.Extentions
 
             //Ground
             builder.Services.AddGroundNewtonSoftSerializer();
+            //builder.Services.AddZaminMicrosoftSerializer();
 
             //Ground
             builder.Services.AddGroundAutoMapperProfiles(configuration, "AutoMapper");
@@ -59,21 +65,29 @@ namespace GroundTemplate.Endpoints.WebApi.Extentions
             //Ground
             builder.Services.AddGroundInMemoryCaching();
 
-            //CommandDbContext
+            //CommandDbContext            
+            //builder.Services.AddDbContext<DbContextNameCommandDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("CommandDb_ConnectionString"))
+            //.AddInterceptors(new SetPersianYeKeInterceptor(), new AddAuditDataInterceptor()));
+            //builder.Services.AddDbContext<SampleQueryDbContext>(c => c.UseSqlServer(conn));
             builder.Services.AddDbContext<DbContextNameCommandDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("CommandDb_ConnectionString"))
             .AddInterceptors(new SetPersianYeKeInterceptor(), new AddAuditDataInterceptor()));
-            builder.Services.AddDbContext<SampleQueryDbContext>(c => c.UseSqlServer(conn));
 
-            
+            //QueryDbContext
+            builder.Services.AddDbContext<DbContextNameQueryDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("QueryDb_ConnectionString")));
 
-            
+            //PollingPublisher
+            builder.Services.AddGroundPollingPublisherDalSql(configuration, "PollingPublisherSqlStore");
+
+            //MessageInbox
+            builder.Services.AddGroundMessageInboxDalSql(configuration, "MessageInboxSqlStore");
+
             builder.Services.AddSwaggerGen();
             return builder.Build();
         }
 
         public static WebApplication ConfigurePipeline(this WebApplication app)
         {
-            app.UseGroundApiExceptionHandler();//missing
+            app.UseGroundApiExceptionHandler();
 
             //app.UseSerilogRequestLogging();
 
@@ -83,9 +97,18 @@ namespace GroundTemplate.Endpoints.WebApi.Extentions
                 app.UseSwaggerUI();
             }
 
+            app.UseStatusCodePages();
+
+            app.UseCors(delegate (CorsPolicyBuilder builder)
+            {
+                builder.AllowAnyOrigin();
+                builder.AllowAnyHeader();
+                builder.AllowAnyMethod();
+            });
+
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
             app.MapControllers();
 
