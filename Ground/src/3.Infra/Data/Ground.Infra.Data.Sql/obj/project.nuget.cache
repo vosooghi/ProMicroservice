@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MFzjzGVKaxYzK5LspEBHpPDSINQzb9RyHLw/sFS7zqzM3jynShC8KdulxJLqOtH5dgTkvBMGJVhoUkxlCAXdAA==",
+  "dgSpecHash": "lUM8n0WDuO/5ux9VU5Y9fRf1ValsfCu89aTR8NPAPOeHNGdEpG5iQ365T1kiRy1Gfv7VT4SmUNaWmNL3CHCBug==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abbas\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.events.abstractions\\1.0.0\\ground.extensions.events.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.usersmanagement.abstractions\\1.0.0\\ground.extensions.usersmanagement.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

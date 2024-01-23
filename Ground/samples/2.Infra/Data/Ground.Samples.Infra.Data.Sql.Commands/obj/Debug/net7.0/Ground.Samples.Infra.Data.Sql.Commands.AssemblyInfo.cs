@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ground.Samples.Infra.Data.Sql.Commands")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bf3e0cbd4fa0f93b8c6e0fd5dbd1a34fff9d670")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ground.Samples.Infra.Data.Sql.Commands")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ground.Samples.Infra.Data.Sql.Commands")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

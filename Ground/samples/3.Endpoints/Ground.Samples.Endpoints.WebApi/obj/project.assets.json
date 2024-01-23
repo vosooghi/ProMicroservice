@@ -189,6 +189,15 @@
           "lib/net7.0/Ground.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
+      "Ground.Extensions.Events.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ground.Extensions.Events.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.Events.Abstractions.dll": {}
+        }
+      },
       "Ground.Extensions.Logger.Abstractions/1.0.0": {
         "type": "package",
         "compile": {
@@ -2070,6 +2079,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Ground.Extensions.Events.Abstractions": "1.0.0",
+          "Ground.Extensions.UsersManagement.Abstractions": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
         },
         "compile": {
@@ -2417,6 +2428,21 @@
         "ground.extensions.dependencyinjection.abstractions.1.0.0.nupkg.sha512",
         "ground.extensions.dependencyinjection.abstractions.nuspec",
         "lib/net7.0/Ground.Extensions.DependencyInjection.Abstractions.dll",
+        "readme.md"
+      ]
+    },
+    "Ground.Extensions.Events.Abstractions/1.0.0": {
+      "sha512": "FWCHnVn7TskLaFX55cdTUWv+Ap6KVx2XElGdjVgk6Wv6XU4Gw6qyVp4xptkGgcxEnw2KNdVHh1us+HoJfSt3tQ==",
+      "type": "package",
+      "path": "ground.extensions.events.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.txt",
+        "ground.extensions.events.abstractions.1.0.0.nupkg.sha512",
+        "ground.extensions.events.abstractions.nuspec",
+        "lib/net7.0/Ground.Extensions.Events.Abstractions.dll",
         "readme.md"
       ]
     },

@@ -714,6 +714,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Ground.Extensions.Events.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Ground.Extensions.UsersManagement.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.14, )"

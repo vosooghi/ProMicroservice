@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j0sF3TjSoJIGsDOhRo3zJ3yGtqIOe2WMSLoJj8l+pHqOP1Bi820Rm1d+AKG1Kx5LFuAOLBOJnZYVQXhKRixbEg==",
+  "dgSpecHash": "xFbV1MhUK8qswfszJLlu8YHAC3ecAohEYej3ldXVI2UFXI0ecqtjkQ1Ya5FSTk6AP80R53WYJMo9+S2cbpcN3w==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\Ground.Endpoints.WebApi.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.caching.abstractions\\1.0.0\\ground.extensions.caching.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.dependencyinjection\\1.0.0\\ground.extensions.dependencyinjection.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.dependencyinjection.abstractions\\1.0.0\\ground.extensions.dependencyinjection.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.events.abstractions\\1.0.0\\ground.extensions.events.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.logger.abstractions\\1.0.0\\ground.extensions.logger.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.objectmappers.abstractions\\1.0.0\\ground.extensions.objectmappers.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.serializers.abstractions\\1.0.0\\ground.extensions.serializers.abstractions.1.0.0.nupkg.sha512",

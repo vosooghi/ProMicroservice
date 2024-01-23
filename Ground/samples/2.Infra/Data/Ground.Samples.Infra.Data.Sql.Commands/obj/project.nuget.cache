@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gz6GKsmm7R3jJZVYHAXDK7XRqdLtNdk6CmNhWWpzWIe+gpkE/u+CpGVO/1SyTHuWPs5cYX0p6bOZATppNbCP7Q==",
+  "dgSpecHash": "HS2ZB4KSxlPQ8Fi7FuqrF48WJ2joJ3RAZHapfKxIyw658d480JNoBmfbwHi80JS73wx4p3QuNKjoBWhI+yvAeQ==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Commands\\Ground.Samples.Infra.Data.Sql.Commands.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.caching.abstractions\\1.0.0\\ground.extensions.caching.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.dependencyinjection\\1.0.0\\ground.extensions.dependencyinjection.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.dependencyinjection.abstractions\\1.0.0\\ground.extensions.dependencyinjection.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.events.abstractions\\1.0.0\\ground.extensions.events.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.logger.abstractions\\1.0.0\\ground.extensions.logger.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.objectmappers.abstractions\\1.0.0\\ground.extensions.objectmappers.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.extensions.serializers.abstractions\\1.0.0\\ground.extensions.serializers.abstractions.1.0.0.nupkg.sha512",

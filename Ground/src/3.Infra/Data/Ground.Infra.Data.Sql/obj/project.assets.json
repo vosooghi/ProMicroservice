@@ -46,6 +46,24 @@
           }
         }
       },
+      "Ground.Extensions.Events.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ground.Extensions.Events.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.Events.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.UsersManagement.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ground.Extensions.UsersManagement.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.UsersManagement.Abstractions.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -1000,6 +1018,35 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Ground.Extensions.Events.Abstractions/1.0.0": {
+      "sha512": "FWCHnVn7TskLaFX55cdTUWv+Ap6KVx2XElGdjVgk6Wv6XU4Gw6qyVp4xptkGgcxEnw2KNdVHh1us+HoJfSt3tQ==",
+      "type": "package",
+      "path": "ground.extensions.events.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.txt",
+        "ground.extensions.events.abstractions.1.0.0.nupkg.sha512",
+        "ground.extensions.events.abstractions.nuspec",
+        "lib/net7.0/Ground.Extensions.Events.Abstractions.dll",
+        "readme.md"
+      ]
+    },
+    "Ground.Extensions.UsersManagement.Abstractions/1.0.0": {
+      "sha512": "iIxQVt+dXiH4/P9A5VKxkAuWRb2ppQwooS4EBTAwCkgJHhxmNRwh+JFy8360IA4RHoCJWzvPW1wmFKDQFyIzjw==",
+      "type": "package",
+      "path": "ground.extensions.usersmanagement.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ground.extensions.usersmanagement.abstractions.1.0.0.nupkg.sha512",
+        "ground.extensions.usersmanagement.abstractions.nuspec",
+        "lib/net7.0/Ground.Extensions.UsersManagement.Abstractions.dll",
+        "readme.md"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -2613,6 +2660,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Ground.Extensions.Events.Abstractions >= 1.0.0",
+      "Ground.Extensions.UsersManagement.Abstractions >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14"
     ]
   },
@@ -2663,6 +2712,14 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Ground.Extensions.Events.Abstractions": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Ground.Extensions.UsersManagement.Abstractions": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.14, )"
