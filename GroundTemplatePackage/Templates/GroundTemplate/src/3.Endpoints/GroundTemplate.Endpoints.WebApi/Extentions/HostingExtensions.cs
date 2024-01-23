@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Ground.Extensions.DependencyInjection;
 using Ground.Endpoints.WebApi.Extentions.ModelBinding;
+using GroundTemplate.Infra.Data.Sql.Commands.Common;
 
 namespace GroundTemplate.Endpoints.WebApi.Extentions
 {
@@ -27,7 +28,7 @@ namespace GroundTemplate.Endpoints.WebApi.Extentions
 
             //Ground
             builder.Services.AddGroundWebUserInfoService(builder.Configuration, true);//fake version
-            //builder.Services.AddZaminWebUserInfoService(configuration, "WebUserInfo", true);
+            //builder.Services.AddGroundWebUserInfoService(configuration, "WebUserInfo", true);
 
             //Ground
             builder.Services.AddGroundTraniTranslator(configuration, "TraniTranslator");
@@ -45,16 +46,22 @@ namespace GroundTemplate.Endpoints.WebApi.Extentions
             //Ground
             builder.Services.AddNonValidatingValidator();
 
-            builder.Services.AddGroundAutoMapperProfiles(option =>
-            {
-                option.AssmblyNamesForLoadProfiles = "Ground.Samples";
-            });
-
+            //Ground
             builder.Services.AddGroundNewtonSoftSerializer();
 
+            //Ground
+            builder.Services.AddGroundAutoMapperProfiles(configuration, "AutoMapper");
+            /*builder.Services.AddGroundAutoMapperProfiles(option =>
+            {
+                option.AssmblyNamesForLoadProfiles = "Ground.Samples";
+            });*/
+            
+            //Ground
             builder.Services.AddGroundInMemoryCaching();
 
-            builder.Services.AddDbContext<SampleCommandDbContext>(c => c.UseSqlServer(conn));
+            //CommandDbContext
+            builder.Services.AddDbContext<DbContextNameCommandDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("CommandDb_ConnectionString"))
+            .AddInterceptors(new SetPersianYeKeInterceptor(), new AddAuditDataInterceptor()));
             builder.Services.AddDbContext<SampleQueryDbContext>(c => c.UseSqlServer(conn));
 
             

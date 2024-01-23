@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ground.Endpoints.WebApi" Version="1.0.0" />
+    <PackageReference Include="Ground.Endpoints.WebApi" Version="1.0.1" />
     <PackageReference Include="Ground.Extensions.Caching.InMemory" Version="1.0.0" />
     <PackageReference Include="Ground.Extensions.ObjectMappers.AutoMapper" Version="1.0.0" />
     <PackageReference Include="Ground.Extensions.Serializers.NewtonSoft" Version="1.0.0" />
@@ -23,6 +23,10 @@
     <ProjectReference Include="..\..\1.Core\GroundTemplate.Core.Domain\GroundTemplate.Core.Domain.csproj" />
     <ProjectReference Include="..\..\2.Infra\Data\GroundTemplate.Infra.Data.Sql.Commands\GroundTemplate.Infra.Data.Sql.Commands.csproj" />
     <ProjectReference Include="..\..\2.Infra\Data\GroundTemplate.Infra.Data.Sql.Queries\GroundTemplate.Infra.Data.Sql.Queries.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
