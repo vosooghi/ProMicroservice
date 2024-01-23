@@ -3205,6 +3205,7 @@
       "Ground.Core.Contracts >= 1.0.1",
       "Ground.Core.Domain >= 1.0.1",
       "Ground.Core.Domain.Toolkits >= 1.0.1",
+      "Ground.Extensions.Serializers.Abstractions >= 1.0.0",
       "Ground.Infra.Data.Sql >= 1.0.0",
       "Ground.Utilities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14"
@@ -3273,6 +3274,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Ground.Extensions.Serializers.Abstractions": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.14, )"

@@ -20,15 +20,18 @@
 
 	<ItemGroup>
 		<PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
-		<PackageReference Include="Ground.Extensions.Caching.Abstractions" Version="1.0.0" />
-		<PackageReference Include="Ground.Extensions.Logger.Abstractions" Version="1.0.0" />
-		<PackageReference Include="Ground.Extensions.Serializers.Abstractions" Version="1.0.0" />
-		<PackageReference Include="Ground.Extensions.Translations.Abstractions" Version="1.0.0" />
+		<!--<PackageReference Include="Ground.Extensions.Caching.Abstractions" Version="1.0.0" />-->
+		<!--<PackageReference Include="Ground.Extensions.Logger.Abstractions" Version="1.0.0" />-->
+		<!--<PackageReference Include="Ground.Extensions.Serializers.Abstractions" Version="1.0.0" />-->
+		<!--<PackageReference Include="Ground.Extensions.Translations.Abstractions" Version="1.0.0" />-->
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.14" />
 		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.14" />
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.4" />
+		<PackageReference Include="Microsoft.Extensions.Caching.SqlServer" Version="7.0.14" />
+		<PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.14" />
 		<PackageReference Include="Microsoft.Extensions.DependencyModel" Version="8.0.0" />
 		<PackageReference Include="Scrutor" Version="4.2.2" />
-		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+		<!--<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />-->
 	</ItemGroup>
 
 	<ItemGroup>
@@ -36,8 +39,8 @@
 		<ProjectReference Include="..\..\2.Core\Ground.Core.ApplicationServices\Ground.Core.ApplicationServices.csproj" />
 		<ProjectReference Include="..\..\2.Core\Ground.Core.Contracts\Ground.Core.Contracts.csproj" />
 		<ProjectReference Include="..\..\2.Core\Ground.Core.Domain\Ground.Core.Domain.csproj" />
-		<ProjectReference Include="..\..\3.Infra\Data\Ground.Infra.Data.Sql.Command\Ground.Infra.Data.Sql.Commands.csproj" />
-		<ProjectReference Include="..\..\3.Infra\Data\Ground.Infra.Data.Sql.Queries\Ground.Infra.Data.Sql.Queries.csproj" />
+		<!--<ProjectReference Include="..\..\3.Infra\Data\Ground.Infra.Data.Sql.Command\Ground.Infra.Data.Sql.Commands.csproj" />-->
+		<!--<ProjectReference Include="..\..\3.Infra\Data\Ground.Infra.Data.Sql.Queries\Ground.Infra.Data.Sql.Queries.csproj" />-->
 		<ProjectReference Include="..\..\3.Infra\Data\Ground.Infra.Data.Sql\Ground.Infra.Data.Sql.csproj" />
 	</ItemGroup>
 

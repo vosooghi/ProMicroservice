@@ -988,6 +988,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Ground.Extensions.Serializers.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.14, )"
@@ -1202,12 +1206,6 @@
               "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj": {
                 "projectPath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.Domain\\Ground.Core.Domain.csproj"
               },
-              "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Command\\Ground.Infra.Data.Sql.Commands.csproj": {
-                "projectPath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Command\\Ground.Infra.Data.Sql.Commands.csproj"
-              },
-              "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\Ground.Infra.Data.Sql.Queries.csproj": {
-                "projectPath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\Ground.Infra.Data.Sql.Queries.csproj"
-              },
               "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj": {
                 "projectPath": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql\\Ground.Infra.Data.Sql.csproj"
               }
@@ -1228,27 +1226,23 @@
               "target": "Package",
               "version": "[11.3.0, )"
             },
-            "Ground.Extensions.Caching.Abstractions": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "Ground.Extensions.Logger.Abstractions": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "Ground.Extensions.Serializers.Abstractions": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "Ground.Extensions.Translations.Abstractions": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[7.0.14, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
               "version": "[7.0.14, )"
             },
@@ -1259,10 +1253,6 @@
             "Scrutor": {
               "target": "Package",
               "version": "[4.2.2, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
             }
           },
           "imports": [
