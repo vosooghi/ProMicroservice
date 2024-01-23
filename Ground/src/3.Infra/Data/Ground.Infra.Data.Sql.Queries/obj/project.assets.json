@@ -1145,11 +1145,11 @@
           }
         }
       },
-      "Ground.Core.Contracts/1.0.1": {
+      "Ground.Core.Contracts/1.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Ground.Core.Domain": "1.0.1",
+          "Ground.Core.Domain": "1.0.2",
           "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Utilities": "1.0.0"
         },
@@ -1160,7 +1160,7 @@
           "bin/placeholder/Ground.Core.Contracts.dll": {}
         }
       },
-      "Ground.Core.Domain/1.0.1": {
+      "Ground.Core.Domain/1.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -1186,7 +1186,7 @@
           "bin/placeholder/Ground.Core.RequestResponse.dll": {}
         }
       },
-      "Ground.Infra.Data.Sql/1.0.0": {
+      "Ground.Infra.Data.Sql/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -3181,12 +3181,12 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Ground.Core.Contracts/1.0.1": {
+    "Ground.Core.Contracts/1.0.2": {
       "type": "project",
       "path": "../../../2.Core/Ground.Core.Contracts/Ground.Core.Contracts.csproj",
       "msbuildProject": "../../../2.Core/Ground.Core.Contracts/Ground.Core.Contracts.csproj"
     },
-    "Ground.Core.Domain/1.0.1": {
+    "Ground.Core.Domain/1.0.2": {
       "type": "project",
       "path": "../../../2.Core/Ground.Core.Domain/Ground.Core.Domain.csproj",
       "msbuildProject": "../../../2.Core/Ground.Core.Domain/Ground.Core.Domain.csproj"
@@ -3196,7 +3196,7 @@
       "path": "../../../2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj",
       "msbuildProject": "../../../2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj"
     },
-    "Ground.Infra.Data.Sql/1.0.0": {
+    "Ground.Infra.Data.Sql/1.0.1": {
       "type": "project",
       "path": "../Ground.Infra.Data.Sql/Ground.Infra.Data.Sql.csproj",
       "msbuildProject": "../Ground.Infra.Data.Sql/Ground.Infra.Data.Sql.csproj"
@@ -3209,9 +3209,9 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Ground.Core.Contracts >= 1.0.1",
+      "Ground.Core.Contracts >= 1.0.2",
       "Ground.Core.RequestResponse >= 1.0.0",
-      "Ground.Infra.Data.Sql >= 1.0.0",
+      "Ground.Infra.Data.Sql >= 1.0.1",
       "Ground.Utilities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14"
     ]
@@ -3222,7 +3222,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\3.Infra\\Data\\Ground.Infra.Data.Sql.Queries\\Ground.Infra.Data.Sql.Queries.csproj",
       "projectName": "Ground.Infra.Data.Sql.Queries",

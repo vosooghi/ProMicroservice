@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ground.Samples.Infra.Data.Sql.Queries")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97d9358742304ecefad56c8da97072d15de379df")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ground.Samples.Infra.Data.Sql.Queries")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ground.Samples.Infra.Data.Sql.Queries")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

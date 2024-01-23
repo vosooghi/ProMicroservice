@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8hQ+5NGJRlnKrj7yv/fDWzyVQ2wR3tHWQp2w3/XOYw6X04PqGOxitPu6hr/UOTDKP811Hof/zx02k7DqNnEi4g==",
+  "dgSpecHash": "GFCn3r9rYn0YL98yrYOC+s3cp+3gkVr35QpYqscRaHC9ByW4olATuhvQQNPfKsKdFnhiv0PLYMXHi3onwZtQgQ==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\samples\\1.Core\\Ground.Sample.Core.Domain\\Ground.Samples.Core.Domain.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,8 @@
     "C:\\Users\\Abbas\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\scrutor\\4.2.2\\scrutor.4.2.2.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\Abbas\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+    "C:\\Users\\Abbas\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.utilities\\1.0.0\\ground.utilities.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -33,13 +33,13 @@
   },
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "Ground.Endpoints.WebApi/1.0.1": {
+      "Ground.Endpoints.WebApi/1.0.2": {
         "dependencies": {
           "FluentValidation.AspNetCore": "11.3.0",
-          "Ground.Core.ApplicationServices": "1.0.1",
-          "Ground.Core.Contracts": "1.0.1",
-          "Ground.Core.Domain": "1.0.1",
-          "Ground.Infra.Data.Sql": "1.0.0",
+          "Ground.Core.ApplicationServices": "1.0.2",
+          "Ground.Core.Contracts": "1.0.2",
+          "Ground.Core.Domain": "1.0.2",
+          "Ground.Infra.Data.Sql": "1.0.1",
           "Ground.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.14",
           "Microsoft.AspNetCore.OpenApi": "7.0.14",
@@ -470,6 +470,17 @@
         },
         "compile": {
           "lib/net7.0/Ground.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Ground.Extensions.Events.Abstractions/1.0.0": {
+        "runtime": {
+          "lib/net7.0/Ground.Extensions.Events.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Ground.Extensions.Events.Abstractions.dll": {}
         }
       },
       "Ground.Extensions.Logger.Abstractions/1.0.0": {
@@ -1413,11 +1424,11 @@
           }
         }
       },
-      "Ground.Core.ApplicationServices/1.0.1": {
+      "Ground.Core.ApplicationServices/1.0.2": {
         "dependencies": {
           "FluentValidation": "11.9.0",
-          "Ground.Core.Contracts": "1.0.1",
-          "Ground.Core.Domain": "1.0.1",
+          "Ground.Core.Contracts": "1.0.2",
+          "Ground.Core.Domain": "1.0.2",
           "Ground.Utilities": "1.0.0"
         },
         "runtime": {
@@ -1427,9 +1438,9 @@
           "Ground.Core.ApplicationServices.dll": {}
         }
       },
-      "Ground.Core.Contracts/1.0.1": {
+      "Ground.Core.Contracts/1.0.2": {
         "dependencies": {
-          "Ground.Core.Domain": "1.0.1",
+          "Ground.Core.Domain": "1.0.2",
           "Ground.Core.RequestResponse": "1.0.0",
           "Ground.Utilities": "1.0.0"
         },
@@ -1440,7 +1451,7 @@
           "Ground.Core.Contracts.dll": {}
         }
       },
-      "Ground.Core.Domain/1.0.1": {
+      "Ground.Core.Domain/1.0.2": {
         "dependencies": {
           "Ground.Utilities": "1.0.0"
         },
@@ -1462,8 +1473,10 @@
           "Ground.Core.RequestResponse.dll": {}
         }
       },
-      "Ground.Infra.Data.Sql/1.0.0": {
+      "Ground.Infra.Data.Sql/1.0.1": {
         "dependencies": {
+          "Ground.Extensions.Events.Abstractions": "1.0.0",
+          "Ground.Extensions.UsersManagement.Abstractions": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
         },
         "runtime": {
@@ -3260,7 +3273,7 @@
     }
   },
   "libraries": {
-    "Ground.Endpoints.WebApi/1.0.1": {
+    "Ground.Endpoints.WebApi/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3320,6 +3333,13 @@
       "sha512": "sha512-4gXMlHQCxer8GfgpSDON0jp92fWnyPOnYVEXof1s6HPG6B8vF6uWCjJpmafPygSmyIljMHuq602vLbJQ0Rp0kA==",
       "path": "ground.extensions.dependencyinjection.abstractions/1.0.0",
       "hashPath": "ground.extensions.dependencyinjection.abstractions.1.0.0.nupkg.sha512"
+    },
+    "Ground.Extensions.Events.Abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FWCHnVn7TskLaFX55cdTUWv+Ap6KVx2XElGdjVgk6Wv6XU4Gw6qyVp4xptkGgcxEnw2KNdVHh1us+HoJfSt3tQ==",
+      "path": "ground.extensions.events.abstractions/1.0.0",
+      "hashPath": "ground.extensions.events.abstractions.1.0.0.nupkg.sha512"
     },
     "Ground.Extensions.Logger.Abstractions/1.0.0": {
       "type": "package",
@@ -3881,17 +3901,17 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "Ground.Core.ApplicationServices/1.0.1": {
+    "Ground.Core.ApplicationServices/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Ground.Core.Contracts/1.0.1": {
+    "Ground.Core.Contracts/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Ground.Core.Domain/1.0.1": {
+    "Ground.Core.Domain/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3901,7 +3921,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Ground.Infra.Data.Sql/1.0.0": {
+    "Ground.Infra.Data.Sql/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

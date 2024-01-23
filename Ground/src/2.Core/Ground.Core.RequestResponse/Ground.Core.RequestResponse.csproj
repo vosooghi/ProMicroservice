@@ -13,7 +13,7 @@
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<Description>$(AssemblyName)</Description>
 		<PackageIcon>Icon.png</PackageIcon>
-		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="FluentValidation" Version="11.9.0" />

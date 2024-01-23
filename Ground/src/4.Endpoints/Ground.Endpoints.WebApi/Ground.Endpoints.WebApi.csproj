@@ -15,7 +15,7 @@
 		<PackageIcon>Icon.png</PackageIcon>
 		<OutputType>Library</OutputType>
 		<IsPackable>true</IsPackable>
-		<VersionPrefix>1.0.1</VersionPrefix>
+		<VersionPrefix>1.0.2</VersionPrefix>
 	</PropertyGroup>
 
 	<ItemGroup>
