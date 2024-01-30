@@ -8,6 +8,7 @@ using GroundTemplate.Infra.Data.Sql.Queries.Common;
 using Ground.Extensions.Events.PollingPublisher.Dal.Dapper.Extensions.DependencyInjection;
 using Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Cors.Infrastructure;
+using Ground.Extensions.Events.Outbox.Dal.EF.Interceptors;
 
 namespace GroundTemplate.Endpoints.WebApi.Extentions
 {
@@ -66,11 +67,9 @@ namespace GroundTemplate.Endpoints.WebApi.Extentions
             builder.Services.AddGroundInMemoryCaching();
 
             //CommandDbContext            
-            //builder.Services.AddDbContext<DbContextNameCommandDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("CommandDb_ConnectionString"))
-            //.AddInterceptors(new SetPersianYeKeInterceptor(), new AddAuditDataInterceptor()));
-            //builder.Services.AddDbContext<SampleQueryDbContext>(c => c.UseSqlServer(conn));
+            //if you don't need to use OutBox, remove new AddOutBoxEventItemInterceptor() and DbContextNameCommandDbContext must inherit from BaseCommandDbContext
             builder.Services.AddDbContext<DbContextNameCommandDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("CommandDb_ConnectionString"))
-            .AddInterceptors(new SetPersianYeKeInterceptor(), new AddAuditDataInterceptor()));
+            .AddInterceptors(new SetPersianYeKeInterceptor(), new AddOutBoxEventItemInterceptor(), new AddAuditDataInterceptor()));
 
             //QueryDbContext
             builder.Services.AddDbContext<DbContextNameQueryDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("QueryDb_ConnectionString")));
