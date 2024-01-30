@@ -54,7 +54,7 @@ namespace GroundTemplate.Endpoints.WebApi.Extentions
 
             //Ground
             builder.Services.AddGroundNewtonSoftSerializer();
-            //builder.Services.AddZaminMicrosoftSerializer();
+            //builder.Services.AddGroundMicrosoftSerializer();
 
             //Ground
             builder.Services.AddGroundAutoMapperProfiles(configuration, "AutoMapper");
