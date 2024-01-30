@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Abbas Vosoughi",
+  "classifications": [ "Common", "Solution", "Ground" ],
+  "identity": "Ground.Default.SolutionTemplate.CSharp",
+  "name": "Ground Default Solution Template",
+  "shortName": "groundsln",
+  "sourceName": "GroundTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "namespace": {
+      "type": "parameter",
+      "replaces": "GroundTemplate",
+      "FileRename": "GroundTemplate",
+      "defaultValue": "GroundTemplate"
+    },
+    "dbcontext": {
+      "type": "parameter",
+      "replaces": "DbContextName",
+      "FileRename": "DbContextName",
+      "defaultValue": "DbContextName"
+    }
+  }
+}

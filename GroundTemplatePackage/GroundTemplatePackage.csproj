@@ -1,13 +1,37 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<PackageType>Template</PackageType>
+		<PackageVersion>1.0.6</PackageVersion>
+		<PackageId>Ground.Solution.Templates</PackageId>
+		<Title>Ground Solution Templates</Title>
+		<Authors>Abbas Vosoughi</Authors>
+		<Description>Templates to use when creating an application utilizing the Ground framework.</Description>
+		<PackageTags>dotnet-new;templates;contoso</PackageTags>
+		<TargetFramework>net7.0</TargetFramework>
+		<PackageIcon>Icon.png</PackageIcon>
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+		<IncludeContentInPack>true</IncludeContentInPack>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<ContentTargetFolders>content</ContentTargetFolders>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 
-  <ItemGroup>
-    <Folder Include="Templates\" />
-  </ItemGroup>
+	</PropertyGroup>
 
+	<ItemGroup>
+		<None Include="Icon.png" Pack="True" PackagePath="\" />
+		<Content Include="Templates\**\*" Exclude="Templates\**\bin\**;Templates\**\obj\**" />
+		<Compile Remove="**\*" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="LICENSE.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Update="readme.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 </Project>
