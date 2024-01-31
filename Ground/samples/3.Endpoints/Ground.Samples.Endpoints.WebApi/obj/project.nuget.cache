@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gzF4kuCu8Q0jfaPeDoVZvzQm1MkI81M/ZpEpT4o+EURDJ+RYOGkQ2fTtpkFJ+EF4HWVehPVcESc/D98ywptp7A==",
+  "dgSpecHash": "CE3Ez4Fu8Zf6g06tcW3f2PEVld5wNZf6fsAJu7YtjxO8kjkvuANBIX6OFSh4FjhMOufCZ1z2vbspYg/TtWA9Zg==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\samples\\3.Endpoints\\Ground.Samples.Endpoints.WebApi\\Ground.Samples.Endpoints.WebApi.csproj",
   "expectedPackageFiles": [
@@ -119,7 +119,14 @@
     "C:\\Users\\Abbas\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.requestresponse\\1.0.0\\ground.core.requestresponse.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.applicationservices\\1.0.2\\ground.core.applicationservices.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.contracts\\1.0.2\\ground.core.contracts.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.domain\\1.0.2\\ground.core.domain.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.domain.toolkits\\1.0.2\\ground.core.domain.toolkits.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.endpoints.webapi\\1.0.2\\ground.endpoints.webapi.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.infra.data.sql\\1.0.1\\ground.infra.data.sql.1.0.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.infra.data.sql.commands\\1.0.1\\ground.infra.data.sql.commands.1.0.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.infra.data.sql.queries\\1.0.1\\ground.infra.data.sql.queries.1.0.1.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.utilities\\1.0.0\\ground.utilities.1.0.0.nupkg.sha512"
   ],
   "logs": []

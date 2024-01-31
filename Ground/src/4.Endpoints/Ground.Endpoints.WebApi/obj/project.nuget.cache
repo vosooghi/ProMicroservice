@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5J7G6ej99VS+zwtibsPryXoUySusa/EfaOT8p9YpXHhrPyTxDVix/9xhN1xAgkG13pMxW+KBD7sEO2UxBj7n9Q==",
+  "dgSpecHash": "AzPTMSAe3hUKl+OgQWM8G/eVzTmByUTdN5p67Laj49VgMLqmQ5+lHRQRhPNghi1/vYEikTZ/CC6h3O2m60kCzw==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\src\\4.Endpoints\\Ground.Endpoints.WebApi\\Ground.Endpoints.WebApi.csproj",
   "expectedPackageFiles": [
@@ -93,7 +93,10 @@
     "C:\\Users\\Abbas\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.requestresponse\\1.0.0\\ground.core.requestresponse.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.applicationservices\\1.0.2\\ground.core.applicationservices.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.contracts\\1.0.2\\ground.core.contracts.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.domain\\1.0.2\\ground.core.domain.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.infra.data.sql\\1.0.1\\ground.infra.data.sql.1.0.1.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.utilities\\1.0.0\\ground.utilities.1.0.0.nupkg.sha512"
   ],
   "logs": []

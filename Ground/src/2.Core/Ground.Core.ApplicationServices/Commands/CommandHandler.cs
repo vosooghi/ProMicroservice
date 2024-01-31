@@ -57,11 +57,11 @@ namespace Ground.Core.ApplicationServices.Commands
     public abstract class CommandHandler<TCommand> : ICommandHandler<TCommand>
     where TCommand : ICommand
     {
-        protected readonly GroundServices _zaminServices;
+        protected readonly GroundServices _groundServices;
         protected readonly CommandResult result = new();
-        public CommandHandler(GroundServices zaminServices)
+        public CommandHandler(GroundServices groundServices)
         {
-            _zaminServices = zaminServices;
+            _groundServices = groundServices;
         }
         public abstract Task<CommandResult> Handle(TCommand command);
 
@@ -89,11 +89,11 @@ namespace Ground.Core.ApplicationServices.Commands
         }
         protected void AddMessage(string message)
         {
-            result.AddMessage(_zaminServices.Translator[message]);
+            result.AddMessage(_groundServices.Translator[message]);
         }
         protected void AddMessage(string message, params string[] arguments)
         {
-            result.AddMessage(_zaminServices.Translator[message, arguments]);
+            result.AddMessage(_groundServices.Translator[message, arguments]);
         }
     }
 

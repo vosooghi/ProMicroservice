@@ -1150,7 +1150,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Ground.Core.Domain": "1.0.2",
-          "Ground.Core.RequestResponse": "1.0.0",
+          "Ground.Core.RequestResponse": "1.0.1",
           "Ground.Utilities": "1.0.0"
         },
         "compile": {
@@ -1187,7 +1187,7 @@
           "bin/placeholder/Ground.Core.Domain.Toolkits.dll": {}
         }
       },
-      "Ground.Core.RequestResponse/1.0.0": {
+      "Ground.Core.RequestResponse/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -3257,7 +3257,7 @@
       "path": "../../../../src/2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj",
       "msbuildProject": "../../../../src/2.Core/Ground.Core.Domain.Toolkits/Ground.Core.Domain.Toolkits.csproj"
     },
-    "Ground.Core.RequestResponse/1.0.0": {
+    "Ground.Core.RequestResponse/1.0.1": {
       "type": "project",
       "path": "../../../../src/2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj",
       "msbuildProject": "../../../../src/2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj"

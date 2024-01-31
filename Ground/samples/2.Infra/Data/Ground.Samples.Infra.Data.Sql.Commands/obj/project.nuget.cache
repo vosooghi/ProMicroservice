@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IxXsNH+z+Sw5M+O/cjwxoLjkUbC7N0v3ZsCZfN4k2J0P0eOUty6rnGL366ZB79nQkMSnJTCEEm9x33Y6GMstOQ==",
+  "dgSpecHash": "EGHzy+u+/Rtz1EOPyH2BHzbrqZOzVAP0IWQaFPBuUs7PFnvWgujWcFXUejQnZv2g8x/yLhVay/rHrAHhtXYTjg==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\samples\\2.Infra\\Data\\Ground.Samples.Infra.Data.Sql.Commands\\Ground.Samples.Infra.Data.Sql.Commands.csproj",
   "expectedPackageFiles": [
@@ -72,7 +72,11 @@
     "C:\\Users\\Abbas\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.requestresponse\\1.0.0\\ground.core.requestresponse.1.0.0.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.contracts\\1.0.2\\ground.core.contracts.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.domain\\1.0.2\\ground.core.domain.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.domain.toolkits\\1.0.2\\ground.core.domain.toolkits.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.infra.data.sql\\1.0.1\\ground.infra.data.sql.1.0.1.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.infra.data.sql.commands\\1.0.1\\ground.infra.data.sql.commands.1.0.1.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.utilities\\1.0.0\\ground.utilities.1.0.0.nupkg.sha512"
   ],
   "logs": []

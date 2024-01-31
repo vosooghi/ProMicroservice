@@ -1602,7 +1602,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Ground.Core.Domain": "1.0.2",
-          "Ground.Core.RequestResponse": "1.0.0",
+          "Ground.Core.RequestResponse": "1.0.1",
           "Ground.Utilities": "1.0.0"
         },
         "compile": {
@@ -1625,7 +1625,7 @@
           "bin/placeholder/Ground.Core.Domain.dll": {}
         }
       },
-      "Ground.Core.RequestResponse/1.0.0": {
+      "Ground.Core.RequestResponse/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -4267,7 +4267,7 @@
       "path": "../../2.Core/Ground.Core.Domain/Ground.Core.Domain.csproj",
       "msbuildProject": "../../2.Core/Ground.Core.Domain/Ground.Core.Domain.csproj"
     },
-    "Ground.Core.RequestResponse/1.0.0": {
+    "Ground.Core.RequestResponse/1.0.1": {
       "type": "project",
       "path": "../../2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj",
       "msbuildProject": "../../2.Core/Ground.Core.RequestResponse/Ground.Core.RequestResponse.csproj"

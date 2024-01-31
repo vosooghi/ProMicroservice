@@ -519,7 +519,7 @@
       }
     },
     "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.RequestResponse\\Ground.Core.RequestResponse.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.RequestResponse\\Ground.Core.RequestResponse.csproj",
         "projectName": "Ground.Core.RequestResponse",
