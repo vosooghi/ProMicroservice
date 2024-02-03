@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Common\BasicInfoQueryDbContext.cs~RF68bbc4.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ground.Core.RequestResponse" Version="1.0.1" />
+    <PackageReference Include="Ground.Infra.Data.Sql.Queries" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\1.Core\BasicInfo.Core.Contracts\BasicInfo.Core.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

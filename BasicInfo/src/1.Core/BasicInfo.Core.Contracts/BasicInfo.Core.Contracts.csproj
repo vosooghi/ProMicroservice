@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ground.Core.Contracts" Version="1.0.2" />
+    <PackageReference Include="Ground.Core.RequestResponse" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BasicInfo.Core.Domain\BasicInfo.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ground.Extensions.Events.Outbox.Dal.EF" Version="1.0.1" />
+    <PackageReference Include="Ground.Infra.Data.Sql.Commands" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\1.Core\BasicInfo.Core.Contracts\BasicInfo.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\1.Core\BasicInfo.Core.Domain\BasicInfo.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

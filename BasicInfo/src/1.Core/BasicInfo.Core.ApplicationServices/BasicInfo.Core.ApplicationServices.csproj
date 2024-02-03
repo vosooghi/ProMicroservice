@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Keywords\Commands\CreateKeywords\CreateKeywordValidator.cs~RF1815c96.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ground.Core.ApplicationServices" Version="1.0.2" />
+    <PackageReference Include="Ground.Core.RequestResponse" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BasicInfo.Core.Contracts\BasicInfo.Core.Contracts.csproj" />
+    <ProjectReference Include="..\BasicInfo.Core.Domain\BasicInfo.Core.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Keywords\Commands\ActiveKeywords - Copy\" />
+  </ItemGroup>
+
+</Project>
