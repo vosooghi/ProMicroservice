@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Categories\ICategoryCommandRepository.cs~RF112b3ab.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Ground.Extensions.Events.Outbox.Dal.EF" Version="1.0.1" />
     <PackageReference Include="Ground.Infra.Data.Sql.Commands" Version="1.0.1" />
   </ItemGroup>

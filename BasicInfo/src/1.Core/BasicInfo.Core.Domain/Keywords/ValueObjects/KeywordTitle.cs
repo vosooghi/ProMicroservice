@@ -22,7 +22,7 @@ namespace BasicInfo.Core.Domain.Keywords.ValueObjects
             {
                 throw new InvalidValueObjectStateException("ValidationErrorIsRequire", nameof(KeywordTitle));
             }
-            if (value.Length < 2 || value.Length > 250)
+            if (value.Length < 2 || value.Length > 50)
             {
                 throw new InvalidValueObjectStateException("ValidationErrorStringLength", nameof(KeywordTitle), "5", "50");
             }

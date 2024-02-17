@@ -20,8 +20,4 @@
     <ProjectReference Include="..\BasicInfo.Core.Domain\BasicInfo.Core.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Keywords\Commands\ActiveKeywords - Copy\" />
-  </ItemGroup>
-
 </Project>
