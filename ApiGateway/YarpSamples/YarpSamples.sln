@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YarpSamples.LastName", "Yar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YarpSamples.ClientRazor", "YarpSamples.ClientRazor\YarpSamples.ClientRazor.csproj", "{90097E99-0500-447E-9CF2-5B5034D68FA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarpSamples.Gateway", "YarpSamples.Gateway\YarpSamples.Gateway.csproj", "{4B48C7B7-B065-422C-AEEF-AE3116F2C0FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YarpSamples.Gateway", "YarpSamples.Gateway\YarpSamples.Gateway.csproj", "{4B48C7B7-B065-422C-AEEF-AE3116F2C0FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarpSamples.LastName2", "YarpSamples.LastName2\YarpSamples.LastName2.csproj", "{0EC3C567-562A-494F-9AC2-B8C959078BF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YarpSamples.LastName2", "YarpSamples.LastName2\YarpSamples.LastName2.csproj", "{0EC3C567-562A-494F-9AC2-B8C959078BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarpSamples.GatewaySR", "YarpSamples.GatewaySR\YarpSamples.GatewaySR.csproj", "{48B7815B-A393-4734-BC00-EB63988EC6B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0EC3C567-562A-494F-9AC2-B8C959078BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EC3C567-562A-494F-9AC2-B8C959078BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EC3C567-562A-494F-9AC2-B8C959078BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B7815B-A393-4734-BC00-EB63988EC6B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B7815B-A393-4734-BC00-EB63988EC6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B7815B-A393-4734-BC00-EB63988EC6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B7815B-A393-4734-BC00-EB63988EC6B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
