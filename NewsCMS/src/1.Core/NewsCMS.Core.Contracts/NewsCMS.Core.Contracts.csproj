@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="News\Commands\CreateNews\CreateNews.cs~RF11181c2.TMP" />
+    <None Remove="News\Commands\CreateNews\CreateNews.cs~RF7a22f7.TMP" />
+    <None Remove="News\Queries\NewsLists.cs~RF55d2e2.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ground.Core.Contracts" Version="1.0.2" />
+    <PackageReference Include="Ground.Core.RequestResponse" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewsCMS.Core.Domain\NewsCMS.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

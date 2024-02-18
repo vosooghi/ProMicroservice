@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="News\Events\NewsCreated.cs~RF38c6d9.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ground.Core.Domain" Version="1.0.2" />
+    <PackageReference Include="Ground.Core.Domain.Toolkits" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewsCMS.Core.Resources\NewsCMS.Core.Resources.csproj" />
+  </ItemGroup>
+
+</Project>
