@@ -1,4 +1,4 @@
-﻿using Ground.Core.Domain.Events;
+﻿ using Ground.Core.Domain.Events;
 
 namespace BasicInfo.Core.Domain.Keywords.Events
 {
