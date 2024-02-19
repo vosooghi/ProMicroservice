@@ -9,6 +9,7 @@ using Ground.Extensions.Events.PollingPublisher.Dal.Dapper.Extensions.Dependency
 using Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Ground.Extensions.Events.Outbox.Dal.EF.Interceptors;
+using Steeltoe.Discovery.Client;
 
 namespace BasicInfo.Endpoints.WebApi.Extentions
 {
@@ -24,7 +25,10 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
         /// <returns></returns>
         public static WebApplication ConfigureServices(this WebApplicationBuilder builder)
         {
-            IConfiguration configuration = builder.Configuration;            
+            IConfiguration configuration = builder.Configuration;
+
+            //Eureka Discovery
+            builder.Services.AddDiscoveryClient();
 
             //Ground
             builder.Services.AddGroundApiCore("Ground");//= AddControllers(); FluentValidation();

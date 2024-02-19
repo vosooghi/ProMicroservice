@@ -1,45 +1,46 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Ground.Endpoints.WebApi" Version="1.0.2" />
-    <PackageReference Include="Ground.Extensions.Caching.InMemory" Version="1.0.0" />
-    <PackageReference Include="Ground.Extensions.Events.PollingPublisher" Version="1.0.0" />
-    <PackageReference Include="Ground.Extensions.Events.PollingPublisher.Dal.Dapper" Version="1.0.0" />
-    <PackageReference Include="Ground.Extensions.MessageBus.MessageInbox" Version="1.0.0" />
-    <PackageReference Include="Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper" Version="1.0.0" />
-    <PackageReference Include="Ground.Extensions.ObjectMappers.AutoMapper" Version="1.0.0" />
-    <PackageReference Include="Ground.Extensions.Serializers.NewtonSoft" Version="1.0.0" />
-    <PackageReference Include="Ground.Extensions.Translations.Trani" Version="1.0.0" />
-    <PackageReference Include="Ground.Extensions.UsersManagement" Version="1.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.15" />
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.14" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.15">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.15">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Steeltoe.Discovery.Eureka" Version="3.2.6" />
+		<PackageReference Include="Ground.Endpoints.WebApi" Version="1.0.2" />
+		<PackageReference Include="Ground.Extensions.Caching.InMemory" Version="1.0.0" />
+		<PackageReference Include="Ground.Extensions.Events.PollingPublisher" Version="1.0.0" />
+		<PackageReference Include="Ground.Extensions.Events.PollingPublisher.Dal.Dapper" Version="1.0.0" />
+		<PackageReference Include="Ground.Extensions.MessageBus.MessageInbox" Version="1.0.0" />
+		<PackageReference Include="Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper" Version="1.0.0" />
+		<PackageReference Include="Ground.Extensions.ObjectMappers.AutoMapper" Version="1.0.0" />
+		<PackageReference Include="Ground.Extensions.Serializers.NewtonSoft" Version="1.0.0" />
+		<PackageReference Include="Ground.Extensions.Translations.Trani" Version="1.0.0" />
+		<PackageReference Include="Ground.Extensions.UsersManagement" Version="1.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.15" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.14" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.15">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.15">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\1.Core\NewsCMS.Core.ApplicationServices\NewsCMS.Core.ApplicationServices.csproj" />
-    <ProjectReference Include="..\..\1.Core\NewsCMS.Core.Contracts\NewsCMS.Core.Contracts.csproj" />
-    <ProjectReference Include="..\..\1.Core\NewsCMS.Core.Domain\NewsCMS.Core.Domain.csproj" />
-    <ProjectReference Include="..\..\2.Infra\Data\NewsCMS.Infra.Data.Sql.Commands\NewsCMS.Infra.Data.Sql.Commands.csproj" />
-    <ProjectReference Include="..\..\2.Infra\Data\NewsCMS.Infra.Data.Sql.Queries\NewsCMS.Infra.Data.Sql.Queries.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\1.Core\NewsCMS.Core.ApplicationServices\NewsCMS.Core.ApplicationServices.csproj" />
+		<ProjectReference Include="..\..\1.Core\NewsCMS.Core.Contracts\NewsCMS.Core.Contracts.csproj" />
+		<ProjectReference Include="..\..\1.Core\NewsCMS.Core.Domain\NewsCMS.Core.Domain.csproj" />
+		<ProjectReference Include="..\..\2.Infra\Data\NewsCMS.Infra.Data.Sql.Commands\NewsCMS.Infra.Data.Sql.Commands.csproj" />
+		<ProjectReference Include="..\..\2.Infra\Data\NewsCMS.Infra.Data.Sql.Queries\NewsCMS.Infra.Data.Sql.Queries.csproj" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="Controllers\" />
+	</ItemGroup>
 
 </Project>
