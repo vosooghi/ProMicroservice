@@ -17,29 +17,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.LoadBalanci
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.PubSub", "03.PubSub", "{E43545E4-5E44-4C70-9A75-08D9755882E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.PubSub.Sender", "03.PubSub\RabbitMqSamples.PubSub.Sender\RabbitMqSamples.PubSub.Sender.csproj", "{14EF3224-263D-4665-AE83-3A0C8402C4E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.PubSub.Sender", "03.PubSub\RabbitMqSamples.PubSub.Sender\RabbitMqSamples.PubSub.Sender.csproj", "{14EF3224-263D-4665-AE83-3A0C8402C4E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.PubSub.ConsoleReceiver", "03.PubSub\RabbitMqSamples.PubSub.ConsoleReceiver\RabbitMqSamples.PubSub.ConsoleReceiver.csproj", "{FC44D05D-2DE1-4337-A70A-FCE4894DD688}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.PubSub.ConsoleReceiver", "03.PubSub\RabbitMqSamples.PubSub.ConsoleReceiver\RabbitMqSamples.PubSub.ConsoleReceiver.csproj", "{FC44D05D-2DE1-4337-A70A-FCE4894DD688}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.PubSub.EmailReceiver", "03.PubSub\RabbitMqSamples.PubSub.EmailReceiver\RabbitMqSamples.PubSub.EmailReceiver.csproj", "{9D641596-6C5F-49FB-A85E-0B704853C28B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.PubSub.EmailReceiver", "03.PubSub\RabbitMqSamples.PubSub.EmailReceiver\RabbitMqSamples.PubSub.EmailReceiver.csproj", "{9D641596-6C5F-49FB-A85E-0B704853C28B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.DirectRouting", "04.DirectRouting", "{F6DFC1F2-EA3E-49BF-AE3D-4AB5FE909EAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.DirectRouting.Sender", "04.DirectRouting\RabbitMqSamples.DirectRouting.Sender\RabbitMqSamples.DirectRouting.Sender.csproj", "{748FDA21-1338-4784-84E3-E3C204A226A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.DirectRouting.Sender", "04.DirectRouting\RabbitMqSamples.DirectRouting.Sender\RabbitMqSamples.DirectRouting.Sender.csproj", "{748FDA21-1338-4784-84E3-E3C204A226A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.DirectRouting.EmailReceiver", "04.DirectRouting\RabbitMqSamples.DirectRouting.EmailReceiver\RabbitMqSamples.DirectRouting.EmailReceiver.csproj", "{70C4C2E7-79E0-4772-8065-E0EC25BD26D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.DirectRouting.EmailReceiver", "04.DirectRouting\RabbitMqSamples.DirectRouting.EmailReceiver\RabbitMqSamples.DirectRouting.EmailReceiver.csproj", "{70C4C2E7-79E0-4772-8065-E0EC25BD26D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.DirectRouting.SMSReceiver", "04.DirectRouting\RabbitMqSamples.DirectRouting.SMSReceiver\RabbitMqSamples.DirectRouting.SMSReceiver.csproj", "{AC3B72D5-F0CE-4AB8-A748-1AD29590907C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.DirectRouting.SMSReceiver", "04.DirectRouting\RabbitMqSamples.DirectRouting.SMSReceiver\RabbitMqSamples.DirectRouting.SMSReceiver.csproj", "{AC3B72D5-F0CE-4AB8-A748-1AD29590907C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.TopicRouting", "05.TopicRouting", "{E1D2CC5B-2910-4442-A188-233B423DC0B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.TopicRouting.Sender", "05.TopicRouting\RabbitMqSamples.TopicRouting.Sender\RabbitMqSamples.TopicRouting.Sender.csproj", "{AF55C5F9-9294-49FA-A691-EE87F7369AF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.TopicRouting.Sender", "05.TopicRouting\RabbitMqSamples.TopicRouting.Sender\RabbitMqSamples.TopicRouting.Sender.csproj", "{AF55C5F9-9294-49FA-A691-EE87F7369AF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.TopicRouting.ConsoleReceiver", "05.TopicRouting\RabbitMqSamples.TopicRouting.ConsoleReceiver\RabbitMqSamples.TopicRouting.ConsoleReceiver.csproj", "{BA7A2F06-65DF-4E6F-81F7-CC8B1676E27F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.TopicRouting.ConsoleReceiver", "05.TopicRouting\RabbitMqSamples.TopicRouting.ConsoleReceiver\RabbitMqSamples.TopicRouting.ConsoleReceiver.csproj", "{BA7A2F06-65DF-4E6F-81F7-CC8B1676E27F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.TopicRouting.LoggerReceiver", "05.TopicRouting\RabbitMqSamples.TopicRouting.LoggerReceiver\RabbitMqSamples.TopicRouting.LoggerReceiver.csproj", "{9C5012FD-D28A-404F-B710-43864172D8B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.TopicRouting.LoggerReceiver", "05.TopicRouting\RabbitMqSamples.TopicRouting.LoggerReceiver\RabbitMqSamples.TopicRouting.LoggerReceiver.csproj", "{9C5012FD-D28A-404F-B710-43864172D8B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.TopicRouting.EmailReceiver", "05.TopicRouting\RabbitMqSamples.TopicRouting.EmailReceiver\RabbitMqSamples.TopicRouting.EmailReceiver.csproj", "{1E53C66C-F4B3-4518-8154-73717B1D2051}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.TopicRouting.EmailReceiver", "05.TopicRouting\RabbitMqSamples.TopicRouting.EmailReceiver\RabbitMqSamples.TopicRouting.EmailReceiver.csproj", "{1E53C66C-F4B3-4518-8154-73717B1D2051}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.RPC", "06.RPC", "{85B06798-AE46-47A2-BDB5-D7839D10D2E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.RPC.Server", "06.RPC\RabbitMqSamples.RPC.Server\RabbitMqSamples.RPC.Server.csproj", "{2EEFF020-B17E-4974-B383-64138DDD210B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.RPC.SyncClient", "06.RPC\RabbitMqSamples.RPC.SyncClient\RabbitMqSamples.RPC.SyncClient.csproj", "{F7420CB2-4D82-4139-A665-1FD053753C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.RPC.AsyncClient", "06.RPC\RabbitMqSamples.RPC.AsyncClient\RabbitMqSamples.RPC.AsyncClient.csproj", "{3DBF8E79-F44D-4BF4-96B6-D51228534BD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +111,18 @@ Global
 		{1E53C66C-F4B3-4518-8154-73717B1D2051}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E53C66C-F4B3-4518-8154-73717B1D2051}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E53C66C-F4B3-4518-8154-73717B1D2051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEFF020-B17E-4974-B383-64138DDD210B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEFF020-B17E-4974-B383-64138DDD210B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEFF020-B17E-4974-B383-64138DDD210B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEFF020-B17E-4974-B383-64138DDD210B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7420CB2-4D82-4139-A665-1FD053753C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7420CB2-4D82-4139-A665-1FD053753C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7420CB2-4D82-4139-A665-1FD053753C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7420CB2-4D82-4139-A665-1FD053753C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBF8E79-F44D-4BF4-96B6-D51228534BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBF8E79-F44D-4BF4-96B6-D51228534BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBF8E79-F44D-4BF4-96B6-D51228534BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBF8E79-F44D-4BF4-96B6-D51228534BD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +142,9 @@ Global
 		{BA7A2F06-65DF-4E6F-81F7-CC8B1676E27F} = {E1D2CC5B-2910-4442-A188-233B423DC0B2}
 		{9C5012FD-D28A-404F-B710-43864172D8B8} = {E1D2CC5B-2910-4442-A188-233B423DC0B2}
 		{1E53C66C-F4B3-4518-8154-73717B1D2051} = {E1D2CC5B-2910-4442-A188-233B423DC0B2}
+		{2EEFF020-B17E-4974-B383-64138DDD210B} = {85B06798-AE46-47A2-BDB5-D7839D10D2E9}
+		{F7420CB2-4D82-4139-A665-1FD053753C54} = {85B06798-AE46-47A2-BDB5-D7839D10D2E9}
+		{3DBF8E79-F44D-4BF4-96B6-D51228534BD0} = {85B06798-AE46-47A2-BDB5-D7839D10D2E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98068082-FBF9-4A18-9CA9-BDCA0EC50B44}
