@@ -10,6 +10,7 @@ using Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper.Extensions.Dependency
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Ground.Extensions.Events.Outbox.Dal.EF.Interceptors;
 using Steeltoe.Discovery.Client;
+using BasicInfo.Endpoints.WebApi.BackgroundTasks;
 
 namespace BasicInfo.Endpoints.WebApi.Extentions
 {
@@ -83,6 +84,9 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
 
             //MessageInbox
             builder.Services.AddGroundMessageInboxDalSql(configuration, "MessageInboxSqlStore");
+
+            //PollingPublisher
+            builder.Services.AddHostedService<EventPublisher>();
 
             builder.Services.AddSwaggerGen();
             return builder.Build();

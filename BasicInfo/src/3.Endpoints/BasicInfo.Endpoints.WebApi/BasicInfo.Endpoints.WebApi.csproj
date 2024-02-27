@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+	  <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
 	  <PackageReference Include="Steeltoe.Discovery.Eureka" Version="3.2.6" />
     <PackageReference Include="Ground.Endpoints.WebApi" Version="1.0.2" />
     <PackageReference Include="Ground.Extensions.Caching.InMemory" Version="1.0.0" />

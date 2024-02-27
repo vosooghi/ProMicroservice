@@ -26,6 +26,7 @@ namespace NewsCMSClient.Controllers
             string newsAsString = await newsClient.GetStringAsync($"api/News/GetDetail?NewsId={id}");
             NewsDetailViewModel newsDetail = JsonConvert.DeserializeObject<NewsDetailViewModel>(newsAsString);
 
+            /* before implementing PollingPublisher pattern
             var biClient = _httpClientFactory.CreateClient("bi");
             string KeywordAsString = await biClient.GetStringAsync("api/Keywords/SearchTitleAndStatus");
             KeywordListResult keywordListResult = JsonConvert.DeserializeObject<KeywordListResult>(KeywordAsString);
@@ -37,7 +38,7 @@ namespace NewsCMSClient.Controllers
                     var keyword = keywordListResult.queryResult.Where(c => c.businessId == newsDetail.keywords[i]).FirstOrDefault();
                     newsDetail.keywords[i] = keyword.title;
                 }
-            }
+            }*/
 
             return View(newsDetail);
         }
@@ -61,7 +62,7 @@ namespace NewsCMSClient.Controllers
 
             var httpContnt = new StringContent(JsonConvert.SerializeObject(model), System.Text.Encoding.UTF8, "application/json");
 
-            var result = await newsClient.PostAsync("api/News", httpContnt);
+            var result = await newsClient.PostAsync("api/News/CreateNews", httpContnt);
             return result.IsSuccessStatusCode ? Redirect("Index") : Redirect("Save");
         }
     }

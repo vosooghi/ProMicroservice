@@ -48,7 +48,12 @@ namespace NewsCMS.Infra.Data.Sql.Queries.News
                 Description = c.Description,
                 InsertDate = c.CreatedDateTime,
                 Title = c.Title,
-                Keywords = c.NewsKeywords.Select(w=>w.BusinessId).ToList(),
+                Keywords = c.NewsKeywords.Select(w=> new KeywordResult
+                {
+                  KeywordId=w.Keyword.KeywordBusinessId,
+                   KeywordTitle = w.Keyword.KeywordTitle
+                  
+                }).ToList(),
             }).FirstOrDefault();
         }
     }

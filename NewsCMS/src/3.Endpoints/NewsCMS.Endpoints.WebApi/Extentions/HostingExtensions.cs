@@ -10,6 +10,7 @@ using Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper.Extensions.Dependency
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Ground.Extensions.Events.Outbox.Dal.EF.Interceptors;
 using Steeltoe.Discovery.Client;
+using NewsCMS.Endpoints.WebApi.BackgroundTasks;
 
 namespace NewsCMS.Endpoints.WebApi.Extentions
 {
@@ -84,6 +85,9 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
             //MessageInbox
             builder.Services.AddGroundMessageInboxDalSql(configuration, "MessageInboxSqlStore");
 
+            //PollingPublisherPattern
+            builder.Services.AddHostedService<KeywordCreatedReceiver>();
+            
             builder.Services.AddSwaggerGen();
             return builder.Build();
         }
