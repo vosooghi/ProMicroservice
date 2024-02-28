@@ -12,6 +12,9 @@ builder.Services.AddHttpClient("news", c =>
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//Health Check
+builder.Services.AddHealthChecks();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,6 +31,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.MapHealthChecks("health/status");
 
 app.MapControllerRoute(
     name: "default",

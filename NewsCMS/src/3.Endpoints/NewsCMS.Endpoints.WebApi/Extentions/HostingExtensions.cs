@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Cors.Infrastructure;
 using Ground.Extensions.Events.Outbox.Dal.EF.Interceptors;
 using Steeltoe.Discovery.Client;
 using NewsCMS.Endpoints.WebApi.BackgroundTasks;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
 namespace NewsCMS.Endpoints.WebApi.Extentions
 {
@@ -67,7 +68,7 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
             {
                 option.AssmblyNamesForLoadProfiles = "Ground.Samples";
             });*/
-            
+
             //Ground
             builder.Services.AddGroundInMemoryCaching();
 
@@ -87,7 +88,10 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
 
             //PollingPublisherPattern
             builder.Services.AddHostedService<KeywordCreatedReceiver>();
-            
+
+            //Health Check
+            builder.Services.AddHealthChecks().AddDbContextCheck<NewsCMSCommandDbContext>();
+
             builder.Services.AddSwaggerGen();
             return builder.Build();
         }
@@ -115,9 +119,18 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
 
             //app.UseHttpsRedirection();
 
-            //app.UseAuthorization();
+            app.UseAuthorization();
 
-             app.MapControllers();
+            //Health Check
+            //health check            
+            app.MapHealthChecks("health/live", new HealthCheckOptions
+            {
+                Predicate = _ => false
+            }); ;
+            app.MapHealthChecks("health/ready");
+
+
+            app.MapControllers();
 
 
             return app;

@@ -11,6 +11,8 @@ using Microsoft.AspNetCore.Cors.Infrastructure;
 using Ground.Extensions.Events.Outbox.Dal.EF.Interceptors;
 using Steeltoe.Discovery.Client;
 using BasicInfo.Endpoints.WebApi.BackgroundTasks;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
 namespace BasicInfo.Endpoints.WebApi.Extentions
 {
@@ -88,6 +90,9 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
             //PollingPublisher
             builder.Services.AddHostedService<EventPublisher>();
 
+            //Health Check
+            builder.Services.AddHealthChecks().AddDbContextCheck<BasicInfoCommandDbContext>();
+
             builder.Services.AddSwaggerGen();
             return builder.Build();
         }
@@ -115,7 +120,14 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
 
             app.UseHttpsRedirection();
 
-            //app.UseAuthorization();
+            app.UseAuthorization();
+
+            //health check            
+            app.MapHealthChecks("health/live", new HealthCheckOptions
+            {
+                Predicate = _ => false
+            }); ;
+            app.MapHealthChecks("health/ready");
 
             app.MapControllers();
 
