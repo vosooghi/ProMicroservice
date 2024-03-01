@@ -13,6 +13,7 @@ using Steeltoe.Discovery.Client;
 using BasicInfo.Endpoints.WebApi.BackgroundTasks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Serilog;
 
 namespace BasicInfo.Endpoints.WebApi.Extentions
 {
@@ -101,7 +102,7 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
         {
             app.UseGroundApiExceptionHandler();
 
-            //app.UseSerilogRequestLogging();
+            app.UseSerilogRequestLogging();
 
             if (app.Environment.IsDevelopment())
             {
