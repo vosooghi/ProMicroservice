@@ -1,6 +1,8 @@
+using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using Serilog.Sinks.Elasticsearch;
 using Serilog.Sinks.MSSqlServer;
+using System.IdentityModel.Tokens.Jwt;
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
@@ -27,6 +29,30 @@ try
     })
     .Enrich.FromLogContext()
     .ReadFrom.Configuration(ctx.Configuration));
+
+    //Login Config
+    JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
+    builder.Services.AddAuthentication(w =>
+    {
+        w.DefaultScheme = "Cookies";
+        w.DefaultChallengeScheme = "oidc";
+
+    }).AddCookie("Cookies").AddOpenIdConnect("oidc", c =>
+    {
+        c.Authority = "https://localhost:4001";
+        c.ClientId = "newscmsclient";
+        c.ClientSecret = "newscmsclient";
+        c.ResponseType = "code";
+        c.Scope.Clear();
+        c.Scope.Add("openid");
+        c.Scope.Add("profile");
+        c.Scope.Add("basicinfo");
+        c.Scope.Add("newscms");
+        c.Scope.Add("offline_access");
+        c.GetClaimsFromUserInfoEndpoint = true;
+        c.SaveTokens = true;
+    });
+
 
     builder.Services.AddHttpClient("bi", c =>
     {
@@ -60,15 +86,16 @@ try
     //app.UseHttpsRedirection();
     app.UseStaticFiles();
 
-    app.UseRouting();
+    app.UseRouting();    
 
-    app.UseAuthorization();
+    app.MapHealthChecks("health/live");
 
-    app.MapHealthChecks("health/status");
+    app.UseAuthentication();
+    app.UseAuthorization();    
 
     app.MapControllerRoute(
         name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
+        pattern: "{controller=Home}/{action=Index}/{id?}").RequireAuthorization();
 
     app.Run();
 
