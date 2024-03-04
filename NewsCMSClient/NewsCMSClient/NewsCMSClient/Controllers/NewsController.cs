@@ -2,6 +2,8 @@
 using NewsCMSClient.Models.Keywords;
 using NewsCMSClient.Models.NewsViewModels;
 using Newtonsoft.Json;
+using IdentityModel;
+using IdentityModel.Client;
 
 namespace NewsCMSClient.Controllers
 {
@@ -15,8 +17,24 @@ namespace NewsCMSClient.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var biClient = _httpClientFactory.CreateClient("news");
-            string KeywordAsString = await biClient.GetStringAsync("api/News/GetList");
+            var oAuthClient = _httpClientFactory.CreateClient("oAuth");
+            var discovery =await oAuthClient.GetDiscoveryDocumentAsync();
+            string token="";
+
+            //if (!discovery.IsError)
+            //{
+                var tokenResponse =await oAuthClient.RequestClientCredentialsTokenAsync(new ClientCredentialsTokenRequest
+                {
+                    Address = discovery.TokenEndpoint,
+                    ClientId = "newscmsclient",
+                    ClientSecret = "newscmsclient",
+                    Scope = "basicinfo newscms"
+                });
+                token = tokenResponse.AccessToken;
+            //}
+            var newsClient = _httpClientFactory.CreateClient("news");
+            newsClient.SetBearerToken(token);
+            string KeywordAsString = await newsClient.GetStringAsync("api/News/GetList");
             NewsListModel newsList = JsonConvert.DeserializeObject<NewsListModel>(KeywordAsString);
             return View(newsList);
         }

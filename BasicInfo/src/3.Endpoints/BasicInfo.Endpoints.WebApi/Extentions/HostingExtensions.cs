@@ -36,7 +36,7 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
 
             //Ground
             builder.Services.AddGroundApiCore("Ground");//= AddControllers(); FluentValidation();
-            
+
             //microsoft
             builder.Services.AddEndpointsApiExplorer();
 
@@ -57,6 +57,23 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
                 c.ReloadDataIntervalInMinuts = 1;
             });
 
+            //Identity Server
+            builder.Services.AddAuthentication("Bearer").AddJwtBearer("Bearer", c =>
+            {
+                c.Authority = "https://localhost:4001";
+                c.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                {
+                    ValidateAudience = false,
+                };
+            });
+            builder.Services.AddAuthorization(c =>
+                c.AddPolicy("BasicInfoPolicy", p =>
+                {
+                    p.RequireAuthenticatedUser();
+                    p.RequireClaim("scope", "BasicInfo");
+                })
+            );
+
             //Ground
             builder.Services.AddNonValidatingValidator();
 
@@ -70,7 +87,7 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
             {
                 option.AssmblyNamesForLoadProfiles = "Ground.Samples";
             });*/
-            
+
             //Ground
             builder.Services.AddGroundInMemoryCaching();
 
@@ -119,9 +136,8 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
                 builder.AllowAnyMethod();
             });
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
-            app.UseAuthorization();
 
             //health check            
             app.MapHealthChecks("health/live", new HealthCheckOptions
@@ -130,7 +146,11 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
             }); ;
             app.MapHealthChecks("health/ready");
 
-            app.MapControllers();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+            app.MapControllers().RequireAuthorization("BasicInfoPolicy");
 
 
             return app;

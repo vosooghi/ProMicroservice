@@ -36,6 +36,10 @@ try
     {
         c.BaseAddress = new Uri("http://localhost:8000/news/");
     });//NewsCMS
+    builder.Services.AddHttpClient("oAuth", c =>
+    {
+        c.BaseAddress = new Uri("https://localhost:4001");
+    });//oAuth
 
     // Add services to the container.
     builder.Services.AddControllersWithViews();

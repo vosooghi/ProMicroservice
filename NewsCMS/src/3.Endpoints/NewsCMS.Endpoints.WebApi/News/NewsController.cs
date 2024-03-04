@@ -20,6 +20,7 @@ namespace NewsCMS.Endpoints.WebApi.News
         [HttpGet("GetList")]
         public async Task<IActionResult> Get([FromQuery] NewsList newsList)
         {
+            var headers = HttpContext.Request.Headers;
             return await Query<NewsList, PageData<NewsListResult>>(newsList);
         }
 

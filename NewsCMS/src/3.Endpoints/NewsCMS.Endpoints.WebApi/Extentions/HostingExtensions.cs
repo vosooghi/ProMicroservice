@@ -12,6 +12,7 @@ using Ground.Extensions.Events.Outbox.Dal.EF.Interceptors;
 using Steeltoe.Discovery.Client;
 using NewsCMS.Endpoints.WebApi.BackgroundTasks;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Serilog;
 
 namespace NewsCMS.Endpoints.WebApi.Extentions
 {
@@ -54,6 +55,23 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
                 c.TableName = "TraniTranslations";
                 c.ReloadDataIntervalInMinuts = 1;
             });
+
+            //Identity Server
+            builder.Services.AddAuthentication("Bearer").AddJwtBearer("Bearer", c =>
+            {
+                c.Authority = "https://localhost:4001";
+                c.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                {
+                    ValidateAudience = false,
+                };
+            });
+            builder.Services.AddAuthorization(c =>
+                c.AddPolicy("NewsCMSPolicy", p =>
+                {
+                    p.RequireAuthenticatedUser();
+                    p.RequireClaim("scope", "newscms");
+                })
+            );
 
             //Ground
             builder.Services.AddNonValidatingValidator();
@@ -98,6 +116,8 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
 
         public static WebApplication ConfigurePipeline(this WebApplication app)
         {
+            app.UseSerilogRequestLogging();
+
             app.UseGroundApiExceptionHandler();
 
             //app.UseSerilogRequestLogging();
@@ -117,9 +137,7 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
                 builder.AllowAnyMethod();
             });
 
-            //app.UseHttpsRedirection();
-
-            app.UseAuthorization();
+            //app.UseHttpsRedirection();            
 
             //Health Check
             //health check            
@@ -130,7 +148,10 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
             app.MapHealthChecks("health/ready");
 
 
-            app.MapControllers();
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+            app.MapControllers().RequireAuthorization("NewsCMSPolicy");
 
 
             return app;
