@@ -3,6 +3,8 @@ using Steeltoe.Discovery.Client;
 using Serilog;
 using Serilog.Sinks.MSSqlServer;
 using Serilog.Sinks.Elasticsearch;
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
@@ -12,6 +14,19 @@ Log.Information("Starting up");
 try
 {
     var builder = WebApplication.CreateBuilder(args);
+
+    //OpenTelemetry
+    const string serviceName = "NewsCMS.ApiGateway";
+    const string serviceVersion = "1.0.0";
+
+    builder.Services.AddOpenTelemetry()
+          .ConfigureResource(resource =>
+          resource.AddService(serviceName, serviceVersion))
+          .WithTracing(tracing => tracing
+              .AddAspNetCoreInstrumentation()
+              .AddSqlClientInstrumentation()
+              .AddHttpClientInstrumentation()
+              .AddConsoleExporter().AddJaegerExporter());
 
     //Serilog
     builder.Host.UseSerilog((ctx, lc) => lc

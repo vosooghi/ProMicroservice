@@ -14,6 +14,8 @@ using BasicInfo.Endpoints.WebApi.BackgroundTasks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Serilog;
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 
 namespace BasicInfo.Endpoints.WebApi.Extentions
 {
@@ -30,6 +32,19 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
         public static WebApplication ConfigureServices(this WebApplicationBuilder builder)
         {
             IConfiguration configuration = builder.Configuration;
+
+            //OpenTelemetry
+            const string serviceName = "NewsCMS.BasicInfo";
+            const string serviceVersion = "1.0.0";
+
+            builder.Services.AddOpenTelemetry()
+                  .ConfigureResource(resource =>
+                  resource.AddService(serviceName, serviceVersion))
+                  .WithTracing(tracing => tracing
+                      .AddAspNetCoreInstrumentation()
+                      .AddSqlClientInstrumentation()
+                      .AddHttpClientInstrumentation()
+                      .AddConsoleExporter().AddJaegerExporter());
 
             //Eureka Discovery
             builder.Services.AddDiscoveryClient();

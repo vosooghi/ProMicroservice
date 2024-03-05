@@ -1,4 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 using Serilog;
 using Serilog.Sinks.Elasticsearch;
 using Serilog.Sinks.MSSqlServer;
@@ -14,6 +16,19 @@ try
 {
 
     var builder = WebApplication.CreateBuilder(args);
+
+    //OpenTelemetry
+    const string serviceName = "NewsCMS.Client";
+    const string serviceVersion = "1.0.0";
+
+    builder.Services.AddOpenTelemetry()
+          .ConfigureResource(resource =>
+          resource.AddService(serviceName, serviceVersion))
+          .WithTracing(tracing => tracing
+              .AddAspNetCoreInstrumentation()
+              .AddSqlClientInstrumentation()
+              .AddHttpClientInstrumentation()
+              .AddConsoleExporter().AddJaegerExporter());
 
     builder.Host.UseSerilog((ctx, lc) => lc
     .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level}] {SourceContext}{NewLine}{Message:lj}{NewLine}{Exception}{NewLine}")

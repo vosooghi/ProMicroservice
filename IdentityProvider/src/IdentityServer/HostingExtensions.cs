@@ -1,3 +1,5 @@
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 using Serilog;
 
 namespace IdentityServer;
@@ -6,6 +8,19 @@ internal static class HostingExtensions
 {
     public static WebApplication ConfigureServices(this WebApplicationBuilder builder)
     {
+        //OpenTelemetry
+        const string serviceName = "NewsCMS.IdentityServer";
+        const string serviceVersion = "1.0.0";
+
+        builder.Services.AddOpenTelemetry()
+              .ConfigureResource(resource =>
+              resource.AddService(serviceName, serviceVersion))
+              .WithTracing(tracing => tracing
+                  .AddAspNetCoreInstrumentation()
+                  .AddSqlClientInstrumentation()
+                  .AddHttpClientInstrumentation()
+                  .AddConsoleExporter().AddJaegerExporter());
+
         // uncomment if you want to add a UI
         builder.Services.AddRazorPages();
 
