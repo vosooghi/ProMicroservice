@@ -2,8 +2,6 @@
 using NewsCMSClient.Models.Keywords;
 using NewsCMSClient.Models.NewsViewModels;
 using Newtonsoft.Json;
-using IdentityModel;
-using IdentityModel.Client;
 using Microsoft.AspNetCore.Authentication;
 using System.Net.Http.Headers;
 
@@ -48,7 +46,9 @@ namespace NewsCMSClient.Controllers
         }
         public async Task<IActionResult> Detail(long id)
         {
+            string token = await HttpContext.GetTokenAsync("access_token");
             var newsClient = _httpClientFactory.CreateClient("news");
+            newsClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             string newsAsString = await newsClient.GetStringAsync($"api/News/GetDetail?NewsId={id}");
             NewsDetailViewModel newsDetail = JsonConvert.DeserializeObject<NewsDetailViewModel>(newsAsString);
 
@@ -70,7 +70,11 @@ namespace NewsCMSClient.Controllers
         }
         public async Task<IActionResult> Save()
         {
+            string token = await HttpContext.GetTokenAsync("access_token");
+
             var biClient = _httpClientFactory.CreateClient("bi");
+            biClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
             string keywordAsString =await biClient.GetStringAsync("api/Keywords/SearchTitleAndStatus");
             KeywordListResult keywordListResult = JsonConvert.DeserializeObject<KeywordListResult>(keywordAsString);
             ViewCreateNewsViewModel model = new ViewCreateNewsViewModel();
@@ -84,7 +88,9 @@ namespace NewsCMSClient.Controllers
         [HttpPost]
         public async Task<IActionResult> Save([Bind(Prefix = "SaveModel")] CreateNewsViewModel model)
         {
+            string token = await HttpContext.GetTokenAsync("access_token");
             var newsClient = _httpClientFactory.CreateClient("news");
+            newsClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
             var httpContnt = new StringContent(JsonConvert.SerializeObject(model), System.Text.Encoding.UTF8, "application/json");
 

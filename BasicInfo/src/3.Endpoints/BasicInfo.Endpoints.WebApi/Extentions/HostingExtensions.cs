@@ -70,7 +70,7 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
                 c.AddPolicy("BasicInfoPolicy", p =>
                 {
                     p.RequireAuthenticatedUser();
-                    p.RequireClaim("scope", "BasicInfo");
+                    p.RequireClaim("scope", "basicinfo");
                 })
             );
 

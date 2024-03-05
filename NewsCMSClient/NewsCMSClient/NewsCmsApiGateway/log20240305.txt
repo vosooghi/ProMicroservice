@@ -1,0 +1,82 @@
+2024-03-05 09:23:31.205 +03:30 [INF] User profile is available. Using 'C:\Users\Abbas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-05 09:23:33.532 +03:30 [INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/
+2024-03-05 09:23:35.175 +03:30 [INF] Sending HTTP request GET http://localhost:8761/eureka/apps/
+2024-03-05 09:23:36.141 +03:30 [INF] Received HTTP response headers after 921.2554ms - 200
+2024-03-05 09:23:36.209 +03:30 [INF] End processing HTTP request after 2697.1878ms - 200
+2024-03-05 09:23:40.075 +03:30 [INF] Now listening on: https://localhost:8001
+2024-03-05 09:23:40.079 +03:30 [INF] Now listening on: http://localhost:8000
+2024-03-05 09:23:40.086 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-05 09:23:40.090 +03:30 [INF] Hosting environment: Development
+2024-03-05 09:23:40.092 +03:30 [INF] Content root path: E:\ProMicroservice\NewsCMSClient\NewsCMSClient\NewsCmsApiGateway
+2024-03-05 09:23:42.087 +03:30 [INF] Request starting HTTP/2 GET https://localhost:8001/ - -
+2024-03-05 09:23:42.516 +03:30 [INF] Request finished HTTP/2 GET https://localhost:8001/ - - - 404 0 - 434.5900ms
+2024-03-05 09:23:53.738 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/news/api/News/GetList - -
+2024-03-05 09:23:53.749 +03:30 [INF] Executing endpoint 'NewsCmsRoute'
+2024-03-05 09:23:53.910 +03:30 [INF] Proxying to http://localhost:6000/api/News/GetList HTTP/2 RequestVersionOrLower 
+2024-03-05 09:24:01.565 +03:30 [INF] Received HTTP/1.1 response 200.
+2024-03-05 09:24:01.637 +03:30 [INF] Executed endpoint 'NewsCmsRoute'
+2024-03-05 09:24:01.653 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/news/api/News/GetList - - - 200 - application/json;+charset=utf-8 7914.9594ms
+2024-03-05 09:24:06.971 +03:30 [INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:24:06.996 +03:30 [INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:24:07.190 +03:30 [INF] Received HTTP response headers after 175.91ms - 200
+2024-03-05 09:24:07.194 +03:30 [INF] End processing HTTP request after 223.4865ms - 200
+2024-03-05 09:24:12.436 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/news/api/News/GetDetail?NewsId=9 - -
+2024-03-05 09:24:12.444 +03:30 [INF] Executing endpoint 'NewsCmsRoute'
+2024-03-05 09:24:12.452 +03:30 [INF] Proxying to http://localhost:6000/api/News/GetDetail?NewsId=9 HTTP/2 RequestVersionOrLower 
+2024-03-05 09:24:13.414 +03:30 [INF] Received HTTP/1.1 response 200.
+2024-03-05 09:24:13.419 +03:30 [INF] Executed endpoint 'NewsCmsRoute'
+2024-03-05 09:24:13.423 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/news/api/News/GetDetail?NewsId=9 - - - 200 - application/json;+charset=utf-8 987.3512ms
+2024-03-05 09:24:36.975 +03:30 [INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:24:37.000 +03:30 [INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:24:37.128 +03:30 [INF] Received HTTP response headers after 124.6127ms - 200
+2024-03-05 09:24:37.139 +03:30 [INF] End processing HTTP request after 164.1622ms - 200
+2024-03-05 09:25:06.960 +03:30 [INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:25:06.964 +03:30 [INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:25:07.058 +03:30 [INF] Received HTTP response headers after 89.9695ms - 200
+2024-03-05 09:25:07.075 +03:30 [INF] End processing HTTP request after 114.9258ms - 200
+2024-03-05 09:25:36.966 +03:30 [INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:25:36.988 +03:30 [INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:25:37.108 +03:30 [INF] Received HTTP response headers after 115.7004ms - 200
+2024-03-05 09:25:37.114 +03:30 [INF] End processing HTTP request after 147.6184ms - 200
+2024-03-05 09:25:51.496 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/news/api/News/GetList - -
+2024-03-05 09:25:51.501 +03:30 [INF] Executing endpoint 'NewsCmsRoute'
+2024-03-05 09:25:51.504 +03:30 [INF] Proxying to http://localhost:6000/api/News/GetList HTTP/2 RequestVersionOrLower 
+2024-03-05 09:25:52.987 +03:30 [INF] Received HTTP/1.1 response 200.
+2024-03-05 09:25:53.161 +03:30 [INF] Executed endpoint 'NewsCmsRoute'
+2024-03-05 09:25:53.165 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/news/api/News/GetList - - - 200 - application/json;+charset=utf-8 1668.7277ms
+2024-03-05 09:25:59.475 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/bi/api/Keywords/SearchTitleAndStatus - -
+2024-03-05 09:25:59.483 +03:30 [INF] Executing endpoint 'BasicInfoRoute'
+2024-03-05 09:25:59.487 +03:30 [INF] Proxying to http://localhost:5000/api/Keywords/SearchTitleAndStatus HTTP/2 RequestVersionOrLower 
+2024-03-05 09:26:02.271 +03:30 [INF] Received HTTP/1.1 response 403.
+2024-03-05 09:26:02.276 +03:30 [INF] Executed endpoint 'BasicInfoRoute'
+2024-03-05 09:26:02.279 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/bi/api/Keywords/SearchTitleAndStatus - - - 403 - text/plain 2804.8227ms
+2024-03-05 09:26:06.966 +03:30 [INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:26:07.069 +03:30 [INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:26:07.319 +03:30 [INF] Received HTTP response headers after 106.7494ms - 200
+2024-03-05 09:26:07.367 +03:30 [INF] End processing HTTP request after 401.1805ms - 200
+2024-03-05 09:26:36.958 +03:30 [INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:26:37.005 +03:30 [INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:26:37.274 +03:30 [INF] Received HTTP response headers after 90.5328ms - 200
+2024-03-05 09:26:37.279 +03:30 [INF] End processing HTTP request after 321ms - 200
+2024-03-05 09:27:06.981 +03:30 [INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:27:07.057 +03:30 [INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:27:07.240 +03:30 [INF] Received HTTP response headers after 179.0988ms - 200
+2024-03-05 09:27:07.340 +03:30 [INF] End processing HTTP request after 359.5247ms - 200
+2024-03-05 09:27:36.961 +03:30 [INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:27:38.327 +03:30 [INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:27:39.497 +03:30 [INF] Received HTTP response headers after 1160.9199ms - 200
+2024-03-05 09:27:40.076 +03:30 [INF] End processing HTTP request after 3115.2518ms - 200
+2024-03-05 09:28:06.970 +03:30 [INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:28:07.000 +03:30 [INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:28:07.164 +03:30 [INF] Received HTTP response headers after 157.5603ms - 200
+2024-03-05 09:28:07.204 +03:30 [INF] End processing HTTP request after 234.211ms - 200
+2024-03-05 09:28:36.964 +03:30 [INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:28:36.975 +03:30 [INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+2024-03-05 09:28:37.145 +03:30 [INF] Received HTTP response headers after 162.4291ms - 200
+2024-03-05 09:28:37.150 +03:30 [INF] End processing HTTP request after 186.4326ms - 200
+2024-03-05 09:28:39.098 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:8000/bi/api/Keywords/SearchTitleAndStatus - -
+2024-03-05 09:28:39.132 +03:30 [INF] Executing endpoint 'BasicInfoRoute'
+2024-03-05 09:28:39.145 +03:30 [INF] Proxying to http://localhost:5000/api/Keywords/SearchTitleAndStatus HTTP/2 RequestVersionOrLower 
+2024-03-05 09:28:42.612 +03:30 [INF] Received HTTP/1.1 response 200.
+2024-03-05 09:28:42.617 +03:30 [INF] Executed endpoint 'BasicInfoRoute'
+2024-03-05 09:28:42.622 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:8000/bi/api/Keywords/SearchTitleAndStatus - - - 200 - application/json;+charset=utf-8 3522.9219ms
