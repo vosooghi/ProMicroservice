@@ -1,8 +1,10 @@
-﻿using Ground.Utilities.OpenTelemetryRegistration.Options;
+﻿using Ground.Utilities.OpenTelemetryRegistration.Monitoring;
+using Ground.Utilities.OpenTelemetryRegistration.Options;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using OpenTelemetry.Metrics;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
 
@@ -84,3 +86,4 @@ namespace Ground.Extensions.DependencyInjection
             return app;
         }
     }
+}

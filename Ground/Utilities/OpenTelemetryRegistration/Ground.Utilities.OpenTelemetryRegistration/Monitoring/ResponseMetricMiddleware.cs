@@ -3,9 +3,13 @@ using System.Diagnostics;
 
 namespace Ground.Utilities.OpenTelemetryRegistration.Monitoring
 {
-    public class ResponseMetricMiddleware(RequestDelegate request)
+    public class ResponseMetricMiddleware//(RequestDelegate request) c#12
     {
-        private readonly RequestDelegate _request = request ?? throw new ArgumentNullException(nameof(request));
+        public ResponseMetricMiddleware(RequestDelegate request)
+        {
+            _request = request ?? throw new ArgumentNullException(nameof(request));
+        }
+        private readonly RequestDelegate _request;
 
         public async Task Invoke(HttpContext httpContext, MetricReporter reporter)
         {
