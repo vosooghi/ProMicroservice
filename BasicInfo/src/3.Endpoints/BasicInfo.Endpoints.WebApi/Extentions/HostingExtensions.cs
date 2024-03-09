@@ -109,7 +109,7 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
             //CommandDbContext            
             //if you don't need to use OutBox, remove new AddOutBoxEventItemInterceptor() and DbContextNameCommandDbContext must inherit from BaseCommandDbContext
             builder.Services.AddDbContext<BasicInfoCommandDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("CommandDb_ConnectionString"))
-            .AddInterceptors(new SetPersianYeKeInterceptor(), new AddOutBoxEventItemInterceptor(), new AddAuditDataInterceptor()));
+            .AddInterceptors(new SetPersianYeKeInterceptor(), new AddAuditDataInterceptor()));
 
             //QueryDbContext
             builder.Services.AddDbContext<BasicInfoQueryDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("QueryDb_ConnectionString")));

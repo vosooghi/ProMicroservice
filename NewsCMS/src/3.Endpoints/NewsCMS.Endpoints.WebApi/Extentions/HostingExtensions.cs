@@ -106,9 +106,9 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
             builder.Services.AddGroundInMemoryCaching();
 
             //CommandDbContext            
-            //if you don't need to use OutBox, remove new AddOutBoxEventItemInterceptor() and DbContextNameCommandDbContext must inherit from BaseCommandDbContext
+            //if you don't need to use OutBox, remove new AddOutBoxEventItemInterceptor() and NewsCMSCommandDbContext must inherit from BaseCommandDbContext
             builder.Services.AddDbContext<NewsCMSCommandDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("CommandDb_ConnectionString"))
-            .AddInterceptors(new SetPersianYeKeInterceptor(), new AddOutBoxEventItemInterceptor(), new AddAuditDataInterceptor()));
+            .AddInterceptors(new SetPersianYeKeInterceptor(), new AddAuditDataInterceptor()));
 
             //QueryDbContext
             builder.Services.AddDbContext<NewsCMSQueryDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("QueryDb_ConnectionString")));
