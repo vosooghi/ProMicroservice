@@ -107,9 +107,9 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
             builder.Services.AddGroundInMemoryCaching();
 
             //CommandDbContext            
-            //if you don't need to use OutBox, remove new AddOutBoxEventItemInterceptor() and DbContextNameCommandDbContext must inherit from BaseCommandDbContext
+            //if you don't need to use OutBox, remove new AddOutBoxEventItemInterceptor() and BasicInfoCommandDbContext must inherit from BaseCommandDbContext
             builder.Services.AddDbContext<BasicInfoCommandDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("CommandDb_ConnectionString"))
-            .AddInterceptors(new SetPersianYeKeInterceptor(), new AddAuditDataInterceptor()));
+            .AddInterceptors(new SetPersianYeKeInterceptor(), new AddAuditDataInterceptor()));//new AddOutBoxEventItemInterceptor For adding OutboxEventItem without inheriting BasicInfoCommandDbContext from BaseOutBoxCommandDbContext
 
             //QueryDbContext
             builder.Services.AddDbContext<BasicInfoQueryDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("QueryDb_ConnectionString")));
