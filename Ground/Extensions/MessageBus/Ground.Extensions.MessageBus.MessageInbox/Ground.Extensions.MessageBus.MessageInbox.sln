@@ -5,9 +5,9 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ground.Extensions.MessageBus.MessageInbox", "Ground.Extensions.MessageBus.MessageInbox\Ground.Extensions.MessageBus.MessageInbox.csproj", "{85A55834-2B11-4B60-921A-AA5F7D0EBBD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper", "Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper\Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper.csproj", "{B937E266-F6E5-4D93-9D7D-6D34A85ED1FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper", "Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper\Ground.Extensions.MessageBus.MessageInbox.Dal.Dapper.csproj", "{B937E266-F6E5-4D93-9D7D-6D34A85ED1FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zamin.Extensions.MessageBus.MessageInbox.Sample", "Zamin.Extensions.MessageBus.MessageInbox.Sample\Zamin.Extensions.MessageBus.MessageInbox.Sample.csproj", "{1BBF77A6-59DC-4B4B-8A1F-652E2644B0D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ground.Extensions.MessageBus.MessageInbox.Sample", "Zamin.Extensions.MessageBus.MessageInbox.Sample\Ground.Extensions.MessageBus.MessageInbox.Sample.csproj", "{1BBF77A6-59DC-4B4B-8A1F-652E2644B0D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
