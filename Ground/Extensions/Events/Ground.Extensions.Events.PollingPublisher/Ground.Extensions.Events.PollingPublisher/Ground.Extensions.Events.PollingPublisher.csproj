@@ -15,10 +15,6 @@
 		<PackageIcon>Icon.png</PackageIcon>
 	</PropertyGroup>
 
-	<ItemGroup>
-	  <None Remove="readme.md~RF175af06.TMP" />
-	</ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Ground.Extensions.Events.Abstractions" Version="1.0.0" />
     <PackageReference Include="Ground.Extensions.MessageBus.Abstractions" Version="1.0.0" />
