@@ -1,9 +1,10 @@
 ﻿using Ground.Extensions.MessageBus.Abstractions;
+using Ground.Extensions.MessageBus.MessageInbox;
 using Ground.Extensions.MessageBus.MessageInbox.Options;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Ground.Extensions.MessageBus.MessageInbox.Extensions.DependencyInjection
+namespace Ground.Extensions.DependencyInjection
 {
     public static class MessageInboxServiceCollectionExtensions
     {
