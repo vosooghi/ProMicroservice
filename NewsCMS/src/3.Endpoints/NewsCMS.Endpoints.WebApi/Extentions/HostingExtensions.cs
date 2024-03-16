@@ -15,6 +15,8 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Serilog;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
+using Ground.Extensions.Events.PollingPublisher.Extensions.DependencyInjection;
+using Ground.Extensions.MessageBus.MessageInbox.Extensions.DependencyInjection;
 
 namespace NewsCMS.Endpoints.WebApi.Extentions
 {
@@ -114,13 +116,23 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
             builder.Services.AddDbContext<NewsCMSQueryDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("QueryDb_ConnectionString")));
 
             //PollingPublisher
+            //builder.Services.AddHostedService<KeywordCreatedReceiver>();
             builder.Services.AddGroundPollingPublisherDalSql(configuration, "PollingPublisherSqlStore");
+            builder.Services.AddGroundPollingPublisher(configuration, "PollingPublisher");
+
+            //MessageBus
+            builder.Services.AddGroundRabbitMqMessageBus(c =>
+            {
+                c.PerssistMessage = true;
+                c.ExchangeName = "NewsCmsExchange";
+                c.ServiceName = "BasicInfo";
+                c.Url = "localhost";
+            });
 
             //MessageInbox
-            builder.Services.AddGroundMessageInboxDalSql(configuration, "MessageInboxSqlStore");
-
-            //PollingPublisherPattern
-            builder.Services.AddHostedService<KeywordCreatedReceiver>();
+            builder.Services.AddGroundMessageInbox(c =>
+            { c.ApplicationName = "NewsCMS.CMS"; });
+            builder.Services.AddGroundMessageInboxDalSql(configuration, "MessageInboxSqlStore");                       
 
             //Health Check
             builder.Services.AddHealthChecks().AddDbContextCheck<NewsCMSCommandDbContext>();
@@ -135,7 +147,8 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
 
             app.UseGroundApiExceptionHandler();
 
-            //app.UseSerilogRequestLogging();
+            //MessageBus
+            app.Services.ReceiveEventFromRabbitMqMessageBus(new KeyValuePair<string, string>("BasicInfo", "KeywordCreated"));
 
             if (app.Environment.IsDevelopment())
             {
@@ -153,8 +166,7 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
             });
 
             //app.UseHttpsRedirection();            
-
-            //Health Check
+            
             //health check            
             app.MapHealthChecks("health/live", new HealthCheckOptions
             {
@@ -166,7 +178,7 @@ namespace NewsCMS.Endpoints.WebApi.Extentions
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.MapControllers().RequireAuthorization("NewsCMSPolicy");
+            app.MapControllers();//.RequireAuthorization("NewsCMSPolicy");
 
 
             return app;

@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Serilog;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
+using Ground.Extensions.Events.PollingPublisher.Extensions.DependencyInjection;
 
 namespace BasicInfo.Endpoints.WebApi.Extentions
 {
@@ -114,17 +115,26 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
             //QueryDbContext
             builder.Services.AddDbContext<BasicInfoQueryDbContext>(c => c.UseSqlServer(configuration.GetConnectionString("QueryDb_ConnectionString")));
 
-            //PollingPublisher
-            builder.Services.AddGroundPollingPublisherDalSql(configuration, "PollingPublisherSqlStore");
-
             //MessageInbox
-            builder.Services.AddGroundMessageInboxDalSql(configuration, "MessageInboxSqlStore");
+            //builder.Services.AddGroundMessageInboxDalSql(configuration, "MessageInboxSqlStore");
 
-            //PollingPublisher
-            builder.Services.AddHostedService<EventPublisher>();
+            //PollingPublisher            
+            //builder.Services.AddHostedService<EventPublisher>(); Customized PollingPublisher
+            //Extension PollingPublisher
+            builder.Services.AddGroundPollingPublisherDalSql(configuration, "PollingPublisherSqlStore");
+            builder.Services.AddGroundPollingPublisher(configuration, "PollingPublisher");
+
+            //MessageBus
+            builder.Services.AddGroundRabbitMqMessageBus(c =>
+            {
+                c.PerssistMessage = true;
+                c.ExchangeName = "NewsCmsExchange";
+                c.ServiceName = "BasicInfo";
+                c.Url = "localhost";
+            });
 
             //Health Check
-            builder.Services.AddHealthChecks().AddDbContextCheck<BasicInfoCommandDbContext>();
+            builder.Services.AddHealthChecks().AddDbContextCheck<BasicInfoCommandDbContext>();            
 
             builder.Services.AddSwaggerGen();
             return builder.Build();
@@ -165,7 +175,8 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.MapControllers().RequireAuthorization("BasicInfoPolicy");
+
+            app.MapControllers();//.RequireAuthorization("BasicInfoPolicy");
 
 
             return app;
