@@ -20,8 +20,8 @@ builder.Services.AddGroundNewtonSoftSerializer();
 builder.Services.AddGroundRabbitMqMessageBus(c =>
 {
     c.PerssistMessage = true;
-    c.ExchangeName = "MiniBlogExchange";
-    c.ServiceName = "SampleApplciatoinReceiver";
+    c.ExchangeName = "NewsCmsExchange";//"MiniBlogExchange";
+    c.ServiceName = "BasicInfo";//"SampleApplciatoinReceiver";
     c.Url = "localhost";//@"amqp://guest:guest@localhost:5672/";
 });
 
@@ -47,7 +47,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.Services.ReceiveEventFromRabbitMqMessageBus(new KeyValuePair<string, string>("MiniBlog", "BlogCreated"));
+app.Services.ReceiveEventFromRabbitMqMessageBus(new KeyValuePair<string, string>("BasicInfo", "KeywordCreated"));
 
 //app.UseHttpsRedirection();
 

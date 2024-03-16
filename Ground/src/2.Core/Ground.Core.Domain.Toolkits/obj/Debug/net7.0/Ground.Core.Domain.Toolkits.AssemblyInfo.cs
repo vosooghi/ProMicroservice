@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Ground.Core.Domain.Toolkits")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2+97d9358742304ecefad56c8da97072d15de379df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2+57d0e86eecd7ef85551fe8ec31781cc9b6a4171b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ground.Core.Domain.Toolkits")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ground.Core.Domain.Toolkits")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.2.0")]

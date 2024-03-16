@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Ground.Utilities")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbfe2206b00c7920097d8d47997d185279d96236")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57d0e86eecd7ef85551fe8ec31781cc9b6a4171b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ground.Utilities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ground.Utilities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

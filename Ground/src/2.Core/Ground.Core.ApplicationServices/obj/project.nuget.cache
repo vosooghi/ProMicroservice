@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KRngbvZs6MuAJejbclsQ0ijlZhwDqhi1BiRGhoba7JqISVy0VBM5N92YiFEbx6D148mJqCR+E3a4450pwnLaDg==",
+  "dgSpecHash": "9U8riWfQ7efFEiVCMksj8VcfJcZiPN69rBNOzbWT/Twx3arvsywaDKStejlkuR7d4qphNU6h1DhLa3AN+wyUlA==",
   "success": true,
   "projectFilePath": "E:\\ProMicroservice\\Ground\\src\\2.Core\\Ground.Core.ApplicationServices\\Ground.Core.ApplicationServices.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\Abbas\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.contracts\\1.0.2\\ground.core.contracts.1.0.2.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.domain\\1.0.2\\ground.core.domain.1.0.2.nupkg.sha512",
+    "C:\\Users\\Abbas\\.nuget\\packages\\ground.core.requestresponse\\1.0.1\\ground.core.requestresponse.1.0.1.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\ground.utilities\\1.0.0\\ground.utilities.1.0.0.nupkg.sha512"
   ],
   "logs": []
