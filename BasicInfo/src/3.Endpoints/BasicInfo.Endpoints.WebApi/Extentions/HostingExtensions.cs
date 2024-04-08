@@ -176,7 +176,7 @@ namespace BasicInfo.Endpoints.WebApi.Extentions
             app.UseAuthorization();
 
 
-            app.MapControllers();//.RequireAuthorization("BasicInfoPolicy");
+            app.MapControllers().RequireAuthorization("BasicInfoPolicy");
 
 
             return app;
