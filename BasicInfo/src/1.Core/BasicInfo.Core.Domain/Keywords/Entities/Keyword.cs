@@ -2,7 +2,6 @@
 using BasicInfo.Core.Domain.Keywords.ValueObjects;
 using Ground.Core.Domain.Entities;
 using Ground.Core.Domain.Exceptions;
-using System.Net;
 
 namespace BasicInfo.Core.Domain.Keywords.Entities
 {
