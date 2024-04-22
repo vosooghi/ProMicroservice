@@ -40,8 +40,8 @@ namespace NewsCMSClient.Controllers
             //newsClient.SetBearerToken(token);
             newsClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            string KeywordAsString = await newsClient.GetStringAsync("api/News/GetList");
-            NewsListModel newsList = JsonConvert.DeserializeObject<NewsListModel>(KeywordAsString);
+            string newsListAsString = await newsClient.GetStringAsync("api/News/GetList");
+            NewsListModel newsList = JsonConvert.DeserializeObject<NewsListModel>(newsListAsString);
             return View(newsList);
         }
         public async Task<IActionResult> Detail(long id)
